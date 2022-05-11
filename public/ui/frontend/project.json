@@ -1,0 +1,2072 @@
+{
+    "presets": [
+        {
+            "category": "About",
+            "title": "About",
+            "reload": false,
+            "preview": "elements\/about.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "about.html"
+        },
+        {
+            "category": "About",
+            "title": "About 2",
+            "reload": false,
+            "preview": "elements\/about-2.jpg",
+            "canBeInsertedTo": ".page",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel",
+                "About",
+                "Services",
+                "Events",
+                "News"
+            ],
+            "path": "about-2.html"
+        },
+        {
+            "category": "About",
+            "title": "About 3",
+            "reload": false,
+            "preview": "elements\/about-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "about-3.html"
+        },
+        {
+            "category": "About",
+            "title": "About 4",
+            "reload": false,
+            "preview": "elements\/about-4.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "about-4.html"
+        },
+        {
+            "category": "Breadcrumbs, Parallax, Plugins",
+            "title": "Breadcrumbs",
+            "reload": true,
+            "preview": "elements\/breadcrumbs.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "breadcrumbs.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Team",
+                "Slider",
+                "Tabs",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Breadcrumbs, Plugins, Parallax",
+            "title": "Breadcrumbs 2",
+            "reload": true,
+            "preview": "elements\/breadcrumbs-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "breadcrumbs-2.html"
+        },
+        {
+            "category": "Breadcrumbs",
+            "title": "Breadcrumbs 3",
+            "reload": false,
+            "preview": "elements\/breadcrumbs-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "breadcrumbs-3.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Team",
+                "Slider",
+                "Tabs",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "CTA, Plugins, Parallax",
+            "title": "Calls to action",
+            "reload": true,
+            "preview": "elements\/calls-to-action.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "calls-to-action.html"
+        },
+        {
+            "category": "CTA",
+            "title": "Calls to action 2",
+            "reload": false,
+            "preview": "elements\/calls-to-action-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "calls-to-action-2.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "CTA, Plugins, Video",
+            "title": "Calls to action 3",
+            "reload": true,
+            "preview": "elements\/calls-to-action-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "calls-to-action-3.html"
+        },
+        {
+            "category": "Counter, Plugins",
+            "title": "Counter",
+            "reload": true,
+            "preview": "elements\/counter.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "counter.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Counter, Plugins",
+            "title": "Counter 2",
+            "reload": true,
+            "preview": "elements\/counter-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "counter-2.html"
+        },
+        {
+            "category": "Counter, Plugins, Parallax",
+            "title": "Counter 3",
+            "reload": true,
+            "preview": "elements\/counter-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "counter-3.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Events",
+            "title": "Events",
+            "reload": false,
+            "preview": "elements\/events.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "events.html"
+        },
+        {
+            "category": "Events",
+            "title": "Events 2",
+            "reload": false,
+            "preview": "elements\/events-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "events-2.html"
+        },
+        {
+            "category": "Events",
+            "title": "Events 3",
+            "reload": false,
+            "preview": "elements\/events-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "events-3.html"
+        },
+        {
+            "category": "Footer",
+            "title": "Footer Center",
+            "reload": true,
+            "preview": "elements\/footer-center.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "footer-center.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Footer",
+            "title": "Footer Corporate",
+            "reload": true,
+            "preview": "elements\/footer-corporate.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "footer-corporate.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Footer",
+            "title": "Footer Minimal",
+            "reload": true,
+            "preview": "elements\/footer-minimal.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "footer-minimal.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Form, Plugins",
+            "title": "Form",
+            "reload": true,
+            "preview": "elements\/form.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "form.html"
+        },
+        {
+            "category": "Form, Plugins",
+            "title": "Form 2",
+            "reload": true,
+            "preview": "elements\/form-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "form-2.html"
+        },
+        {
+            "category": "Form, Plugins",
+            "title": "Form 3",
+            "reload": true,
+            "preview": "elements\/form-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "form-3.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery",
+            "reload": false,
+            "preview": "elements\/gallery.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery 2",
+            "reload": true,
+            "preview": "elements\/gallery-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-2.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery 3",
+            "reload": true,
+            "preview": "elements\/gallery-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-3.html"
+        },
+        {
+            "category": "Gallery, Plugins, Carousel",
+            "title": "Gallery 4",
+            "reload": true,
+            "preview": "elements\/gallery-4.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-4.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery Album",
+            "reload": false,
+            "preview": "elements\/gallery-album.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-album.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery Album 2",
+            "reload": true,
+            "preview": "elements\/gallery-album-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-album-2.html"
+        },
+        {
+            "category": "Gallery, Plugins",
+            "title": "Gallery Album 3",
+            "reload": true,
+            "preview": "elements\/gallery-album-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "gallery-album-3.html"
+        },
+        {
+            "category": "Header, Plugins",
+            "title": "Header Center",
+            "reload": true,
+            "preview": "elements\/header-center.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "header-center.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Header, Plugins",
+            "title": "Header Corporate",
+            "reload": true,
+            "preview": "elements\/header-corporate.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "header-corporate.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Header, Plugins",
+            "title": "Header Hamburger Menu",
+            "reload": true,
+            "preview": "elements\/header-hamburger-menu.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "header-hamburger-menu.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Header, Plugins",
+            "title": "Header Minimal",
+            "reload": true,
+            "preview": "elements\/header-minimal.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "header-minimal.html",
+            "categories": [
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Header",
+                "Map",
+                "Slider",
+                "Tabs",
+                "Team",
+                "Testimonials",
+                "Carousel"
+            ]
+        },
+        {
+            "category": "Map, Plugins",
+            "title": "Map",
+            "reload": true,
+            "preview": "elements\/map.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "map.html"
+        },
+        {
+            "category": "Map, Plugins",
+            "title": "Map 2",
+            "reload": true,
+            "preview": "elements\/map-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "map-2.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Map, Plugins",
+            "title": "Map 3",
+            "reload": true,
+            "preview": "elements\/map-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "map-3.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "News",
+            "title": "News",
+            "reload": true,
+            "preview": "elements\/news.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "news.html"
+        },
+        {
+            "category": "News",
+            "title": "News 2",
+            "reload": true,
+            "preview": "elements\/news-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "news-2.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "News",
+            "title": "News 3",
+            "reload": true,
+            "preview": "elements\/news-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "news-3.html"
+        },
+        {
+            "category": "Plugins",
+            "title": "Progress bar",
+            "reload": true,
+            "preview": "elements\/progress-bar.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "progress-bar.html"
+        },
+        {
+            "category": "Plugins",
+            "title": "Progress bar 2",
+            "reload": true,
+            "preview": "elements\/progress-bar-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "progress-bar-2.html"
+        },
+        {
+            "category": "Plugins",
+            "title": "Progress bar 3",
+            "reload": true,
+            "preview": "elements\/progress-bar-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "progress-bar-3.html"
+        },
+        {
+            "category": "Plugins",
+            "title": "Progress bar 4",
+            "reload": true,
+            "preview": "elements\/progress-bar-4.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "progress-bar-4.html"
+        },
+        {
+            "category": "Plugins",
+            "title": "Progress bar 5",
+            "reload": true,
+            "preview": "elements\/progress-bar-5.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "progress-bar-5.html"
+        },
+        {
+            "category": "Services",
+            "title": "Services",
+            "reload": true,
+            "preview": "elements\/services.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "services.html"
+        },
+        {
+            "category": "Services, Tabs, Plugins",
+            "title": "Services 2",
+            "reload": true,
+            "preview": "elements\/services-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "services-2.html"
+        },
+        {
+            "category": "Slider, Plugins",
+            "title": "Slider",
+            "reload": true,
+            "preview": "elements\/slider.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "slider.html"
+        },
+        {
+            "category": "Slider, Plugins",
+            "title": "Slider 2",
+            "reload": true,
+            "preview": "elements\/slider-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "slider-2.html"
+        },
+        {
+            "category": "Plugins, Slider",
+            "title": "Slider 3",
+            "reload": true,
+            "preview": "elements\/slider-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "slider-3.html"
+        },
+        {
+            "category": "Form, Plugins",
+            "title": "Subscribe Form",
+            "reload": true,
+            "preview": "elements\/subscribe-form.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "subscribe-form.html"
+        },
+        {
+            "category": "Form, Plugins, Parallax",
+            "title": "Subscribe Form 2",
+            "reload": true,
+            "preview": "elements\/subscribe-form-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "subscribe-form-2.html"
+        },
+        {
+            "category": "Form, Plugins",
+            "title": "Subscribe Form 3",
+            "reload": true,
+            "preview": "elements\/subscribe-form-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "subscribe-form-3.html"
+        },
+        {
+            "category": "Tabs, Plugins",
+            "title": "Tabs",
+            "reload": true,
+            "preview": "elements\/tabs.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "tabs.html"
+        },
+        {
+            "category": "Plugins, Tabs",
+            "title": "Tabs 2",
+            "reload": true,
+            "preview": "elements\/tabs-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "tabs-2.html"
+        },
+        {
+            "category": "Tabs, Plugins",
+            "title": "Tabs 3",
+            "reload": true,
+            "preview": "elements\/tabs-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "tabs-3.html"
+        },
+        {
+            "category": "Tabs, Plugins",
+            "title": "Tabs 4",
+            "reload": true,
+            "preview": "elements\/tabs-4.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "tabs-4.html"
+        },
+        {
+            "category": "Team",
+            "title": "Team",
+            "reload": false,
+            "preview": "elements\/team.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "team.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Team",
+            "title": "Team 2",
+            "reload": false,
+            "preview": "elements\/team-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "team-2.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Team",
+            "title": "Team 3",
+            "reload": false,
+            "preview": "elements\/team-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "team-3.html",
+            "categories": [
+                "About",
+                "Breadcrumbs",
+                "Parallax",
+                "Plugins",
+                "CTA",
+                "Video",
+                "Counter",
+                "Events",
+                "Footer",
+                "Form",
+                "Gallery",
+                "Carousel",
+                "Header",
+                "Map",
+                "News",
+                "Services",
+                "Tabs",
+                "Slider",
+                "Team",
+                "Testimonials"
+            ]
+        },
+        {
+            "category": "Team",
+            "title": "Team 4",
+            "reload": false,
+            "preview": "elements\/team-4.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "team-4.html"
+        },
+        {
+            "category": "Testimonials, Plugins, Carousel",
+            "title": "Testimonials",
+            "reload": true,
+            "preview": "elements\/testimonials.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "testimonials.html"
+        },
+        {
+            "category": "Parallax, Testimonials, Plugins, Carousel",
+            "title": "Testimonials 2",
+            "reload": true,
+            "preview": "elements\/testimonials-2.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "testimonials-2.html"
+        },
+        {
+            "category": "Parallax, Plugins, Carousel, Testimonials",
+            "title": "Testimonials 3",
+            "reload": true,
+            "preview": "elements\/testimonials-3.jpg",
+            "canBeInsertedTo": ".page",
+            "path": "testimonials-3.html"
+        }
+    ],
+    "name": "University",
+    "dir": "projects\/template\/",
+    "pages": [
+        {
+            "title": "Home",
+            "index": true,
+            "isActive": true,
+            "path": "index.html",
+            "preview": "novi\/pages\/home.jpg"
+        },
+        {
+            "title": "404",
+            "index": false,
+            "isActive": false,
+            "path": "404.html",
+            "preview": "novi\/pages\/404.jpg"
+        },
+        {
+            "title": "About US",
+            "index": false,
+            "path": "about-us.html",
+            "isActive": false,
+            "preview": "novi\/pages\/about-1.jpg"
+        },
+        {
+            "title": "Coming Soon",
+            "index": false,
+            "isActive": false,
+            "path": "coming-soon.html",
+            "preview": "novi\/pages\/soon.jpg"
+        },
+        {
+            "title": "Contacts",
+            "index": false,
+            "isActive": false,
+            "path": "contacts.html",
+            "preview": "novi\/pages\/contacts.jpg"
+        },
+        {
+            "title": "Course Details",
+            "index": false,
+            "isActive": false,
+            "path": "course-details.html",
+            "preview": "novi\/pages\/academics.jpg"
+        },
+        {
+            "title": "Course Grid",
+            "index": false,
+            "path": "course-grid.html",
+            "isActive": false,
+            "preview": "novi\/pages\/cours-1.jpg"
+        },
+        {
+            "title": "Event Page",
+            "index": false,
+            "isActive": false,
+            "path": "event-page.html",
+            "preview": "novi\/pages\/event-page.jpg"
+        },
+        {
+            "title": "Events",
+            "index": false,
+            "isActive": false,
+            "path": "events.html",
+            "preview": "novi\/pages\/events.jpg"
+        },
+        {
+            "title": "Gallery",
+            "index": false,
+            "path": "gallery.html",
+            "isActive": false,
+            "preview": "novi\/pages\/gallery-1.jpg"
+        },
+        {
+            "title": "Grid News",
+            "index": false,
+            "isActive": false,
+            "path": "grid-news.html",
+            "preview": "novi\/pages\/news.jpg"
+        },
+        {
+            "title": "History",
+            "index": false,
+            "isActive": false,
+            "path": "history.html",
+            "preview": "novi\/pages\/history.jpg"
+        },
+        {
+            "title": "News Post Page",
+            "index": false,
+            "isActive": false,
+            "path": "news-post-page.html",
+            "preview": "novi\/pages\/post-page.jpg"
+        },
+        {
+            "title": "Search Results",
+            "index": false,
+            "isActive": false,
+            "path": "search-results.html",
+            "preview": "novi\/pages\/search.jpg"
+        },
+        {
+            "title": "Team",
+            "index": false,
+            "path": "team.html",
+            "isActive": false,
+            "preview": "novi\/pages\/tec-1.jpg"
+        },
+        {
+            "title": "Team Member Profile",
+            "index": false,
+            "isActive": false,
+            "path": "team-member-profile.html",
+            "preview": "novi\/pages\/team.jpg"
+        },
+        {
+            "title": "Terms of Use",
+            "index": false,
+            "isActive": false,
+            "path": "privacy.html",
+            "preview": "novi\/pages\/privacy.jpg"
+        }
+    ],
+    "files": [],
+    "readOnlyFiles": [],
+    "publishPath": "..\/projects\/template\/",
+    "disablePublishPromt": false,
+    "layers": [
+        {
+            "name": "Header",
+            "element": "header",
+            "canBeInsertedTo": ".page"
+        },
+        {
+            "name": "Section",
+            "element": "section.section",
+            "canBeInsertedTo": ".page"
+        },
+        {
+            "name": "Footer",
+            "element": "footer",
+            "canBeInsertedTo": ".page"
+        },
+        {
+            "name": "Grid item",
+            "element": ".range > [class*='cell-']",
+            "canBeInsertedTo": ".range"
+        },
+        {
+            "name": "Grid Item 2",
+            "element": ".row > [class*='col-']",
+            "canBeInsertedTo": ".row"
+        },
+        {
+            "name": "Navbar list",
+            "element": ".rd-navbar-nav > li",
+            "canBeInsertedTo": ".rd-navbar-nav"
+        },
+        {
+            "name": "Dropdown list",
+            "element": ".rd-navbar-dropdown > li",
+            "canBeInsertedTo": ".rd-navbar-dropdown"
+        },
+        {
+            "name": "Megamenu list",
+            "element": ".rd-navbar-megamenu > li",
+            "canBeInsertedTo": ".rd-navbar-megamenu"
+        },
+        {
+            "name": "List 1",
+            "element": ".list-unstyled > li",
+            "canBeInsertedTo": ".list-unstyled"
+        },
+        {
+            "name": "Group 1",
+            "element": ".group-middle > *",
+            "canBeInsertedTo": ".group-middle"
+        },
+        {
+            "name": "Group 2",
+            "element": ".group > *",
+            "canBeInsertedTo": ".group"
+        },
+        {
+            "name": "Post 1",
+            "element": ".post-vacation-wrap > .post-vacation",
+            "canBeInsertedTo": ".post-vacation-wrap"
+        },
+        {
+            "name": "List 2",
+            "element": ".list-inline > li",
+            "canBeInsertedTo": ".list-inline"
+        },
+        {
+            "name": "Aside 1",
+            "element": ".aside > [class*='aside-item']",
+            "canBeInsertedTo": ".aside"
+        },
+        {
+            "name": "List 3",
+            "element": ".list-marked > li",
+            "canBeInsertedTo": ".list-marked"
+        },
+        {
+            "name": "List 4",
+            "element": ".list > li",
+            "canBeInsertedTo": ".list"
+        },
+        {
+            "name": "Progress bar 1",
+            "element": ".progress-linear-wrap > .progress-linear",
+            "canBeInsertedTo": ".progress-linear-wrap"
+        },
+        {
+            "name": "Tab List",
+            "element": ".resp-tabs-list > li",
+            "canBeInsertedTo": ".resp-tabs-list"
+        }
+    ],
+    "iconFonts": [
+        {
+            "family": "Material Design Icons",
+            "default": false
+        }
+    ],
+    "plugins": [
+        {
+            "name": "novi-plugin-background-image",
+            "settings": {
+                "querySelector": "[class*=\"custom-bg-image\"], .bg-cover",
+                "childQuerySelector": "[class*=\"custom-bg-image-image\"]"
+            }
+        },
+        {
+            "name": "novi-plugin-background",
+            "settings": {
+                "querySelector": ".novi-background, .bg-cover"
+            }
+        },
+        {
+            "name": "novi-plugin-campaign-monitor",
+            "settings": {
+                "querySelector": "[class*=\"campaign-mailform\"]"
+            }
+        },
+        {
+            "name": "novi-plugin-icon-manager",
+            "settings": {
+                "querySelector": ".novi-icon"
+            }
+        },
+        {
+            "name": "novi-plugin-google-map",
+            "settings": {
+                "querySelector": ".google-map-container"
+            }
+        },
+        {
+            "name": "novi-plugin-iframe",
+            "settings": {
+                "querySelector": "iframe[src]"
+            }
+        },
+        {
+            "name": "novi-plugin-image",
+            "settings": {
+                "querySelector": "img[src]"
+            }
+        },
+        {
+            "name": "novi-plugin-label",
+            "settings": {
+                "querySelector": "label"
+            }
+        },
+        {
+            "name": "novi-plugin-link",
+            "settings": {
+                "querySelector": "a[href]",
+                "favoriteLinks": [
+                    {
+                        "title": "",
+                        "value": ""
+                    }
+                ],
+                "applyToProjectElements": true
+            }
+        },
+        {
+            "name": "novi-plugin-mailchimp",
+            "settings": {
+                "querySelector": "[class*=\"mailchimp-mailform\"]"
+            }
+        },
+        {
+            "name": "novi-plugin-light-gallery",
+            "settings": {
+                "groupQuerySelector": "[data-lightgallery=\"group\"]",
+                "albumQuerySelector": "[data-lightgallery=\"dynamic\"]",
+                "childQuerySelector": "[data-lightgallery=\"item\"]",
+                "querySelector": "[data-lightgallery=\"group\"], [data-lightgallery=\"dynamic\"], [data-lightgallery=\"item\"]"
+            }
+        },
+        {
+            "name": "novi-plugin-material-parallax",
+            "settings": {
+                "querySelector": ".parallax-container"
+            }
+        },
+        {
+            "name": "novi-plugin-owl-carousel",
+            "settings": {
+                "querySelector": ".owl-carousel",
+                "childQuerySelector": ".owl-carousel .owl-item > *"
+            }
+        },
+        {
+            "name": "novi-plugin-rd-mailform",
+            "settings": {
+                "querySelector": ".rd-mailform",
+                "configLocation": "bat\/rd-mailform.config.json"
+            }
+        },
+        {
+            "name": "novi-plugin-rd-facebook",
+            "settings": {
+                "querySelector": ".facebook"
+            }
+        },
+        {
+            "name": "novi-plugin-rd-twitterfeed",
+            "settings": {
+                "querySelector": ".twitter"
+            }
+        },
+        {
+            "name": "novi-plugin-vide",
+            "settings": {
+                "querySelector": ".novi-vide"
+            }
+        },
+        {
+            "name": "novi-plugin-rd-instafeed",
+            "settings": {
+                "querySelector": ".instafeed"
+            }
+        },
+        {
+            "name": "novi-plugin-swiper-slider",
+            "settings": {
+                "querySelector": ".swiper-container",
+                "effects": [
+                    {
+                        "label": "Slide",
+                        "value": "slide",
+                        "clearableValue": false
+                    },
+                    {
+                        "label": "Fade",
+                        "value": "fade",
+                        "clearableValue": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "novi-plugin-camera-slider",
+            "settings": {
+                "querySelector": ".camera_wrap"
+            }
+        }
+    ],
+    "mediaDir": "images\/",
+    "videoDir": "video\/",
+    "fontDir": "fonts\/",
+    "cssDir": "css\/",
+    "codeEditor": {
+        "cssFile": null,
+        "jsFile": null
+    },
+    "pageContainer": ".page",
+    "mediaLibrary": {
+        "items": [
+            {
+                "original": "bg-video-1-lg.mp4",
+                "width": null,
+                "height": null,
+                "type": "video",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/bg-video-1-lg-novi-video.jpg",
+                "categories": [
+                    2
+                ],
+                "id": 104
+            },
+            {
+                "original": "logo-326x237.png",
+                "width": 326,
+                "height": 237,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-326x237.png",
+                "categories": [
+                    4
+                ],
+                "id": 105
+            },
+            {
+                "original": "logo-default-1-340x384.png",
+                "width": 340,
+                "height": 384,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-1-340x384.png",
+                "categories": [
+                    4
+                ],
+                "id": 106
+            },
+            {
+                "original": "logo-default-2-288x244.png",
+                "width": 288,
+                "height": 244,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-2-288x244.png",
+                "categories": [
+                    4
+                ],
+                "id": 107
+            },
+            {
+                "original": "logo-default-3-510x136.png",
+                "width": 510,
+                "height": 136,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-3-510x136.png",
+                "categories": [
+                    4
+                ],
+                "id": 108
+            },
+            {
+                "original": "logo-default-4-382x294.png",
+                "width": 382,
+                "height": 294,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-4-382x294.png",
+                "categories": [
+                    4
+                ],
+                "id": 109
+            },
+            {
+                "original": "logo-default-576x118.png",
+                "width": 576,
+                "height": 118,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-576x118.png",
+                "categories": [
+                    4
+                ],
+                "id": 110
+            },
+            {
+                "original": "sertificate-565x800-original.jpg",
+                "width": 565,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/sertificate-565x800-original.jpg",
+                "categories": [],
+                "id": 111
+            },
+            {
+                "original": "user-christina-rogers-384x500.jpg",
+                "width": 384,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-christina-rogers-384x500.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 112
+            },
+            {
+                "original": "user-christopher-smith-340x300.jpg",
+                "width": 340,
+                "height": 340,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-christopher-smith-340x300.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 113
+            },
+            {
+                "original": "user-debra-banks-230x230.jpg",
+                "width": 230,
+                "height": 230,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-debra-banks-230x230.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 114
+            },
+            {
+                "original": "user-james-alvarez-384x500.jpg",
+                "width": 384,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-james-alvarez-384x500.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 115
+            },
+            {
+                "original": "user-johnny-walsh-384x500.jpg",
+                "width": 384,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-johnny-walsh-384x500.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 116
+            },
+            {
+                "original": "user-julie-weaver-270x270.jpg",
+                "width": 270,
+                "height": 270,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-julie-weaver-270x270.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 117
+            },
+            {
+                "original": "user-kathleen-mendoza-384x500.jpg",
+                "width": 384,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-kathleen-mendoza-384x500.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 118
+            },
+            {
+                "original": "user-maria-freeman-90x90.jpg",
+                "width": 90,
+                "height": 90,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-maria-freeman-90x90.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 119
+            },
+            {
+                "original": "user-olivia-morales-384x500.jpg",
+                "width": 384,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-olivia-morales-384x500.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 120
+            },
+            {
+                "original": "user-russell-weber-270x270.jpg",
+                "width": 270,
+                "height": 270,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/user-russell-weber-270x270.jpg",
+                "categories": [
+                    5
+                ],
+                "id": 121
+            },
+            {
+                "original": "bg-01-1920x724.jpg",
+                "width": 1920,
+                "height": 724,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/bg-01-1920x724.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 122
+            },
+            {
+                "original": "parallax-01.jpg",
+                "width": 1920,
+                "height": 1200,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/parallax-01.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 123
+            },
+            {
+                "original": "parallax-02.jpg",
+                "width": 1920,
+                "height": 1200,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/parallax-02.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 124
+            },
+            {
+                "original": "parallax-03.jpg",
+                "width": 1920,
+                "height": 1200,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/parallax-03.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 125
+            },
+            {
+                "original": "parallax-05.jpg",
+                "width": 1920,
+                "height": 1200,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/parallax-05.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 126
+            },
+            {
+                "original": "parallax-06.jpg",
+                "width": 1920,
+                "height": 1200,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/parallax-06.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 127
+            },
+            {
+                "original": "slide-01-1920x810.jpg",
+                "width": 1920,
+                "height": 810,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/slide-01-1920x810.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 128
+            },
+            {
+                "original": "slide-02-1920x810.jpg",
+                "width": 1920,
+                "height": 810,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/slide-02-1920x810.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 129
+            },
+            {
+                "original": "slide-03-1920x810.jpg",
+                "width": 1920,
+                "height": 810,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/slide-03-1920x810.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 130
+            },
+            {
+                "original": "slide-04-1920x810.jpg",
+                "width": 1920,
+                "height": 810,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/slide-04-1920x810.jpg",
+                "categories": [
+                    3
+                ],
+                "id": 131
+            },
+            {
+                "original": "gallery-01-1200x800_original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-01-1200x800_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 132
+            },
+            {
+                "original": "gallery-02-1200x800_original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-02-1200x800_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 133
+            },
+            {
+                "original": "gallery-03-1200x876_original.jpg",
+                "width": 1200,
+                "height": 876,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-03-1200x876_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 134
+            },
+            {
+                "original": "gallery-04-1200x600_original.jpg",
+                "width": 1200,
+                "height": 600,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-04-1200x600_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 135
+            },
+            {
+                "original": "gallery-05-1200x800_original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-05-1200x800_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 136
+            },
+            {
+                "original": "gallery-06-1200x799_original.jpg",
+                "width": 1200,
+                "height": 799,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-06-1200x799_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 137
+            },
+            {
+                "original": "gallery-07-1200x800_original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-07-1200x800_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 138
+            },
+            {
+                "original": "gallery-08-1200x803_original.jpg",
+                "width": 1200,
+                "height": 803,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-08-1200x803_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 139
+            },
+            {
+                "original": "gallery-09-1200x800_original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-09-1200x800_original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 140
+            },
+            {
+                "original": "gallery-10-1200x800-original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-10-1200x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 141
+            },
+            {
+                "original": "gallery-11-1200x800-original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-11-1200x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 142
+            },
+            {
+                "original": "gallery-12-1200x800-original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-12-1200x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 143
+            },
+            {
+                "original": "gallery-13-1200x800-original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-13-1200x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 144
+            },
+            {
+                "original": "gallery-14-533x800-original.jpg",
+                "width": 533,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-14-533x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 145
+            },
+            {
+                "original": "gallery-15-1200x800-original.jpg",
+                "width": 1200,
+                "height": 800,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery-15-1200x800-original.jpg",
+                "categories": [
+                    6
+                ],
+                "id": 146
+            },
+            {
+                "original": "academics-04-770x480.jpg",
+                "width": 770,
+                "height": 480,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/academics-04-770x480.jpg",
+                "categories": [],
+                "id": 147
+            },
+            {
+                "original": "academics-07-770x480.jpg",
+                "width": 770,
+                "height": 480,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/academics-07-770x480.jpg",
+                "categories": [],
+                "id": 148
+            },
+            {
+                "original": "course-01-150x120.jpg",
+                "width": 150,
+                "height": 120,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/course-01-150x120.jpg",
+                "categories": [],
+                "id": 149
+            },
+            {
+                "original": "course-02-150x120.jpg",
+                "width": 150,
+                "height": 120,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/course-02-150x120.jpg",
+                "categories": [],
+                "id": 150
+            },
+            {
+                "original": "course-03-150x120.jpg",
+                "width": 150,
+                "height": 120,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/course-03-150x120.jpg",
+                "categories": [],
+                "id": 151
+            },
+            {
+                "original": "event-01-540x540.jpg",
+                "width": 540,
+                "height": 540,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/event-01-540x540.jpg",
+                "categories": [],
+                "id": 152
+            },
+            {
+                "original": "event-05-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/event-05-420x420.jpg",
+                "categories": [],
+                "id": 153
+            },
+            {
+                "original": "event-06-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/event-06-420x420.jpg",
+                "categories": [],
+                "id": 154
+            },
+            {
+                "original": "event-07-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/event-07-420x420.jpg",
+                "categories": [],
+                "id": 155
+            },
+            {
+                "original": "event-08-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/event-08-420x420.jpg",
+                "categories": [],
+                "id": 156
+            },
+            {
+                "original": "events-01-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/events-01-420x420.jpg",
+                "categories": [],
+                "id": 157
+            },
+            {
+                "original": "events-02-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/events-02-420x420.jpg",
+                "categories": [],
+                "id": 158
+            },
+            {
+                "original": "events-04-420x420.jpg",
+                "width": 420,
+                "height": 420,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/events-04-420x420.jpg",
+                "categories": [],
+                "id": 159
+            },
+            {
+                "original": "history-01-570x370.jpg",
+                "width": 570,
+                "height": 370,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/history-01-570x370.jpg",
+                "categories": [],
+                "id": 160
+            },
+            {
+                "original": "home-01-846x1002.jpg",
+                "width": 846,
+                "height": 1002,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/home-01-846x1002.jpg",
+                "categories": [],
+                "id": 161
+            },
+            {
+                "original": "home-07-370x240.jpg",
+                "width": 370,
+                "height": 240,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/home-07-370x240.jpg",
+                "categories": [],
+                "id": 162
+            },
+            {
+                "original": "home-10-846x1002.jpg",
+                "width": 846,
+                "height": 1002,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/home-10-846x1002.jpg",
+                "categories": [],
+                "id": 163
+            },
+            {
+                "original": "news-01-770x500.jpg",
+                "width": 770,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-01-770x500.jpg",
+                "categories": [],
+                "id": 164
+            },
+            {
+                "original": "news-02-370x240.jpg",
+                "width": 370,
+                "height": 240,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-02-370x240.jpg",
+                "categories": [],
+                "id": 165
+            },
+            {
+                "original": "news-03-770x500.jpg",
+                "width": 770,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-03-770x500.jpg",
+                "categories": [],
+                "id": 166
+            },
+            {
+                "original": "news-04-370x240.jpg",
+                "width": 370,
+                "height": 240,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-04-370x240.jpg",
+                "categories": [],
+                "id": 167
+            },
+            {
+                "original": "news-05-770x500.jpg",
+                "width": 770,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-05-770x500.jpg",
+                "categories": [],
+                "id": 168
+            },
+            {
+                "original": "news-06-770x500.jpg",
+                "width": 770,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-06-770x500.jpg",
+                "categories": [],
+                "id": 169
+            },
+            {
+                "original": "news-07-770x500.jpg",
+                "width": 770,
+                "height": 500,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/news-07-770x500.jpg",
+                "categories": [],
+                "id": 170
+            },
+            {
+                "original": "logo-default-2-144x122.png",
+                "width": 212,
+                "height": 65,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/logo-default-2-144x122.png",
+                "categories": [
+                    4
+                ],
+                "id": 171
+            },
+            {
+                "original": "tec.jpg",
+                "width": 1903,
+                "height": 1431,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/tec.jpg",
+                "categories": [
+                    7
+                ],
+                "id": 172
+            },
+            {
+                "original": "about.jpg",
+                "width": 1903,
+                "height": 1431,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/about.jpg",
+                "categories": [
+                    7
+                ],
+                "id": 173
+            },
+            {
+                "original": "cours.jpg",
+                "width": 1903,
+                "height": 1431,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/cours.jpg",
+                "categories": [
+                    7
+                ],
+                "id": 174
+            },
+            {
+                "original": "gallery.jpg",
+                "width": 1903,
+                "height": 1431,
+                "type": "image",
+                "thumbnail": "projects\/template\/novi\/media\/thumbnails\/gallery.jpg",
+                "categories": [
+                    7
+                ],
+                "id": 175
+            }
+        ],
+        "categories": [
+            {
+                "name": "Background",
+                "images": 10,
+                "videos": 0,
+                "id": 3
+            },
+            {
+                "name": "Logo",
+                "images": 7,
+                "videos": 0,
+                "id": 4
+            },
+            {
+                "name": "Users",
+                "images": 10,
+                "videos": 0,
+                "id": 5
+            },
+            {
+                "name": "Gallery",
+                "images": 15,
+                "videos": 0,
+                "id": 6
+            },
+            {
+                "name": "Preview",
+                "images": 4,
+                "videos": 0,
+                "id": 7
+            }
+        ]
+    },
+    "googleFonts": {
+        "Open Sans": {
+            "category": "sans-serif",
+            "subsets": [],
+            "variants": [
+                "400",
+                "300italic",
+                "300",
+                "400italic",
+                "600",
+                "700"
+            ]
+        },
+        "Merriweather": {
+            "category": "serif",
+            "subsets": [],
+            "variants": [
+                "400",
+                "300",
+                "300italic",
+                "400italic",
+                "700",
+                "700italic"
+            ]
+        }
+    },
+    "basicTemplate": "<!DOCTYPE html>\r\n<html class=\"wide wow-animation scrollTo\" lang=\"en\">\r\n  <head>\r\n    <!-- Site Title-->\r\n    <title>Header Center<\/title>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"format-detection\" content=\"telephone=no\">\r\n    <meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\r\n    <meta name=\"keywords\" content=\"intense web design multipurpose template\">\r\n    <meta name=\"date\" content=\"Dec 26\">\r\n    <link rel=\"icon\" href=\"images\/favicon.ico\" type=\"image\/x-icon\">\r\n    <!-- Stylesheets-->\r\n    <link rel=\"stylesheet\" type=\"text\/css\" href=\"\/\/fonts.googleapis.com\/css?family=Open+Sans:400,300italic,300,400italic,600,700%7CMerriweather:400,300,300italic,400italic,700,700italic\">\r\n    <link rel=\"stylesheet\" href=\"css\/style.css\">\r\n\t\t<!--[if lt IE 10]>\r\n    <div style=\"background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;\"><a href=\"http:\/\/windows.microsoft.com\/en-US\/internet-explorer\/\"><img src=\"images\/ie8-panel\/warning_bar_0000_us.jpg\" border=\"0\" height=\"42\" width=\"820\" alt=\"You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.\"><\/a><\/div>\r\n    <script src=\"js\/html5shiv.min.js\"><\/script>\r\n\t\t<![endif]-->\r\n  <\/head>\r\n  <body>\r\n    <div class=\"page-loader\">\r\n      <div class=\"page-loader-body\"><span class=\"cssload-loader\"><span class=\"cssload-loader-inner\"><\/span><\/span><\/div>\r\n    <\/div>\r\n    <!-- Page-->\r\n    <div class=\"page text-center\">\r\n      \r\n    <\/div>\r\n    <!-- Global Mailform Output-->\r\n    <div class=\"snackbars\" id=\"form-output-global\"><\/div>\r\n    <!-- Java script-->\r\n    <script src=\"js\/core.min.js\"><\/script>\r\n    <script src=\"js\/script.js\"><\/script>\r\n  <\/body>\r\n<\/html>"
+}

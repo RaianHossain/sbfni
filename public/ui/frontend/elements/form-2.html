@@ -1,0 +1,37 @@
+<section class="section novi-background bg-cover section-70 section-md-114 bg-default">
+  <div class="shell">
+    <div class="range range-xs-center">
+      <div class="cell-md-9 cell-lg-8">
+        <h2 class="text-bold">Contact Form 2</h2>
+        <hr class="divider bg-madison">
+        <div class="offset-md-top-50 offset-top-40">
+          <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+            <div class="range range-12">
+              <div class="cell-sm-6">
+                <div class="form-group"> <label class="form-label form-label-outside" for="contact-us-first-name">First name</label> <input class="form-control form-validation-inside" id="contact-us-first-name" type="text" name="first-name"
+                    data-constraints="@Required"> </div>
+              </div>
+              <div class="cell-sm-6">
+                <div class="form-group"> <label class="form-label form-label-outside" for="contact-us-last-name">Last name</label> <input class="form-control form-validation-inside" id="contact-us-last-name" type="text" name="last-name"
+                    data-constraints="@Required"> </div>
+              </div>
+              <div class="cell-sm-6">
+                <div class="form-group"> <label class="form-label form-label-outside" for="contact-us-email">E-mail</label> <input class="form-control form-validation-inside" id="contact-us-email" type="email" name="email" data-constraints="@Required @Email">
+                </div>
+              </div>
+              <div class="cell-sm-6">
+                <div class="form-group"> <label class="form-label form-label-outside" for="contact-us-phone">Phone</label> <input class="form-control form-validation-inside" id="contact-us-phone" type="text" name="phone" data-constraints="@IsNumeric">
+                </div>
+              </div>
+              <div class="cell-xs-12">
+                <div class="form-group"> <label class="form-label form-label-outside" for="contact-us-message">Message</label> <textarea class="form-control form-validation-inside" id="contact-us-message" name="message" data-constraints="@Required"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="offset-top-20 text-center text-sm-left"> <button class="btn btn-primary" type="submit">Send Message</button> </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
