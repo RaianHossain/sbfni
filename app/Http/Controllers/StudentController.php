@@ -69,7 +69,8 @@ class StudentController extends Controller
                     'student_reg_no' => $request->student_reg_no,
                     'year' => $request->year,
                     'section' => $request->section,
-                    'course_name' => $request->course_name,
+                    // 'course_name' => $request->course_name,
+                    'course_name' => $request->array_pluck($cours, 'course_name'),
                     'profile_id' => $request->profile_id,
                     'user_id' => $user->id
                 ]);
