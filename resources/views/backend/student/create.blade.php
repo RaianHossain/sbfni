@@ -28,11 +28,11 @@
 
                
                 <div class="form-group">
-                    <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
+                    {{-- <input type="hidden" name="user_id" value="{{ Auth::user()->id }}"> --}}
                 </div>
 
                 <div class="form-group">
-                   <input type="hidden" name="profile_id" value="{{ Auth::user()->profile->id }}">
+                   {{-- <input type="hidden" name="profile_id" value="{{ Auth::user()->profile->id }}"> --}}
                 </div>
                 
                 <x-backend.form.input name="student_reg_no" type="number"/>

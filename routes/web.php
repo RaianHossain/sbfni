@@ -13,6 +13,7 @@ use App\Http\Controllers\MarkInputController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\NoticeController;
+use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\QuotationController;
 use App\Http\Controllers\RankingController;
@@ -258,7 +259,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::resource('/admin/message', MessageController::class);
-
+Route::get('/notification/{message}/{notification}', [NotificationController::class, 'showForUpdating'])->name("/admin/message.show");
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');

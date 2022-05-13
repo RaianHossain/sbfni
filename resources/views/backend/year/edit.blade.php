@@ -49,14 +49,37 @@
                     @endforeach
                 </select>
                 <br>
-                <select name="mark_distribution_id[]" class="form-control" multiple>
+                {{-- <select name="mark_distribution_id[]" class="form-control" multiple>
                     <option value="">Select multiple Mark Distribution Type using ctrl button</option>
                     @foreach($markdestribution as $markDistributions)
                         <option value="{{ $markDistributions->mark_distribution_name }}">{{ $markDistributions->mark_distribution_name }}</option>
                     @endforeach
-                </select> 
+                </select>  --}}
+
+                    {{-- checkbox --}}
+                    {{-- <div class="form-group">
+                        <label for="mark_distribution_id">Mark Distribution Type</label>
+                        <div class="form-check">
+                            @forelse ($markdestribution as $markDistributions )
+                            <input type="checkbox" name="mark_distribution_id[]" value="{{ $markDistributions->mark_distribution_name }}" {{ in_array($markDistributions->mark_distribution_name, $mark_distribution_id) ? 'checked' : '' }}> {{ $markDistributions->mark_distribution_name }}
+    
+                            @empty
+                                <label class="form-check-label">No Mark Distribution Type Found</label>
+                            @endforelse
+                        </div>
+                    </div> --}}
               
-                
+                {{-- @checked(true, $single_year->mark_distribution_id) --}}
+                @forelse ($markdestribution as $markDistributions )
+                    <input type="checkbox" name="mark_distribution_id[]" value=" {{ $markDistributions->mark_distribution_name }} " required> {{ $markDistributions->mark_distribution_name }}
+                @empty
+                    <p>No Mark Distribution Type Found</p>
+                @endforelse
+
+
+
+
+
                 <br>
 
                 

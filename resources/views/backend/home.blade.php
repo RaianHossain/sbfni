@@ -12,7 +12,8 @@
         </x-backend.layouts.elements.breadcrumb>
     </x-slot>
 
-    <div class="row">
+
+      <div class="row">
         <div class="col-xl-3 col-md-6">
             <div class="card bg-primary text-white mb-4">
                 <div class="card-body">Notices</div>
@@ -124,9 +125,24 @@
                 </tbody>
             </table> --}}
         </div>
-    {{-- </div>
-
-    </div> --}}
+    <div class="row">
+      <div class="col-md-12 alert alert-info">
+        <h3>Notifications</h3>
+        @php
+          $notifi=$notifications->where('status',0)->sortByDesc('created_at')->take(3);
+        @endphp
+        @foreach ($notifi as $notification)
+          <a href="{{ $notification->link }}" >
+            <div style="border:1px solid black;  background-color: {{ $notification->color }}">
+            <p style="color:'black'">{{ $notification->name }}</p>
+            <p style="color:'black'">{{ $notification->created_at->diffForHumans() }}</p>
+            @break($loop->iteration == 3)
+          </div>
+        </a>
+        @endforeach
+      </div>
+      
+    </div>
 
 </x-backend.layouts.master>
 @else

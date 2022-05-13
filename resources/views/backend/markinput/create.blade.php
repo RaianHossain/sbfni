@@ -50,36 +50,62 @@
                     @endforeach
                 </select>
                 <br>
-                <select name="student_reg_no" class="form-control">
+
+               @forelse ($students as $student )
+                    <div class="form-group">
+                        <label for="">{{ $student->student_name }}</label>
+                        <input type="text" name="marks[]" class="form-control">
+                    </div>
+                @empty
+                    <div class="alert alert-danger">No Student Found</div>
+                @endforelse
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+
+
+
+                {{-- <select name="course_name" class="from-control">
+                    <option value="">Select Course</option>
+                    @foreach($courses as $course)
+                    @while ($course->id == $single_year->course_name)
+                        <option value="{{ $course->course_name }}" {{ $single_year->course_name == $course->course_name ? 'selected' : '' }}>{{ $course->course_name }}</option>
+                    @endwhile
+                    @endforeach
+                </select> --}}
+                    
+              
+                <br>
+                {{-- <select name="student_reg_no" class="form-control">
                     <option value="">Select Student</option>
                     @foreach($students as $student)
                         <option value="{{ $student->id }}">{{ $student->student_reg_no }}</option>
                     @endforeach
                 </select>
-                <br>
+                <br> --}}
 
-                @php
-                    // foreach($markdistributions as $markdistribution)
+                {{-- @php --}}
+                    {{-- // foreach($markdistributions as $markdistribution)
                     // {
                     //     echo '<input type="number" name="'.$markdistribution->mark_distribution_id.'" placeholder="'.$markdistribution->mark_distribution_id.'">';
                     // }
-                    foreach($years as $year)
-                    {
-                        foreach($courses as $course)
-                        {
-                            foreach($sections as $section)
-                            {
-                                foreach($students as $student)
-                                {
-                                    foreach($markdistributions as $markdistribution)
-                                    {
-                                        echo '<input type="number" name="'.$markdistribution->mark_distribution_id.'_'.$year->id.'_'.$course->id.'_'.$section->id.'_'.$student->id.'" placeholder="'.$markdistribution->mark_distribution_id.'">';
-                                    }
-                                }
-                            }
-                        }
-                    }
-                @endphp
+                //     foreach($years as $year)
+                //     {
+                //         foreach($courses as $course)
+                //         {
+                //             foreach($sections as $section)
+                //             {
+                //                 foreach($students as $student)
+                //                 {
+                //                     foreach($markdistributions as $markdistribution)
+                //                     {
+                //                         echo '<input type="number" name="'.$markdistribution->mark_distribution_id.'_'.$year->id.'_'.$course->id.'_'.$section->id.'_'.$student->id.'" placeholder="'.$markdistribution->mark_distribution_id.'">';
+                //                     }
+                //                 }
+                //             }
+                //         }
+                //     } --}}
+                {{-- // @endphp --}}
 
                 {{-- <x-backend.form.input name="mark" type="number"/> --}}
                 <br>
