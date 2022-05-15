@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CourseRegistrationController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/check', function () {
+    return "Hello";
+});
+Route::get('/admin/course_registration/store/{course_id}/{student_id}/{year}/{course_year}', [CourseRegistrationController::class, 'store']);
+Route::get('/admin/course_registration/courses/{student_id}/{year}/{course_year}', [CourseRegistrationController::class, 'showCourses']);

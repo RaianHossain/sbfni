@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\CourseRegistrationController;
+use App\Http\Controllers\CurrentCourseController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\ExamController;
 use App\Http\Controllers\GradeCategoryController;
@@ -253,6 +255,13 @@ Route::middleware('auth')->group(function () {
     //internship
 
     Route::resource('/admin/internship', InternshipController::class);
+
+    //CurrentCourses
+    Route::resource('admin/current_courses', CurrentCourseController::class);
+
+    //CourseRegistration
+    Route::get('/admin/course_registration/create', [CourseRegistrationController::class, 'create'])->name('course_registration.create');
+    Route::get('/admin/course_registration', [CourseRegistrationController::class, 'index'])->name('course_registration.index');
     
     
     
