@@ -1,8 +1,8 @@
-@props(['message'])
+@props(['fmessage'])
 
-@if ($message)
+@if ($fmessage)
 <div class="alert alert-success">
     <span class="close" data-dismiss="alert">&times;</span>
-    <strong>{{ $message }}.</strong>
+    <strong>{{ $fmessage }}.</strong>
 </div>
 @endif

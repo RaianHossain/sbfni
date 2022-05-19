@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Course;
 use App\Models\MarkDestribution;
+use App\Models\User;
 use App\Models\Year;
 use Exception;
 use Illuminate\Database\QueryException;
@@ -34,10 +35,12 @@ class YearController extends Controller
     public function create()
     {
         // $this->authorize('create-year');
+        $students = User::where('role_id', '=', '3')->get();
+        // dd($students);
         $course = Course::all();
         $markdestribution = MarkDestribution::all();
 
-        return view('backend.year.create', ['course' => $course, 'markdestribution' => $markdestribution]);
+        return view('backend.year.create', ['course' => $course, 'markdestribution' => $markdestribution, 'students' => $students]);
     }
 
     public function store(Request $request)
@@ -47,10 +50,12 @@ class YearController extends Controller
         //  @dd($request);
         try {
             Year::create([
-                'year_name' => $request->year_name,
-                'course_name' => $request->course_name,
+                'student_id' => $request->student_id,
+                'course_year' => $request->course_year,
                 // 'mark_distribution_id' => $request->mark_distribution_id,
-                'mark_distribution_id' => implode(',', (array) $request['mark_distribution_id']),
+                'year' => $request->year,
+                'section' => $request->section,
+                
             ]);
         } catch (QueryException $e) {
             return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
@@ -108,5 +113,16 @@ class YearController extends Controller
         } catch (QueryException $e) {
             return redirect()->back()->withErrors($e->getMessage());
         }
+    }
+
+    public function showStudents()
+    {
+        return view('backend.yearwise.temp');
+    }
+
+    public function showFirstYearASection($course_year, $year)
+    {
+        $yearwisestudents = Year::where('course_year', '=', $course_year)->where('year', '=', $year)->get();
+        return view('backend.yearwise.yearwisestudent', ['yearwisestudents' => $yearwisestudents]);
     }
 }

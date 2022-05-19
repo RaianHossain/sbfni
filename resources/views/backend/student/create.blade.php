@@ -28,11 +28,11 @@
 
                
                 <div class="form-group">
-                    <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
+                    {{-- <input type="hidden" name="user_id" value="{{ Auth::user()->id }}"> --}}
                 </div>
 
                 <div class="form-group">
-                   <input type="hidden" name="profile_id" value="{{ Auth::user()->profile->id }}">
+                   {{-- <input type="hidden" name="profile_id" value="{{ Auth::user()->profile->id }}"> --}}
                 </div>
                 
                 <x-backend.form.input name="student_reg_no" type="number"/>
@@ -40,7 +40,7 @@
                 <select name="year" class="form-control">
                     <option value="">Select Year</option>
                     @foreach($years as $year)
-                        <option value="{{ $year->id }}">{{ $year->name }}</option>
+                        <option value="{{ $year->id }}">{{ $year->year_name }}</option>
                     @endforeach
                 </select>
                 <br>
@@ -48,7 +48,7 @@
                 <select name="section" class="form-control">
                     <option value="">Select Section</option>
                     @foreach($sections as $section)
-                        <option value="{{ $section->id }}">{{ $section->name }}</option>
+                        <option value="{{ $section->id }}">{{ $section->section_name }}</option>
                     @endforeach
                 </select>
                 <br>

@@ -61,6 +61,10 @@ class AppServiceProvider extends ServiceProvider
             $message->with('message', \App\Models\Message::all());
         });
 
+        view()->composer('*', function ($notification) {
+            $notification->with('notifications', \App\Models\Notification::all());
+        });
+
         Paginator::useBootstrap();
     }
 }

@@ -42,7 +42,7 @@ class StudentController extends Controller
             $students=Student::all();
             $markdistributions=MarkDestribution::all();
             $profiles=Profile::all();
-            $user=auth()->user();
+            // $user=auth()->user();
             return view('backend.student.create',[
                 'courses'=>$cours,
                 'years'=>$year,
@@ -50,7 +50,7 @@ class StudentController extends Controller
                 'students'=>$students,
                 'markdistributions'=>$markdistributions,
                 'profiles'=>$profiles,
-                'user'=>$user
+                // 'user'=>$user
             ]);
         }
 
@@ -63,15 +63,16 @@ class StudentController extends Controller
             $students=Student::all();
             $markdistributions=MarkDestribution::all();
             $profiles=Profile::all();
-            $user=auth()->user();
+            // $user=auth()->user();
             try {
                 Student::create([ 
                     'student_reg_no' => $request->student_reg_no,
                     'year' => $request->year,
                     'section' => $request->section,
-                    'course_name' => $request->course_name,
-                    'profile_id' => $request->profile_id,
-                    'user_id' => $user->id
+                    // 'course_name' => $request->course_name,
+                    'course_name' => $request->array_pluck($cours, 'course_name'),
+                    // 'profile_id' => $request->profile_id,
+                    // 'user_id' => $user->id
                 ]);
             } catch (QueryException $e) {
                 return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
@@ -91,7 +92,7 @@ class StudentController extends Controller
             $students=Student::all();
             $markdistributions=MarkDestribution::all();
             $profiles=Profile::all();
-            $user=auth()->user();
+            // $user=auth()->user();
             return view('backend.student.edit',[
                 'single_student'=>$student,
                 'courses'=>$cours,
@@ -100,7 +101,7 @@ class StudentController extends Controller
                 'students'=>$students,
                 'markdistributions'=>$markdistributions,
                 'profiles'=>$profiles,
-                'user'=>$user
+                // 'user'=>$user
             ]);
         }
 
@@ -112,8 +113,8 @@ class StudentController extends Controller
             $sections=Section::all();
             $students=Student::all();
             $markdistributions=MarkDestribution::all(); 
-            $user=auth()->user()->id;
-            $profiles=Profile::findOrFail(auth()->user()->id=='user_id');
+            // $user=auth()->user()->id;
+            // $profiles=Profile::findOrFail(auth()->user()->id=='user_id');
            
             try {
                 $student->update([
@@ -121,8 +122,8 @@ class StudentController extends Controller
                     'year' => $request->year,
                     'section' => $request->section,
                     'course_name' => $request->course_name,
-                    'profile_id' => $request->profile_id,
-                    'user_id' => $user->id
+                    // 'profile_id' => $request->profile_id,
+                    // 'user_id' => $user->id
                 ]);
             } catch (QueryException $e) {
                 return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
@@ -155,8 +156,8 @@ class StudentController extends Controller
             $sections=Section::all();
             $students=Student::all();
             $markdistributions=MarkDestribution::all();
-            $profiles=Profile::all();
-            $user=auth()->user();
+            // $profiles=Profile::all();
+            // $user=auth()->user();
             return view('backend.student.show',[
                 'show_student'=>$student,
                 'courses'=>$cours,
@@ -164,8 +165,8 @@ class StudentController extends Controller
                 'sections'=>$sections,
                 'students'=>$students,
                 'markdistributions'=>$markdistributions,
-                'profiles'=>$profiles,
-                'user'=>$user
+                // 'profiles'=>$profiles,
+                // 'user'=>$user
             ]);
         }
 

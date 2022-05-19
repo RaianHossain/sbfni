@@ -25,31 +25,50 @@
 
             <form action="{{ route('year.store') }}" enctype="multipart/form-data" method="post">
                 @csrf
-
-                <select name="year_name" class="form-control">
+                <label for="student_id">Select student</label>
+                <select name="student_id" class="form-control" id="student_id">
                     <option value="">Select Year</option>
-                        <option value="1">First Year</option>
-                        <option value="2">Second Year</option>
-                        <option value="3">Third Year</option>
+                    @foreach($students as $student)
+                    <option value="{{ $student->id }}">{{ $student->name }}</option>
+                    @endforeach
                 </select>
 
                 <br>
-
-                <select name="course_name" class="form-control">
+                <label for="course_year">Select Course Year</label>
+                <select name="course_year" class="form-control" id="course_year">
                     <option value="">Select Course</option>
-                    @foreach($course as $courses)
-                        <option value="{{ $courses->course_name }}">{{ $courses->course_name }}</option>
-                    @endforeach
+                    
+                        <option value="1st">1st Year</option>
+                        <option value="2md">2nd Year</option>
+                        <option value="3rd">3rd Year</option>
+                    
                 </select>
                 <br>
-                <select name="mark_distribution_id[]" class="form-control" multiple>
-                    <option value="">Select multiple Mark Distribution Type using ctrl button</option>
-                    @foreach($markdestribution as $markDistributions)
-                        <option value="{{ $markDistributions->mark_distribution_name }}">{{ $markDistributions->mark_distribution_name }}</option>
-                    @endforeach
-                </select> 
+
+                <label for="section">Select Section</label>
+                <select name="section" class="form-control" id="section">
+                    <option value="">Select Course</option>
+                    
+                        <option value="A">A</option>
+                        
+                    
+                </select>
+                <br>
+                <label for="year">Select Year</label>
+                <select name="year" class="form-control" id="year">
+                    <option value="">Select Year</option>
+                   
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>    
+                        <option value="2019">2019</option>             
+                    
+                </select>
+
+                {{-- checkbox --}}
                 <br>
                 <x-backend.form.button>Save</x-backend.form.button>
+                <!-- <button class="btn btn-primary">Save</button> -->
             </form>
         </div>
     </div>

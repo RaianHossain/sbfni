@@ -25,7 +25,7 @@
         </div>
         <div class="card-body">
 
-            <x-backend.layouts.elements.message :message="session('message')" />
+            <x-backend.layouts.elements.message :fmessage="session('message')" />
 
             <!-- <table id="datatablesSimple"> -->
             <form method="GET" action="{{ route('exam.index') }}">

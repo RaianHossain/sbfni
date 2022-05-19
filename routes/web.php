@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\CourseRegistrationController;
+use App\Http\Controllers\CurrentCourseController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\ExamController;
 use App\Http\Controllers\GradeCategoryController;
@@ -13,6 +15,7 @@ use App\Http\Controllers\MarkInputController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\NoticeController;
+use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\QuotationController;
 use App\Http\Controllers\RankingController;
@@ -252,13 +255,24 @@ Route::middleware('auth')->group(function () {
     //internship
 
     Route::resource('/admin/internship', InternshipController::class);
+
+    //CurrentCourses
+    Route::resource('admin/current_courses', CurrentCourseController::class);
+
+    //CourseRegistration
+    Route::get('/admin/course_registration/create', [CourseRegistrationController::class, 'create'])->name('course_registration.create');
+    Route::get('/admin/course_registration', [CourseRegistrationController::class, 'index'])->name('course_registration.index');
+
+    Route::get('admin/year-students', [YearController::class, 'showStudents'])->name("year.students");
+
+    Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
     
     
     
 });
 
 Route::resource('/admin/message', MessageController::class);
-
+Route::get('/notification/{message}/{notification}', [NotificationController::class, 'showForUpdating'])->name("/admin/message.show");
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');

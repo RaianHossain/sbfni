@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Message;
+use App\Models\Notification;
 use Exception;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
@@ -41,13 +42,24 @@ class MessageController extends Controller
     public function store(Request $request)
     {
         try {
-            Message::create([
+            $messageTOUpdate=Message::create([
                 'name' => $request->name,
                 'last_name' => $request->last_name,
                 'email' => $request->email,
                 'phone' => $request->phone,
                 'message' => $request->message,
             ]);
+            {
+                $notification = Notification::create([
+                    'name' => "New message from " . $messageTOUpdate->email,
+                    'status' => 'unread',
+                    // 'link' => 'http://127.0.0.1:8000/notification/' . $messageTOUpdate->id,
+                    'link' => route('message.show', $messageTOUpdate->id),
+                    'color' => 'gray'
+                ]);
+                $notification->link = $notification->link . '?notification_id=' . $notification->id;
+                $notification->update();
+            }
         } catch (QueryException $e) {
             return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
         } catch (Exception $e) {
