@@ -25,37 +25,50 @@
 
             <form action="{{ route('year.store') }}" enctype="multipart/form-data" method="post">
                 @csrf
-
-                <select name="year_name" class="form-control">
+                <label for="student_id">Select student</label>
+                <select name="student_id" class="form-control" id="student_id">
                     <option value="">Select Year</option>
-                        <option value="1">First Year</option>
-                        <option value="2">Second Year</option>
-                        <option value="3">Third Year</option>
-                </select>
-
-                <br>
-
-                <select name="course_name" class="form-control">
-                    <option value="">Select Course</option>
-                    @foreach($course as $courses)
-                        <option value="{{ $courses->course_name }}">{{ $courses->course_name }}</option>
+                    @foreach($students as $student)
+                    <option value="{{ $student->id }}">{{ $student->name }}</option>
                     @endforeach
                 </select>
+
                 <br>
+                <label for="course_year">Select Course Year</label>
+                <select name="course_year" class="form-control" id="course_year">
+                    <option value="">Select Course</option>
+                    
+                        <option value="1st">1st Year</option>
+                        <option value="2md">2nd Year</option>
+                        <option value="3rd">3rd Year</option>
+                    
+                </select>
+                <br>
+
+                <label for="section">Select Section</label>
+                <select name="section" class="form-control" id="section">
+                    <option value="">Select Course</option>
+                    
+                        <option value="A">A</option>
+                        
+                    
+                </select>
+                <br>
+                <label for="year">Select Year</label>
+                <select name="year" class="form-control" id="year">
+                    <option value="">Select Year</option>
+                   
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>    
+                        <option value="2019">2019</option>             
+                    
+                </select>
 
                 {{-- checkbox --}}
-                <div class="form-group">
-                    <label for="mark_distribution_id">Mark Distribution Type</label>
-                    <div class="form-check">
-                        @forelse ($markdestribution as $markDistributions )
-                        <input type="checkbox" name="mark_distribution_id[]" value="{{ $markDistributions->mark_distribution_name }}"> {{ $markDistributions->mark_distribution_name }}
-
-                        @empty
-                            <label class="form-check-label">No Mark Distribution Type Found</label>
-                        @endforelse
-
                 <br>
                 <x-backend.form.button>Save</x-backend.form.button>
+                <!-- <button class="btn btn-primary">Save</button> -->
             </form>
         </div>
     </div>

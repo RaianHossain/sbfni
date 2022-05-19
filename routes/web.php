@@ -262,6 +262,10 @@ Route::middleware('auth')->group(function () {
     //CourseRegistration
     Route::get('/admin/course_registration/create', [CourseRegistrationController::class, 'create'])->name('course_registration.create');
     Route::get('/admin/course_registration', [CourseRegistrationController::class, 'index'])->name('course_registration.index');
+
+    Route::get('admin/year-students', [YearController::class, 'showStudents'])->name("year.students");
+
+    Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
     
     
     

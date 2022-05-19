@@ -36,10 +36,10 @@
                 <thead>
                     <tr>
                         <th>Sl#</th>
+                        <th>Student Name</th>
                         <th>Year</th>
-                        <th>Course</th>
-                        <th>Exam Mark Distribution</th>
-                        <th>Action</th>
+                        <th>Course Year</th>
+                        <th>Section</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,13 +48,10 @@
                     <tr>
                         <td>{{ ++$sl }}</td>
                        
-                        <td>{{ $year->year_name }}</td> 
-                        <td>{{   $year->course_name}}</td>  
-                        {{-- <td>{{ $year->mark_distribution_id }}</td>   --}}
-                        <td>@foreach(explode(',', $year->mark_distribution_id) as $info) 
-                            <option>{{$info}}</option>
-                          @endforeach
-                        </td>
+                        <td>{{ $year->user->name }}</td> 
+                        <td>{{ $year->year }}</td>  
+                        <td>{{ $year->course_year }}</td>
+                        <td>{{ $year->section }}</td>
 
                         
                         <td>

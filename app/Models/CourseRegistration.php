@@ -11,7 +11,7 @@ class CourseRegistration extends Model
     protected $table = "courseregistrations";
     protected $guarded = [];
 
-    public function currentcourse(){ //inverse relation
+    public function mycurrentcourse(){ //inverse relation
         return $this->belongsTo(CurrentCourse::class, "currentcourse_id");
     }
 
