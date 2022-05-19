@@ -3,7 +3,7 @@
       <div class="fiji col-md-4">
         <div class="d-flex mt-5">
           <div style="padding-right:7px; padding-top:15px;">
-            <i class="fa-solid fa-phone" style="font-size:20px; color:#9ACD32"></i>
+            <i class="fa-solid fa-phone" style="font-size:20px; color:#282828"></i>
           </div>
           <div class="fiji-p" style="font-size:110%; width:70px;">
             <p>01716934024</p>
@@ -16,7 +16,7 @@
       </div>
       <div class="fiji col-md-4" style="margin-top:10px;">
         <div style="padding-right:7px;">
-        <i class="fa-solid fa-location-dot" style="font-size:26px;color:#9ACD32 "></i>
+        <i class="fa-solid fa-location-dot" style="font-size:26px;color:#282828 "></i>
       
         </div>
         <div class="fiji-p2">
@@ -46,7 +46,7 @@
                   <ul class="mega-links">
                     <li><a href="{{ route('home_teachers') }} ">Teachers</a></li>
                     <li><a href="{{ route('int_advisors') }}">International Advisor</a></li>
-                    <li><a href="{{ route('guest_teachers') }}">Guest Teachers</a></li>
+                    <li><a href="{{ route('guest_teachers') }}">Management Committee</a></li>
                   </ul>
                 </div>
                 <div class="row">
@@ -110,11 +110,12 @@
             </div>
           </li>
           <li class="me-3 pt-1"><a href="{{ route('home_notices') }}">Notice</a></li>
-          <li class="me-3 pt-1"><a href="{{ route('home_alumni') }}">Alumni</a></li>
           <li class="me-3 pt-1"><a href="{{ route('news') }}">News</a></li>
           <li class="me-3 pt-1"><a href="{{ route('events') }}">Events</a></li>
-          <li class="me-3 pt-1"><a href="{{ route('about') }}">About</a></li>
           <li class="me-3 pt-1"><a href="{{ route('internship') }}">Internship</a></li>
+          <li class="me-3 pt-1"><a href="{{ route('scholarship') }}">Scholarship</a></li>
+          <li class="me-3 pt-1"><a href="{{ route('home_alumni') }}">Alumni</a></li>
+          <li class="me-3 pt-1"><a href="{{ route('about') }}">About</a></li>
           <li class="me-3 pt-1"><a href="{{ route('contact') }}">Contacts</a></li>
         </ul>
         <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>

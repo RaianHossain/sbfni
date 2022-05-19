@@ -47,7 +47,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #9ACD32">
+              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #2828287a">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -73,7 +73,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #9ACD32">
+              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #2828287a">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -91,7 +91,7 @@
   {{--Different sections--}}
   <section>
     <div class="row">
-      <div class="col-md-3 sec2col" style="background-color: #9ACD32;">
+      <div class="col-md-3 sec2col" style="background-color: 	#2828287a;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color:#9ACD32 ;">
+      <div class="col-md-3 sec2col" style="background-color:#2828287a ;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -162,7 +162,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#9ACD32;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -175,7 +175,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#9ACD32;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -218,7 +218,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#9ACD32; ">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a; ">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -231,7 +231,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#9ACD32;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -266,7 +266,7 @@
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#9ACD32" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#2828287a" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold">Teachers</h6>
           </div>
@@ -280,7 +280,7 @@
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#9ACD32" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#2828287a" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold">Library</h6>
           </div>
@@ -303,7 +303,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{ 'storage/events/' . $event->img1 }}" alt="" style="height:420px; width:420px;" />
               <div class="post-event-overlay context-dark">
-                <a class="btn btn-default" style="background-color:#9ACD32;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
+                <a class="btn btn-default" style="background-color:#2828287a;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
                 <div class="offset-top-20">
                   <a class="btn btn-default" href="{{ route('event_details', ['id'=>$event->id]) }}">More Details</a>
                 </div>
@@ -325,7 +325,7 @@
                   </h6>
                   <ul class="list-inline list-inline-xs">
                     <li>
-                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#9ACD32;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
+                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
                     </li>
                   </ul>
                 </div>
@@ -342,7 +342,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
         <div class="post-event-overlay context-dark">
-          <a class="btn btn-default" style="background-color:#9ACD32;" href="#">Book Now</a>
+          <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
           <div class="offset-top-20">
             <a class="btn btn-default" href="event-page.html">Learn More</a>
           </div>
@@ -364,7 +364,7 @@
             </h6>
             <ul class="list-inline list-inline-xs">
               <li>
-                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#9ACD32;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
               </li>
             </ul>
           </div>
@@ -377,7 +377,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#9ACD32;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -399,7 +399,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#9ACD32;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -412,7 +412,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#9ACD32;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -434,7 +434,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#9ACD32;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -442,7 +442,7 @@
         </div>
       </article>
     </div> --}}
-    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#9ACD32;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
+    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#2828287a;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
     </div>
     </div>
   </section>
@@ -461,7 +461,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset('ui/frontend/images/blog/news-04-370x240.jpg') }}" alt="" width="370" height="240" /></a>
           <div class="post-news-body">
             <h6>
-              <a href="news-post-page.html" style="color:#9ACD32;">
+              <a href="news-post-page.html" style="color:#2828287a;">
                 Ways Parents and Counselors</a>
             </h6>
             <div class="offset-top-20">
@@ -481,7 +481,7 @@
             <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
             <div class="post-news-body" style="height: 20rem">
               <h6>
-                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#9ACD32;">
+                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#2828287a;">
                   {{ $news->title}}" </a>
               </h6>
               <div class="offset-top-20">
@@ -505,7 +505,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset ('ui/frontend/images/blog/news-06-370x240.jpg') }}" alt="" width="370" height="240" /></a>
         <div class="post-news-body">
           <h6>
-            <a href="news-post-page.html" style="color:#9ACD32;">Studying in the United States</a>
+            <a href="news-post-page.html" style="color:#2828287a;">Studying in the United States</a>
           </h6>
           <div class="offset-top-20">
             <p>
@@ -521,7 +521,7 @@
       </div>
     </div> --}}
     <div class="range-xs-center" style="width:100%;">
-      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#9ACD32; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
+      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#2828287a; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
     </div>
     </div>
   </section>
@@ -550,7 +550,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset('storage/ranking/'.$ranking->img) }}" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="text-center" style="color:#9ACD32">Ranking By: {{ $ranking->rank_name }}</h5>
+                <h5 class="text-center" style="color:#2828287a">Ranking By: {{ $ranking->rank_name }}</h5>
                 <h5 class="text-center" style="color:#5F9EA0">Our Position: {{ $ranking->rank_position }}</h5>
                 <h6 class="text-center" style="color:#5F9EA0">Ranking Year: {{ $ranking->rank_year }}</h6>
                 <p class="card-text">{{ $ranking->rank_description}}</p>
@@ -564,7 +564,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#9ACD32">Ranking</h4>
+            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -573,7 +573,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#9ACD32">Ranking</h4>
+            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -582,7 +582,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#9ACD32">Ranking</h4>
+            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -762,7 +762,7 @@
                 <form class="rd-mailform form-subscribe" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                   <div class="form-group">
                     <div class="input-group input-group-sm">
-                      <label class="form-label" for="form-email">Your e-mail</label><input class="form-control" id="form-email" type="email" name="email" data-constraints="@Required @Email" /><span class="input-group-btn"><button class="btn btn-default btn-sm" style="background-color:#9ACD32" type="submit">
+                      <label class="form-label" for="form-email">Your e-mail</label><input class="form-control" id="form-email" type="email" name="email" data-constraints="@Required @Email" /><span class="input-group-btn"><button class="btn btn-default btn-sm" style="background-color:#2828287a" type="submit">
                           Subscribe
                         </button></span>
                     </div>

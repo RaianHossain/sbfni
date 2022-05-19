@@ -146,6 +146,10 @@ class HomeController extends Controller
     {
         return view('frontend.guidelines');
     }
+    public function management_committee()
+    {
+        return view('frontend.management-committee');
+    }
 
 
 }

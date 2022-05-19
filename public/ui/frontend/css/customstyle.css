@@ -75,7 +75,7 @@
     width:80%;
     margin-left:10%;
     margin-top:5%;
-    background-color:#99cd3280;
+    background-color:#2828287a;
   }
   
   .outerrr-one{
@@ -141,12 +141,12 @@ nav{
 nav .wrapper{
   position: relative;
   max-width: 1230px;
-  padding: 0px 30px;
+  padding: 0px 0px;
   height: 65px;
   line-height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .wrapper .logo a{
   color: #c4bbbb;
@@ -437,4 +437,8 @@ nav input{
 }
 .fiji-p2 p:hover{
   color:#9ACD32;
+}
+
+.nothing{
+  color:#2828287a;
 }
