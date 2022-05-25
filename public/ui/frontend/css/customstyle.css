@@ -33,18 +33,33 @@
     transform:scale(1.3);
     z-index:2;
 }
+.icon{
+    transition:1s;
+}
+
+.icon:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.bla{
+    transition:1s;
+}
+
+.bla:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
 
 .title h3{
-    font-size:28px;
-    font-family:sans-serif;
-    color:rgb(45, 45, 116);
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#002833;
 }
 
 .title p{
     margin-left:40px;
     margin-right:40px;
-    text-align: center;
-    font-family:sans-serif;
+    text-align: center;   
 }
 
 .main{
@@ -65,7 +80,7 @@
 /* for quote  */
 .quote{
     height:600px;
-    background-color:#5f9ea07c;
+    
    }
   
   .outerrr{
@@ -76,6 +91,7 @@
     margin-left:10%;
     margin-top:5%;
     background-color:#2828287a;
+
   }
   
   .outerrr-one{
@@ -84,6 +100,7 @@
     margin-left:7.5%;
     margin-top:11%;
     background-color:white;
+    border-radius:5%;
   }
   
   .quote-img{
@@ -91,7 +108,7 @@
     width:90%;
     margin-left:5%;
     margin-top:5%;
-    border-radius:7%;
+    border-radius:5%;
     
     
   }
@@ -100,25 +117,29 @@
     height: 380px;
     width:90%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    padding-top:65px;
     justify-content: center;
     padding-left:8%;
     padding-right:8%;
    }
   
   .quote-p{
-    font-size:22px;
+    font-size:18px;
     line-height:40px;
     color:white;
+    font-family:cursive;
   }
 
   .quote-p:hover{
-    color:#5F9EA0;
+    color:lightcyan;
   }
 
   .carbutton{
-    color: #181616;
+    color:#003328 ;
   }
+
+  
 /* 
 for navbar */
 
@@ -130,13 +151,14 @@ for navbar */
   font-family: 'Poppins', sans-serif;
 }
 
-
+  /* #002833  */
 
 nav{
   position: relative;
   z-index: 99;
   width: 100%;
-  background:#5f9ea0c9;
+  background: #5f9ea0c9;
+  height:55px;;
 }
 nav .wrapper{
   position: relative;
@@ -175,14 +197,16 @@ position: fixed;
 .nav-links li a{
   color: #fffafa;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 500;
-  padding: 9px 15px;
+  padding: 9px 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
+  
 }
 .nav-links li a:hover{
-  background:#99cd324d;
+  background:#0028334f;
 }
 .nav-links .mobile-item{
   display: none;
@@ -221,7 +245,7 @@ position: fixed;
   visibility: hidden;
 }
 .mega-box .content{
-  background:white;
+  background:#002833e0;
   padding: 25px 20px;
   display: flex;
   width: 100%;
@@ -257,7 +281,7 @@ position: fixed;
 .row .mega-links li a{
   padding: 0px;
   padding: 0 20px;
-  color: #474343;
+  color:white;
   font-size: 17px;
   display: block;
 }
@@ -433,12 +457,12 @@ nav input{
 }
 
 .fiji-p p:hover{
-  color:#9ACD32;
+  color:blue;
 }
 .fiji-p2 p:hover{
-  color:#9ACD32;
+  color:blue;
 }
 
 .nothing{
-  color:#2828287a;
+  color:rgba(1, 1, 68, 0.589)
 }

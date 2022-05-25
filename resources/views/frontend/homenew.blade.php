@@ -41,13 +41,13 @@
 
 
   {{--Principal,CEO &  Chairman Section--}}
-  <section class="mb-5">
+  <section class="#" style=" margin-top:100px; margin-bottom:100px; ">
     <div class="row">
       <div class="col-md-4 sec2col">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #2828287a">
+              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -60,7 +60,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #5F9EA0">
+              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -73,7 +73,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #2828287a">
+              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -91,7 +91,7 @@
   {{--Different sections--}}
   <section>
     <div class="row">
-      <div class="col-md-3 sec2col" style="background-color: 	#2828287a;">
+      <div class="col-md-3 sec2col" style="background-color: 	#002833;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -99,7 +99,7 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-3">Nursing</h3>
+            <h3 class="heading text-white mt-5">Nursing</h3>
             <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
               More than 500 international students are enrolled in various programs.</p>
           </div>
@@ -113,13 +113,13 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-3">Admission</h3>
+            <h3 class="heading text-white mt-5">Admission</h3>
             <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
               More than 500 international students are enrolled in various programs.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color:#2828287a ;">
+      <div class="col-md-3 sec2col" style="background-color:#002833;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -127,7 +127,7 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-3">Tution Fee</h3>
+            <h3 class="heading text-white mt-5">Tution Fee</h3>
             <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
               More than 500 international students are enrolled in various programs.</p>
           </div>
@@ -141,7 +141,7 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-3">Scholarship</h3>
+            <h3 class="heading text-white mt-5">Scholarship</h3>
             <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
               More than 500 international students are enrolled in various programs.</p>
           </div>
@@ -155,14 +155,14 @@
     <div class="row">
       <div class="col-md-7 mb-5">
         <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px">
-          <h1 class="main "><b>What We Offer</b></h1>
+          <h1 class="main" style="color:#002833;"><b>What We Offer</b></h1>
           <p class="text-grey mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed in debitis commodi voluptatem! Vitae, aut!</p>
           <div>
             <div class="row">
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -175,7 +175,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -218,7 +218,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a; ">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833; ">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -231,7 +231,7 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#2828287a;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
@@ -252,37 +252,37 @@
   </section>
 
   {{--Our Skills Section--}}
-  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:10px;">
+  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#000033;">
     <div class="shell">
-      <h1 class="main text-center"><b>Our Skills</b> </h1>
-      <hr class="divider bg-madison">
+      <h1 class="main text-center text-white" style="color:#002833;"><b>Our Skills</b> </h1>
+      <hr class="divider bg-white">
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#5F9EA0" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#660033" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
-            <h6 class="text-bold">Lab</h6>
+            <h6 class="text-bold text-white  pt-3">Lab</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#2828287a" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#FFFF66" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
-            <h6 class="text-bold">Teachers</h6>
+            <h6 class="text-bold text-white pt-3 ">Teachers</h6>
+          </div>
+        </div>
+        <div class="cell-sm-6 cell-md-3">
+          <!-- Circle Progress bar-circle--> 
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.78" data-gradient="#660033" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="offset-top-20">
+            <h6 class="text-bold text-white pt-3">Campus</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.78" data-gradient="#5F9EA0" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#FFFF66" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
-            <h6 class="text-bold">Campus</h6>
-          </div>
-        </div>
-        <div class="cell-sm-6 cell-md-3">
-          <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#2828287a" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
-          <div class="offset-top-20">
-            <h6 class="text-bold">Library</h6>
+            <h6 class="text-bold text-white pt-3">Library</h6>
           </div>
         </div>
       </div>
@@ -293,7 +293,7 @@
   {{--Event Section--}}
   <section class="mb-5" style="padding-top:80px;">
     <div class="shell-wide">
-      <h1 class="main text-center"><b>Recent Events</b></h1>
+      <h1 class="main text-center" style="color:#002833;"><b>Recent Events</b></h1>
       <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
       <hr class="divider bg-madison" />
       <div class="range range-50 offset-top-50 range-xs-center">
@@ -303,7 +303,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{ 'storage/events/' . $event->img1 }}" alt="" style="height:420px; width:420px;" />
               <div class="post-event-overlay context-dark">
-                <a class="btn btn-default" style="background-color:#2828287a;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
+                <a class="btn btn-default" style="background-color:#002833;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
                 <div class="offset-top-20">
                   <a class="btn btn-default" href="{{ route('event_details', ['id'=>$event->id]) }}">More Details</a>
                 </div>
@@ -325,7 +325,7 @@
                   </h6>
                   <ul class="list-inline list-inline-xs">
                     <li>
-                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
+                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
                     </li>
                   </ul>
                 </div>
@@ -342,7 +342,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
         <div class="post-event-overlay context-dark">
-          <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
+          <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
           <div class="offset-top-20">
             <a class="btn btn-default" href="event-page.html">Learn More</a>
           </div>
@@ -364,7 +364,7 @@
             </h6>
             <ul class="list-inline list-inline-xs">
               <li>
-                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
               </li>
             </ul>
           </div>
@@ -377,7 +377,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -399,7 +399,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -412,7 +412,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#2828287a;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -434,7 +434,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#2828287a;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -442,7 +442,7 @@
         </div>
       </article>
     </div> --}}
-    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#2828287a;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
+    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#002833;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
     </div>
     </div>
   </section>
@@ -451,7 +451,7 @@
   {{--Recent News Section--}}
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
     <div class="shell isotope-wrap">
-      <h1 class="main text-center"><b>Latest News</b></h1>
+      <h1 class="main text-center" style="color:#002833;"><b>Latest News</b></h1>
       <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
       <hr class="divider bg-madison" />
       <div class="row range-30 isotope offset-top-50 text-left">
@@ -461,7 +461,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset('ui/frontend/images/blog/news-04-370x240.jpg') }}" alt="" width="370" height="240" /></a>
           <div class="post-news-body">
             <h6>
-              <a href="news-post-page.html" style="color:#2828287a;">
+              <a href="news-post-page.html" style="color:#002833;">
                 Ways Parents and Counselors</a>
             </h6>
             <div class="offset-top-20">
@@ -481,7 +481,7 @@
             <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
             <div class="post-news-body" style="height: 20rem">
               <h6>
-                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#2828287a;">
+                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#002833;">
                   {{ $news->title}}" </a>
               </h6>
               <div class="offset-top-20">
@@ -505,7 +505,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset ('ui/frontend/images/blog/news-06-370x240.jpg') }}" alt="" width="370" height="240" /></a>
         <div class="post-news-body">
           <h6>
-            <a href="news-post-page.html" style="color:#2828287a;">Studying in the United States</a>
+            <a href="news-post-page.html" style="color:#002833;">Studying in the United States</a>
           </h6>
           <div class="offset-top-20">
             <p>
@@ -521,7 +521,7 @@
       </div>
     </div> --}}
     <div class="range-xs-center" style="width:100%;">
-      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#2828287a; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
+      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#002833; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
     </div>
     </div>
   </section>
@@ -529,7 +529,7 @@
   {{--Alumni Section--}}
   <section class="mb-5" style="padding-top:80px;">
     <div class="shell-wide">
-      <h1 class="main text-center"><b>Our Alumni</b></h1>
+      <h1 class="main text-center" style="color:#002833;"><b>Our Alumni</b></h1>
       <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
       <hr class="divider bg-madison" />
       <x-frontend.layouts.partials.alumni>
@@ -540,7 +540,7 @@
   {{--Ranking Section--}}
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
     <div class="shell isotope-wrap">
-      <h1 class="main text-center"><b>Our Ranking</b></h1>
+      <h1 class="main text-center" style="color:#002833;"><b>Our Ranking</b></h1>
       <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
       <hr class="divider bg-madison" />
       <div class="container">
@@ -550,7 +550,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset('storage/ranking/'.$ranking->img) }}" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="text-center" style="color:#2828287a">Ranking By: {{ $ranking->rank_name }}</h5>
+                <h5 class="text-center" style="color:#002833">Ranking By: {{ $ranking->rank_name }}</h5>
                 <h5 class="text-center" style="color:#5F9EA0">Our Position: {{ $ranking->rank_position }}</h5>
                 <h6 class="text-center" style="color:#5F9EA0">Ranking Year: {{ $ranking->rank_year }}</h6>
                 <p class="card-text">{{ $ranking->rank_description}}</p>
@@ -564,7 +564,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
+            <h4 class="text-center" style="color:#002833">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -573,7 +573,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
+            <h4 class="text-center" style="color:#002833">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -582,7 +582,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#2828287a">Ranking</h4>
+            <h4 class="text-center" style="color:#002833">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -594,9 +594,8 @@
 
 
   {{--What Visitors say about us section--}}
-  <section class="quote" style="padding-top: 80px;">
-    <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
-    <p class="text-dark mb-5 text-center text-white mb-5">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
+  <section class="quote" style="padding-top: 80px; background-color:#660033;">
+    <h1 class="main text-center" style="color:white; padding-bottom:40px;"><b>Visitors Say About Us </b></h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carbutton carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -610,9 +609,9 @@
               <div class="outerrr" style="padding-top: 20px;">
                 <div class="outerrr-one">
                   <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center">Ismat Farjana</p>
+                  <p class="text-center" style="color:#002833">Ismat Farjana</p>
                 </div>
-                <p class="text-center">CFO</p>
+                <p class="text-center" style="color:white">CFO</p>
               </div>
             </div>
             <div class="col-md-8">
@@ -631,9 +630,9 @@
               <div class="outerrr" style="padding-top: 20px;">
                 <div class="outerrr-one">
                   <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center">Ismat Farjana</p>
+                  <p class="text-center style="color:#002833"">Ismat Farjana</p>
                 </div>
-                <p class="text-center">CFO</p>
+                <p class="text-center" style="color:white">CFO</p>
               </div>
             </div>
             <div class="col-md-8">
@@ -652,9 +651,9 @@
               <div class="outerrr" style="padding-top: 20px;">
                 <div class="outerrr-one">
                   <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center">Ismat Farjana</p>
+                  <p class="text-center" style="color:#002833">Ismat Farjana</p>
                 </div>
-                <p class="text-center">CFO</p>
+                <p class="text-center" style="color:white">CFO</p>
               </div>
             </div>
             <div class="col-md-8">
@@ -762,7 +761,7 @@
                 <form class="rd-mailform form-subscribe" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
                   <div class="form-group">
                     <div class="input-group input-group-sm">
-                      <label class="form-label" for="form-email">Your e-mail</label><input class="form-control" id="form-email" type="email" name="email" data-constraints="@Required @Email" /><span class="input-group-btn"><button class="btn btn-default btn-sm" style="background-color:#2828287a" type="submit">
+                      <label class="form-label" for="form-email">Your e-mail</label><input class="form-control" id="form-email" type="email" name="email" data-constraints="@Required @Email" /><span class="input-group-btn"><button class="btn btn-default btn-sm" style="background-color:#002833" type="submit">
                           Subscribe
                         </button></span>
                     </div>
@@ -774,7 +773,7 @@
           </div>
         </div>
       </div>
-      <div class="section-5 context-dark" style="background-color:#5F9EA0;">
+      <div class="section-5 context-dark" style="background-color:#002833;">
         <div class="shell text-md-left">
           <p class="">
             © <span class="copyright-year">2022</span> All Rights Reserved

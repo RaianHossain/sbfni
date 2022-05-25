@@ -5,14 +5,14 @@
           <div style="padding-right:7px; padding-top:15px;">
             <i class="fa-solid fa-phone" style="font-size:20px; color:#282828"></i>
           </div>
-          <div class="fiji-p" style="font-size:110%; width:70px;">
+          <div class="fiji-p" style="font-size:110%; width:70px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833;">
             <p>01716934024</p>
             <p>01716934024</p>
           </div>
         </div>
       </div>
       <div class="fiji col-md-4 mb-5">
-        <div class="rd-navbar-brand"><a class="reveal-inline-block" href="{{ route('home') }}"><img src="{{ asset('ui/frontend/images/logo/sbf.png') }}" alt="" width="191" height="80"></a></div>
+        <div class="bla rd-navbar-brand"><a class="reveal-inline-block" href="{{ route('home') }}"><img src="{{ asset('ui/frontend/images/logo/sbf.png') }}" alt="" width="191" height="80"></a></div>
       </div>
       <div class="fiji col-md-4" style="margin-top:10px;">
         <div style="padding-right:7px;">
@@ -20,7 +20,7 @@
       
         </div>
         <div class="fiji-p2">
-          <p>SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</p>
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833">SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</p>
         </div>
       </div>
     </div>
