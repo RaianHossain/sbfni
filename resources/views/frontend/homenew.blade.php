@@ -594,7 +594,7 @@
 
 
   {{--What Visitors say about us section--}}
-  <section class="quote" style="padding-top: 80px;">
+  {{-- <section class="quote" style="padding-top: 80px;">
     <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
     <p class="text-dark mb-5 text-center text-white mb-5">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -677,7 +677,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </section>
+  </section> --}}
+
+  <x-frontend.layouts.partials.quot>
+  </x-frontend.layouts.partials.quot>
 
 
 

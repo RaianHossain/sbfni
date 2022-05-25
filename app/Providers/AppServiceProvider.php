@@ -42,7 +42,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
         view()->composer('*', function ($quotations) {
-            $quotations->with('quotation', \App\Models\Quotation::all());
+            $quotations->with('quotations', \App\Models\Quotation::all());
         });
 
         view()->composer('*', function ($alumnis) {

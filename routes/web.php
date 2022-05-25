@@ -71,6 +71,7 @@ Route::get('/facilities', [HomeController::class, 'labothers'])->name('labothers
 Route::get('/tution_fee', [HomeController::class, 'tution_fee'])->name('tution_fee');
 Route::get('/scholarship', [HomeController::class, 'scholarship'])->name('scholarship');
 Route::get('/guidelines', [HomeController::class, 'guidelines'])->name('guidelines');
+Route::get('/management', [HomeController::class, 'management_committee'])->name('management_committee');
 
 
 //message
