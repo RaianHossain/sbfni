@@ -30,8 +30,8 @@
                     @foreach($courses as $course)
                     <tr>
                     <th scope="row">{{$i++}}</th>
-                    <td>{{ $course->currentcourse->course_name }}</td>
-                    <td>{{ $course->currentcourse->course_teacher }}</td>
+                    <td>{{ $course->mycurrentcourse->course_name }}</td>
+                    <td>{{ $course->mycurrentcourse->course_teacher }}</td>
                     <td>{{ $course->year }}</td>
                     <td>{{ $course->course_year }}</td>
                     </tr>
@@ -66,7 +66,7 @@
             <ul class="list-group">
                 
                 @foreach($currentcourseslist as $currentcourse)
-                    
+                        
                         <li class="list-group-item"><div class="d-flex justify-content-between"><div>{{ $currentcourse->course_name }}</div> <button onclick="hello('<?php echo $currentcourse->id?>', '<?php echo auth()->user()->id ?>')" class="btn btn-primary">ADD</button></div></li>
                         
                     

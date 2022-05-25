@@ -49,7 +49,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
         </div>
         <div class="modal-body" id="modal_body">
-            ...
+            
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -67,22 +67,53 @@
         myInput.focus()
         })
 
+        function getExtInfo(student_id, course_year, year){
+            return [
+                student_id,
+                course_year,
+                year
+            ];
+        }
+
         function clicked(course_year, year, student_id)
         {
             
             fetch(`http://127.0.0.1/api/admin/get-courses/${course_year}/${year}/${student_id}`)
             .then(response => response.json())
             .then((data)=> {
+                console.log(data[0][0]);
                 const parent = document.getElementById('modal_body');
-                inside = '<span>'+data[0].course_name+'</span><br>';
-                if(data.length > 1)
+                
+                let inside = `<input type="hidden" name="back"/>`;
+                let mainInside;
+                if(data[0].length > 1)
                 {
-                    for(i=1; i<data.length; i++)
+                    const routeInfo = getExtInfo
+                    for(i=0; i<data[0].length; i++)
                     {
-                        inside += '<span>'+data[i].course_name+'</span><br>';
+                        inside += `<label class="form-label" for="viva">${data[0][i].course_name}</label><br><input class="form-control" name="written[]" type="number" id="written" placeholder="Enter Written Mark"/><input class="form-control" name="oral[]" type="number" id="oral" placeholder="Enter Oral Mark"/>
+                        <input class="form-control" name="formative[]" type="number" id="formative" placeholder="Enter formative Mark"/> 
+                        <input class="form-control" name="practical[]" type="number" id="practical" placeholder="Enter practical Mark"/>   
+                        <input class="form-control" name="written_pass[]" type="number" id="written_pass" placeholder="Enter Written Pass Mark"/>
+                        <input class="form-control" name="formative_pass[]" type="number" id="formative_pass" placeholder="Enter Formative Pass Mark"/> 
+                        <input class="form-control" name="practical_pass[]" type="number" id="practical_pass" placeholder="Enter Practical Pass Mark"/> 
+                        <input class="form-control" name="oral_pass[]" type="number" id="oral_pass" placeholder="Enter Oral Pass Mark"/> 
+                        <input class="form-control" name="total[]" type="number" id="total" placeholder="Enter Total Mark"/>     
+                        <input class="form-control" name="grade[]" type="number" id="grade" placeholder="Enter Grade"/>   
+                        <input class="form-control" type="hidden" name="course_id[]" value="${data[0][i].id}">`;
+                        inside +=`<br><br>`;
                     }
+                    inside += `<input type="submit" class="btn btn-primary"/>`
+                    mainInside = `<form action="{{ route('result.store') }}" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="student_id" value="${student_id}">
+                                    <input type="hidden" name="year" value="${year}">
+                                    <input type="hidden" name="course_year" value="${course_year}">
+                                    
+                                    ${inside}
+                                </form>`
                 }
-                parent.innerHTML = inside;
+                parent.innerHTML = mainInside;
             })
         }
     </script>
