@@ -19,7 +19,7 @@
       <div class="col-lg-12">
         <div class="card shadow">
           <div class="card-header bg-danger d-flex justify-content-between align-items-center">
-            <h3 class="text-light">The Governing Body of SBFNI</h3>
+            <h3 class="text-light text-center">The Governing Body of SBFNI</h3>
           </div>
           <div class="card-body" id="show_all_students">
             <table class="table table-striped table-sm text-center align-middle">

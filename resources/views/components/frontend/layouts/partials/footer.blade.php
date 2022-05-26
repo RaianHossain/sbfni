@@ -68,7 +68,7 @@
               <div class="text-subline mb-3"></div>
               <div class="offset-top-30 text-left">
                 <p class="mb-3">
-                  Enter your email address to get the latest University
+                  Enter your email address to get the latest 
                   news, special events and student activities delivered
                   right to your inbox.
                 </p>

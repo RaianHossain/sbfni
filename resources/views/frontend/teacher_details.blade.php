@@ -6,7 +6,7 @@
                     <div class="offset-sm-top-35">
                         <ul class="list-inline list-inline-lg list-inline-dashed p">
                             <li><a href="{{ route('home') }}">Home</a></li>
-                            <li>Teacher Profile</li>
+                            <li>Teacher's Profile</li>
                         </ul>
                     </div>
                 </div>

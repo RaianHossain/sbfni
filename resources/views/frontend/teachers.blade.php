@@ -6,7 +6,7 @@
                 <div class="offset-sm-top-35">
                     <ul class="list-inline list-inline-lg list-inline-dashed p">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Team&nbsp;</li>
+                        <li>Teachers&nbsp;</li>
                     </ul>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 @forelse($teachers as $teacher)
                 <div class="cell-sm-8 cell-md-4"><img class="img-responsive reveal-inline-block img-rounded" src="{{ asset('storage/teachers/'.$teacher->img) }}" width="270" height="270" alt="">
                     <div class="offset-top-20">
-                        <h6 class="text-bold" style="color:#9ACD32;"><a href="{{ route('home_teacher_details', ['teacher' =>$teacher->id]) }}">{{ $teacher->name }}</a></h6>
+                        <h6 class="text-bold" style="color:#002833;"><a href="{{ route('home_teacher_details', ['teacher' =>$teacher->id]) }}">{{ $teacher->name }}</a></h6>
                     </div>
                     <div class="offset-top-5">
                         <p>{{$teacher->designation }}</p>

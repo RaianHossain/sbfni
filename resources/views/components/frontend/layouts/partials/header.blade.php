@@ -54,7 +54,7 @@
                   <ul class="mega-links">
                     <li><a href="{{ route('courses') }}">Courses</a></li>
                     <li><a href="{{ route('home_alumni') }}">Alumni</a></li>
-                    <li><a href="{{ route('courses') }}">Lectures</a></li>
+                    <li><a href="{{ route('curriculam') }}">Course Curriculam</a></li>
                   </ul>
                 </div>
                 <div class="row">

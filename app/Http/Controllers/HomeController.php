@@ -150,6 +150,10 @@ class HomeController extends Controller
     {
         return view('frontend.management-committee');
     }
+    public function curriculam()
+    {
+        return view('frontend.curriculam');
+    }
 
 
 }
