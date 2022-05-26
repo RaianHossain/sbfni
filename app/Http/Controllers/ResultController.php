@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\CourseRegistration;
 use App\Models\CurrentCourse;
+use App\Models\Result;
 use Illuminate\Http\Request;
 
 class ResultController extends Controller
@@ -16,6 +17,35 @@ class ResultController extends Controller
             
             array_push($currentList, $courseId->mycurrentcourse);
         }
-        return $currentList;
+        return [$currentList, $student_id,$course_year, $year];
+    }
+    
+    public function store(Request $request)
+    {
+        // dd(($request->all()));
+        $courses_id = [];
+        for($i = 0; $i<count($request->total); $i++){
+            array_push($courses_id, "course_id_".$i);
+        }
+
+        for($i=0; $i<count($request->total); $i++){
+            Result::create([
+                'student_id' => $request->student_id,
+                'currentcourse_id' => $request->course_id[$i],
+                'year' => $request->year,
+                'course_year' => $request->course_year,
+                'written' => $request->written[$i],
+                'practical' => $request->practical[$i],
+                'formative' => $request->formative[$i],
+                'oral' => $request->oral[$i],
+                'written_pass' => $request->written_pass[$i],
+                'practical_pass' => $request->practical_pass[$i],
+                'formative_pass' => $request->formative_pass[$i],
+                'oral_pass' => $request->oral_pass[$i],
+                'total' => $request->total[$i],
+                'grade' => $request->grade[$i],
+            ]);
+        }
+        return redirect()->back();
     }
 }

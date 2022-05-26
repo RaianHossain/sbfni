@@ -19,6 +19,7 @@ use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\QuotationController;
 use App\Http\Controllers\RankingController;
+use App\Http\Controllers\ResultController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ScholarshipController;
 use App\Http\Controllers\SectionController;
@@ -267,6 +268,7 @@ Route::middleware('auth')->group(function () {
     Route::get('admin/year-students', [YearController::class, 'showStudents'])->name("year.students");
 
     Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
+    Route::post('admin/result/create', [ResultController::class, 'store'])->name('result.store');
     
     
     

@@ -11,8 +11,10 @@ class CourseRegistrationController extends Controller
     public function create()
     {
         $currentcourseslist = CurrentCourse::where('year', date('Y'))->get();
+        // dd($currentcourseslist);
         
         $courses = CourseRegistration::where('student_id', auth()->user()->id)->where('year', date('Y'))->where('course_year', 1)->get();
+        // dd($courses);
         return view('backend.courseregistrations.create', ['currentcourseslist' => $currentcourseslist, 'courses' => $courses]);
     }
 
