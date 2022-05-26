@@ -1,5 +1,5 @@
 <x-frontend.layouts.master>
-<section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/parallax-03.jpg') }}">
+    <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/parallax-03.jpg') }}">
         <div class="parallax-content section-30 section-sm-70">
             <div class="shell">
                 <h2 class="veil reveal-sm-block">Tution Fee</h2>
@@ -13,6 +13,32 @@
         </div>
     </section>
 
+    <section style="margin:150px;">
+        <h3 class="main text-center pb-5" style="color:#002833; font-size:45px;">Tution Fee</h3>
+        <hr>
+        <table class="table table-striped table-hover" ">
+            <tbody>
+                <tr>
+
+                    <td>Admission Fee</td>
+                    <td>25,000 tk </td>
+               </tr>
+                <tr>
+                    <td>Monthly tution fee × 36 months (3 years) </td>
+                    <td>72,000 tk</td>
+                </tr>
+                <tr>
+                    <td>Semister Fee: <br>
+                       At the begnning of the semester in June & December Months × 6 Semester (total amount) </td>
+                    <td>53,000 tk</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Fee in 3 years</strong> </td>
+                    <td><strong>1,50,000 tk</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 
 
