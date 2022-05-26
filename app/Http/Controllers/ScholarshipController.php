@@ -8,6 +8,7 @@ use App\Models\Student;
 use Exception;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
+use Image;
 
 class ScholarshipController extends Controller
 {
@@ -18,7 +19,8 @@ class ScholarshipController extends Controller
 
         if (request('search')) {
             $scholarshipCollection = $scholarshipCollection
-                ->where('scholarship_name', 'like', '%' . request('search') . '%');
+                ->where('scholarship_name', 'like', '%' . request('search') . '%')
+                ->orWhere('scholarship_commitment', 'like', '%' . request('search') . '%');
         }
 
         $scholarship = $scholarshipCollection->paginate(10);
@@ -41,11 +43,15 @@ class ScholarshipController extends Controller
         try {
             Scholarship::create([
                 'student_reg_no' => $request->student_reg_no,
-                'scholarship_name' => $request->scholarship_name,
+                'scholarship_name' => $request->student_name,
                 'scholarship_amount' => $request->scholarship_amount,
                 'scholarship_duration' => $request->scholarship_duration,
                 'scholarship_description' => $request->scholarship_description,
                 'scholarship_status' => $request->scholarship_status,
+                'scholarship_commitment' => $request->scholarship_commitment,
+                'doner_name' => $request->doner_name,
+                'year' => $request->year,
+                'image' => $this->uploadimg1(request()->file('image')),
             ]);
         } catch (QueryException $e) {
             return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
@@ -78,24 +84,42 @@ class ScholarshipController extends Controller
         $scholarship->update([
 
             'student_reg_no' => $request->student_reg_no,
-            'scholarship_name' => $request->scholarship_name,
+            'scholarship_name' => $request->student_name,
             'scholarship_amount' => $request->scholarship_amount,
             'scholarship_duration' => $request->scholarship_duration,
             'scholarship_description' => $request->scholarship_description,
             'scholarship_status' => $request->scholarship_status,
+            'scholarship_commitment' => $request->scholarship_commitment,
+            'doner_name' => $request->doner_name,
+            'year' => $request->year,
+            // 'image' => $this->uploadimg1(request()->file('image')),
 
         ]);
+
+        if ($request->hasFile('image')) {
+            $scholarship->image = $this->uploadimg6(request()->file('image'));
+        }
 
         $scholarship->update();
 
 
         return redirect()->route('scholarship.index');
     }
+    public function uploadimg1($file)
+    {
+        $fileName = time() . '.' . $file->getClientOriginalExtension();
 
+        Image::make($file)
+            ->resize(300, 300)
+            ->save(storage_path() . '/app/public/news/' . $fileName);
+
+        return $fileName;
+    }
     public function destroy(Scholarship $scholarship)
     {
         try {
             $scholarship->delete();
+            unlink(public_path('storage/news/' . $scholarship->image));
             return redirect()->route('scholarship.index')->withMessage('Successfully Deleted!');
         } catch (QueryException $e) {
             return redirect()->back()->withErrors($e->getMessage());

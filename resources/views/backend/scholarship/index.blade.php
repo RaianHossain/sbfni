@@ -36,12 +36,16 @@
                 <thead>
                     <tr>
                         <th>Sl#</th>
+                        <th>Image</th>
                         <th>Student Reg. No</th>
-                        <th>Scholarship Name</th>
+                        <th>Student Name</th>
                         <th>Scholarship Amount</th>
                         <th>Scholarship Duration</th>
                         <th>Scholarship Description</th>
+                        <th>Scholarship Commitment</th>
                         <th>Scholarship Status</th>
+                        <th>Doner Name</th>
+                        <th>Year</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -50,6 +54,10 @@
                     @foreach ($scholarships as $scholarship)
                     <tr>
                         <td>{{ ++$sl }}</td>
+
+                        <td>
+                            <img src="{{ asset('storage/news/'.$scholarship->image) }}" alt="{{ $scholarship->scholarship_name }}" width="100px" height="100px">
+                        </td>
 
                         <td>{{ $scholarship->student_reg_no }}</td>
                        
@@ -61,7 +69,15 @@
 
                         <td>{{ $scholarship->scholarship_description }}</td>
 
+                        <td>{{ $scholarship->scholarship_commitment }}</td>
+
+                        
+
                         <td>{{ $scholarship->scholarship_status == 1 ? 'Active' : 'Inactive' }}</td>
+
+                        <td>{{ $scholarship->doner_name }}</td>
+
+                        <td>{{ $scholarship->year }}</td>
                         
                         
                         <td>
@@ -85,7 +101,7 @@
 
                 </tbody>
             </table>
-            {{ $scholarships->links() }}
+            {{-- {{ $scholarships->links() }} --}}
         </div>
     </div>
 

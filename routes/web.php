@@ -71,6 +71,7 @@ Route::get('/guest_teachers', [HomeController::class, 'guest_teachers'])->name('
 Route::get('/facilities', [HomeController::class, 'labothers'])->name('labothers');
 Route::get('/tution_fee', [HomeController::class, 'tution_fee'])->name('tution_fee');
 Route::get('/scholarship', [HomeController::class, 'scholarship'])->name('scholarship');
+Route::get('/scholarship_details/{id}', [HomeController::class, 'scholarship_details'])->name('scholarship_details');
 Route::get('/guidelines', [HomeController::class, 'guidelines'])->name('guidelines');
 Route::get('/management', [HomeController::class, 'management_committee'])->name('management_committee');
 Route::get('/curriculam', [HomeController::class, 'curriculam'])->name('curriculam');
@@ -270,9 +271,6 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
     Route::post('admin/result/create', [ResultController::class, 'store'])->name('result.store');
-    
-    
-    
 });
 
 Route::resource('/admin/message', MessageController::class);

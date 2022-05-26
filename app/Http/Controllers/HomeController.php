@@ -8,6 +8,7 @@ use App\Models\Message;
 use App\Models\News;
 use App\Models\Notice;
 use App\Models\Teacher;
+use App\Models\Scholarship;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Route;
@@ -142,6 +143,13 @@ class HomeController extends Controller
     {
         return view('frontend.scholarship');
     }
+
+    public function scholarship_details($id)
+    {
+        $scholarship = Scholarship::find($id);
+        return view('frontend.scholarship_details', ['scholarship' => $scholarship]);
+    }
+
     public function guidelines()
     {
         return view('frontend.guidelines');

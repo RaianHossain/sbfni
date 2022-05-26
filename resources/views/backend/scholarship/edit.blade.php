@@ -36,13 +36,29 @@
 
                 <x-backend.form.input name="student_reg_no" type="number" value="{{ $single_scholarship->student_reg_no }}"/>
 
-                <x-backend.form.input name="scholarship_name" type="text" :value="$single_scholarship->scholarship_name"/>
+                <x-backend.form.input name="student_name" type="text" :value="$single_scholarship->scholarship_name"/>
 
                 <x-backend.form.input name="scholarship_amount" type="number" :value="$single_scholarship->scholarship_amount"/>
 
                 <x-backend.form.input name="scholarship_duration" type="text" :value="$single_scholarship->scholarship_duration"/>
 
                 <x-backend.form.input name="scholarship_description" type="textarea" :value="$single_scholarship->scholarship_description"/>
+
+
+                <x-backend.form.input name="scholarship_commitment" type="text" :value="$single_scholarship->scholarship_commitment"/>
+
+
+                <x-backend.form.input name="doner_name" type="text" :value="$single_scholarship->doner_name"/>
+
+                <select name="year" class="form-control">
+                    <option value="">Select Year</option>
+                    <option value="1" {{ $single_scholarship->year == 1 ? 'selected' : '' }}>1st Year</option>
+                    <option value="2" {{ $single_scholarship->year == 2 ? 'selected' : '' }}>2nd Year</option>
+                    <option value="3" {{ $single_scholarship->year == 3 ? 'selected' : '' }}>3rd Year</option>
+                    <option value="4" {{ $single_scholarship->year == 4 ? 'selected' : '' }}>4th Year</option>
+                </select>
+
+
 
                 <select name="scholarship_status" id="scholarship_status">
                     <option value="">Select Status</option>

@@ -53,6 +53,10 @@ class AppServiceProvider extends ServiceProvider
             $internships->with('internships', \App\Models\Internship::all());
         });
 
+        view()->composer('*', function ($scholarships) {
+            $scholarships->with('scholarships', \App\Models\Scholarship::all());
+        });
+
         view()->composer('*', function ($rankings) {
             $rankings->with('rankings', \App\Models\Ranking::all());
         });

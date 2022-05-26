@@ -18,21 +18,21 @@
         <div class="row my-5 ">
           <div class="col-lg-12">
             <div class="card shadow">
-              <div class="card-header bg-danger d-flex justify-content-between align-items-center">
-                <h3 class="text-light">Intern Students List</h3>
+              <div class="card-header p-3 mb-2 bg-info bg-gradient text-dark d-flex justify-content-between align-items-center">
+                <h3 class="text-light">Intern, Job placement Students List</h3>
               </div>
               <div class="card-body" id="show_all_students">
                 <table class="table table-striped table-sm text-center align-middle">
                     <thead>
                       <tr>
                         <th>Reg No</th>
-                        <th>Image</th>
+                        {{-- <th>Image</th> --}}
                         <th>Student Name</th>
                         <th>Current Position</th>
-                        <th>Address</th>
+                        <th>Job Address</th>
                         <th>Passing Year</th>
-                        <th>Internship Start Date</th>
-                        <th>Internship Status</th>
+                        <th>Internship / Job Start Date</th>
+                        <th>Internship / Job Status</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -41,11 +41,11 @@
                    {{-- { --}}
                         <tr>
                         <td>{{ $internship->student_reg_no }} </td>
-                        <td>
+                        {{-- <td> --}}
                            {{-- @php
                           $img =App\Models\Profile::where('student_reg_no',$internship->student_reg_no)->first()->image;
                         @endphp --}}
-                          <img src="{{ asset('storage/profiles/1651953955.png') }}" width="50" class="img-thumbnail rounded-circle"></td>
+                          {{-- <img src="{{ asset('storage/profiles/1651953955.png') }}" width="50" class="img-thumbnail rounded-circle"></td> --}}
                         {{-- <td><i class="fa fa-image" aria-hidden="true"></i></td> --}}
                         <td>{{ $internship->name }} </td>
                         <td>{{ $internship->current_position }}</td>
