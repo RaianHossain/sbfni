@@ -1,5 +1,5 @@
 
-<section   style="padding-top: 80px; background-color:#660033;"  >
+<section   style="padding-top: 80px; background-color:#a4d3f7;"  >
 <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 80px; padding-bottom:30px; padding-left:250px;">
 
@@ -13,7 +13,7 @@
     @foreach( $quotations as $quotation )
        <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
            <img class="d-block img-circle" src="{{ asset('storage/quotations/'.$quotation->img) }}" alt=" {{ $quotation->title }} "style="height: 200px; width: 200px;">
-              <div class="carousel-caption d-none d-md-block" >
+              <div class="carousel-caption d-none d-md-block col-md-9 col-sm-12" >
                 <h4 class="text-white"> {{ $quotation->author_name }}</h4>
                  <h5 class="text-white"> {{ $quotation->title }}</h5>
                  <p class="mb-0 "><cite><h6 class="text-white"> <q>{{ $quotation->quotation }} </q> </h6> </cite></p>

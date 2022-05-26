@@ -1,69 +1,70 @@
 
-                                <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
-                                <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
-                                <style></style>
-                                <script type='text/javascript' src=''></script>
-                                <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-                                <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
- 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-right">
-                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <i class="fa fa-arrow-left"></i>
-                </a>
-                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <i class="fa fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-12">
-                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-
-                                <div class="col-md-4 mb-3">
-                                    <div class="card">
-                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Special title treatment</h4>
-                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                               
-                                   
-                                </div>
-
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+<section   style="padding-top: 80px; background-color:#a4d3f7;"  >
+    <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 80px; padding-bottom:30px; padding-left:250px;">
+    
+      <ol class="carousel-indicators">
+       @foreach( $alumnis as $alumni )
+          <li data-target="#carouselExampleIndicators" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
+       @endforeach
+      </ol>
+    
+      <div class="carousel-inner" role="listbox" >
+        @foreach( $alumnis as $alumni )
+           <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ asset('storage/'.$alumni->image) }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{ $alumni->name }}</h5>
+                  <p class="card-text">{{ $alumni->current_position }}</p>
                 </div>
-            </div>
-        </div>
+              </div>
+
+            {{-- <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-none d-lg-block">
+              
+                <div class="card ">
+                    <img
+                      src="{{ asset('storage/alumni/'.$alumni->img) }}"
+                      class="card-img-top"
+                      alt="{{ $alumni->name }}"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">{{ $alumni->name }}</h5>
+                      <p class="card-text">
+                        {{$alumni->current_position}}
+                      </p>
+                    </div>
+                  </div>
+              </div>
+           </div> --}}
+        @endforeach
+           </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-</section>
-                            <script type='text/javascript'>
-                            
-                            </script>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                    event.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                interval: 2000
+            })
+        });
+    </script>
