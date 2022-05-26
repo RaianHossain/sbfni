@@ -12,7 +12,9 @@
   <div class="carousel-inner" role="listbox" >
     @foreach( $quotations as $quotation )
        <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
-           <img class="d-block img-circle" src="{{ asset('storage/quotations/'.$quotation->img) }}" alt=" {{ $quotation->title }} "style="height: 200px; width: 200px;">
+          <div class="col-md-3 col-sm-12">
+           <img class="d-block img-circle " src="{{ asset('storage/quotations/'.$quotation->img) }}" alt=" {{ $quotation->title }} "style="height: 200px; width: 200px;">
+          </div>
               <div class="carousel-caption d-none d-md-block col-md-9 col-sm-12" >
                 <h4 class="text-white"> {{ $quotation->author_name }}</h4>
                  <h5 class="text-white"> {{ $quotation->title }}</h5>

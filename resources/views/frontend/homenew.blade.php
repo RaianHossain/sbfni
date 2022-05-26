@@ -337,126 +337,24 @@
         @empty
         <p> No Events </p>
         @endforelse
-        {{-- <div class="cell-sm-6 cell-md-5 cell-xl-3">
-          <article class="post-event">
-            <div class="post-event-img-overlay">
-              <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
-        <div class="post-event-overlay context-dark">
-          <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
-          <div class="offset-top-20">
-            <a class="btn btn-default" href="event-page.html">Learn More</a>
-          </div>
-        </div>
-        <div class="post-event-meta text-center" style="background-color:#5F9EA0;">
-          <div class="h3 text-bold reveal-inline-block reveal-lg-block">
-            31
-          </div>
-          <p class="reveal-inline-block reveal-lg-block">September</p>
-          <span class="text-bold reveal-inline-block reveal-lg-block inset-left-10 inset-lg-left-0">5:00pm</span>
-        </div>
-      </div>
-      <div class="unit unit-lg unit-lg-horizontal">
-        <div class="unit-body">
-          <div class="post-event-body text-lg-left">
-            <h6><b>
-                <a href="event-page.html" style="color:black;">Spacewalking Conference</a>
-              </b>
-            </h6>
-            <ul class="list-inline list-inline-xs">
-              <li>
-                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </article>
+   
     </div>
-    <div class="cell-sm-6 cell-md-5 cell-xl-3">
-      <article class="post-event">
-        <div class="post-event-img-overlay">
-          <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
-          <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
-            <div class="offset-top-20">
-              <a class="btn btn-default" href="event-page.html">Learn More</a>
-            </div>
-          </div>
-          <div class="post-event-meta text-center" style="background-color:#5F9EA0;">
-            <div class="h3 text-bold reveal-inline-block reveal-lg-block">
-              31
-            </div>
-            <p class="reveal-inline-block reveal-lg-block">September</p>
-            <span class="text-bold reveal-inline-block reveal-lg-block inset-left-10 inset-lg-left-0">5:00pm</span>
-          </div>
-        </div>
-        <div class="unit unit-lg unit-lg-horizontal">
-          <div class="unit-body">
-            <div class="post-event-body text-lg-left">
-              <h6><b>
-                  <a href="event-page.html" style="color:black;">Spacewalking Conference</a>
-                </b>
-              </h6>
-              <ul class="list-inline list-inline-xs">
-                <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </article>
     </div>
-    <div class="cell-sm-6 cell-md-5 cell-xl-3">
-      <article class="post-event">
-        <div class="post-event-img-overlay">
-          <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
-          <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
-            <div class="offset-top-20">
-              <a class="btn btn-default" href="event-page.html">Learn More</a>
-            </div>
-          </div>
-          <div class="post-event-meta text-center" style="background-color:#5F9EA0;">
-            <div class="h3 text-bold reveal-inline-block reveal-lg-block">
-              31
-            </div>
-            <p class="reveal-inline-block reveal-lg-block">September</p>
-            <span class="text-bold reveal-inline-block reveal-lg-block inset-left-10 inset-lg-left-0">5:00pm</span>
-          </div>
-        </div>
-        <div class="unit unit-lg unit-lg-horizontal">
-          <div class="unit-body">
-            <div class="post-event-body text-lg-left">
-              <h6><b>
-                  <a href="event-page.html" style="color:black;">Spacewalking Conference</a>
-                </b>
-              </h6>
-              <ul class="list-inline list-inline-xs">
-                <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div> --}}
-    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
-    </div>
+    <div class="range-xs-center" style="width:100%;">
+      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>See More Events</span></a>
     </div>
   </section>
 
 
   {{--Recent News Section--}}
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
-    <div class="shell isotope-wrap">
+    <div class="shell isotope-wrap justify-content-center">
       <h1 class="main text-center" style="color:#002833"><b>Latest News</b></h1>
       <p class="text-grey mb-5 text-center">Get all the latest news here & stay up-to-date </p>
       <hr class="divider bg-madison" />
-      <div class="row range-30 isotope offset-top-50 text-left">
+      <div class="range range-50 offset-top-50 range-xs-center">
         @forelse ( $news as $news )
-        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
+        {{-- <div class="col-xs-12 col-sm-6 col-md-4 isotope-item"> --}}
           {{-- <article class="post-news">
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset('ui/frontend/images/blog/news-04-370x240.jpg') }}" alt="" width="370" height="240" /></a>
           <div class="post-news-body">
@@ -475,8 +373,8 @@
             </div>
           </div>
           </article>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item"> --}}
+        </div>--}}
+        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item"> 
           <article class="post-news">
             <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
             <div class="post-news-body" style="height: 20rem">
@@ -520,9 +418,13 @@
         </article>
       </div>
     </div> --}}
+    {{-- <div class="range-xs-center" style="width:100%;">
+      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More </span></a>
+    </div> --}}
+    </div>
+
     <div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
-    </div>
     </div>
   </section>
 
