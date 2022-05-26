@@ -85,7 +85,7 @@
  
 
         </div>
-      </div><a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#9ACD32; padding:2%" href="{{ route('home_alumni') }}"><span class="icon fa-arrow-right"></span><span>View More Comments</span></a>
+      </div>
     </div>
  
     {{-- <!-- Single item -->

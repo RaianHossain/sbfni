@@ -46,7 +46,7 @@
                   <ul class="mega-links">
                     <li><a href="{{ route('home_teachers') }} ">Teachers</a></li>
                     <li><a href="{{ route('int_advisors') }}">International Advisor</a></li>
-                    <li><a href="{{ route('guest_teachers') }}">Management Committee</a></li>
+                    <li><a href="{{ route('management_committee') }}">Management Committee</a></li>
                   </ul>
                 </div>
                 <div class="row">

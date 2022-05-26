@@ -54,7 +54,8 @@ class QuotationController extends Controller
     public function show(Quotation $quotation)
     {
         return view('backend.quotations.show', [
-            'quotation' => $quotation
+            'quotation' => $quotation,
+            'single_quotation' => $quotation
         ]);
     }
 

@@ -17,7 +17,7 @@
 }
 
 .carousel-indicators li.active {
-    background: #28a745;
+    background:yellow;
 }
 
 .quotesection {
@@ -66,9 +66,11 @@
     font-size:30px;
     font-family:sans-serif;
     color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833;
     }
 .second-main{
     font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833;
    
 }
 
@@ -457,10 +459,11 @@ nav input{
 }
 
 .fiji-p p:hover{
-  color:blue;
+  color:#a7b9cc;
 }
+
 .fiji-p2 p:hover{
-  color:blue;
+  color:#a7b9cc;
 }
 
 .nothing{

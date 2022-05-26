@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <x-frontend.layouts.partials.header/>
+  <x-frontend.layouts.partials.header />
 
   {{--Carousel section--}}
   <div id="carouselExampleControls" class="carousel slide mt-3 mb-3" data-bs-ride="carousel">
@@ -47,7 +47,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
+              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -60,7 +60,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
+              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -73,7 +73,7 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #002833">
+              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
@@ -91,7 +91,7 @@
   {{--Different sections--}}
   <section>
     <div class="row">
-      <div class="col-md-3 sec2col" style="background-color: 	#002833;">
+      <div class="col-md-3 sec2col" style="background-color:#999999;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color:#002833;">
+      <div class="col-md-3 sec2col" style="background-color:#999999;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -156,32 +156,32 @@
       <div class="col-md-7 mb-5">
         <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px">
           <h1 class="main" style="color:#002833;"><b>What We Offer</b></h1>
-          <p class="text-grey mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed in debitis commodi voluptatem! Vitae, aut!</p>
+          <p class="text-grey mb-5">Achieve a Comprehensive View of Patient Care From Our Institute</p>
           <div>
             <div class="row">
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"><b>Scholarship</b></h1>
+                    <p>We are providing scholarship for poor & meritorious students. </p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"><b>Multimedia Classrooms</b></h1>
+                    <p class="pb-4">Using multimedia in the classroom makes the students more engaging.</p>
                   </div>
                 </div>
               </div>
@@ -195,8 +195,8 @@
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"><b>laboratories</b></h1>
+                    <p class="pb-4">6 laboratories rich in modern educational materials and a library rich in adequate text books and magazines.</p>
                   </div>
                 </div>
               </div>
@@ -208,8 +208,8 @@
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"><b>Accomodation</b></h1>
+                    <p class="pb-4">We are providing residential hostels with adequate security.</p>
                   </div>
                 </div>
               </div>
@@ -218,26 +218,26 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833; ">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999; ">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"> <b>100-bed Hospital</b></h1>
+                    <p class="pb-4">Arrangements for clinical practice in a 100-bed hospital.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#002833;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main"><b>Accomodation</b></h1>
-                    <p>We are providing a secure and convenient living facility for our students. DIU dormitories are a home away from home...</p>
+                    <h1 class="second-main" style="color:#191970 ;"><b>Noise-free campus.</b></h1>
+                    <p class="pb-4">Our Campus is located at a noise free place where students get good environment for learning </p>
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@
         </div>
       </div>
       <div class="new col-md-5">
-        <img src="{{ asset('ui/frontend/images/history/building.jpg') }}" alt="" style="width: 80%; height: 100%; border:1px solid white;">
+        <img src="{{ asset('ui/frontend/images/history/building.jpg') }}" alt="" style="width: 90%; height: 100%; border:1px solid white; padding-top:20px; padding-bottom:20px;">
       </div>
     </div>
   </section>
@@ -254,7 +254,7 @@
   {{--Our Skills Section--}}
   <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#000033;">
     <div class="shell">
-      <h1 class="main text-center text-white" style="color:#002833;"><b>Our Skills</b> </h1>
+      <h1 class="main text-center text-white" style="color:#999999;"><b>Our Skills</b> </h1>
       <hr class="divider bg-white">
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
@@ -272,7 +272,7 @@
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
-          <!-- Circle Progress bar-circle--> 
+          <!-- Circle Progress bar-circle-->
           <div class="progress-bar-circle progress-bar-modern" data-value="0.78" data-gradient="#660033" data-thickness="10" data-empty-fill="#e5e5e5" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Campus</h6>
@@ -303,7 +303,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{ 'storage/events/' . $event->img1 }}" alt="" style="height:420px; width:420px;" />
               <div class="post-event-overlay context-dark">
-                <a class="btn btn-default" style="background-color:#002833;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
+                <a class="btn btn-default" style="background-color:#999999;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
                 <div class="offset-top-20">
                   <a class="btn btn-default" href="{{ route('event_details', ['id'=>$event->id]) }}">More Details</a>
                 </div>
@@ -325,7 +325,7 @@
                   </h6>
                   <ul class="list-inline list-inline-xs">
                     <li>
-                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
+                      <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">{{ $event->lecturer_name }}</span></a>
                     </li>
                   </ul>
                 </div>
@@ -342,7 +342,7 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
         <div class="post-event-overlay context-dark">
-          <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
+          <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
           <div class="offset-top-20">
             <a class="btn btn-default" href="event-page.html">Learn More</a>
           </div>
@@ -364,7 +364,7 @@
             </h6>
             <ul class="list-inline list-inline-xs">
               <li>
-                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
               </li>
             </ul>
           </div>
@@ -377,7 +377,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -399,7 +399,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -412,7 +412,7 @@
         <div class="post-event-img-overlay">
           <img class="img-responsive" src="{{asset('ui/frontend/images/events/images1.png') }}" alt="" style="height:420px; width:420px;" />
           <div class="post-event-overlay context-dark">
-            <a class="btn btn-default" style="background-color:#002833;" href="#">Book Now</a>
+            <a class="btn btn-default" style="background-color:#999999;" href="#">Book Now</a>
             <div class="offset-top-20">
               <a class="btn btn-default" href="event-page.html">Learn More</a>
             </div>
@@ -434,7 +434,7 @@
               </h6>
               <ul class="list-inline list-inline-xs">
                 <li>
-                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#002833;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
+                  <a href="team-member-profile.html"><span class="icon novi-icon icon-xxs mdi mdi-account-outline text-middle" style="color:#999999;"></span><span class="inset-left-10 text-dark text-middle">Walter Stanley</span></a>
                 </li>
               </ul>
             </div>
@@ -442,7 +442,7 @@
         </div>
       </article>
     </div> --}}
-    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#002833;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
+    <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>View More Events</span></a>
     </div>
     </div>
   </section>
@@ -451,8 +451,8 @@
   {{--Recent News Section--}}
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
     <div class="shell isotope-wrap">
-      <h1 class="main text-center" style="color:#002833;"><b>Latest News</b></h1>
-      <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
+      <h1 class="main text-center" style="color:#002833"><b>Latest News</b></h1>
+      <p class="text-grey mb-5 text-center">Get all the latest news here & stay up-to-date </p>
       <hr class="divider bg-madison" />
       <div class="row range-30 isotope offset-top-50 text-left">
         @forelse ( $news as $news )
@@ -461,7 +461,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset('ui/frontend/images/blog/news-04-370x240.jpg') }}" alt="" width="370" height="240" /></a>
           <div class="post-news-body">
             <h6>
-              <a href="news-post-page.html" style="color:#002833;">
+              <a href="news-post-page.html" style="color:#999999;">
                 Ways Parents and Counselors</a>
             </h6>
             <div class="offset-top-20">
@@ -481,7 +481,7 @@
             <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
             <div class="post-news-body" style="height: 20rem">
               <h6>
-                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#002833;">
+                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#999999;">
                   {{ $news->title}}" </a>
               </h6>
               <div class="offset-top-20">
@@ -505,7 +505,7 @@
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset ('ui/frontend/images/blog/news-06-370x240.jpg') }}" alt="" width="370" height="240" /></a>
         <div class="post-news-body">
           <h6>
-            <a href="news-post-page.html" style="color:#002833;">Studying in the United States</a>
+            <a href="news-post-page.html" style="color:#999999;">Studying in the United States</a>
           </h6>
           <div class="offset-top-20">
             <p>
@@ -521,7 +521,7 @@
       </div>
     </div> --}}
     <div class="range-xs-center" style="width:100%;">
-      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#002833; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
+      <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>
     </div>
     </div>
   </section>
@@ -530,7 +530,7 @@
   <section class="mb-5" style="padding-top:80px;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Our Alumni</b></h1>
-      <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
+      <p class="text-grey mb-5 text-center">Our Alumni are our pride as they are engaged in serving the nation through their service.</p>
       <hr class="divider bg-madison" />
       <x-frontend.layouts.partials.alumni>
       </x-frontend.layouts.partials.alumni>
@@ -541,7 +541,7 @@
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
     <div class="shell isotope-wrap">
       <h1 class="main text-center" style="color:#002833;"><b>Our Ranking</b></h1>
-      <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
+      <p class="text-grey mb-5 text-center">See our Institution's Ranking(Not Yet Applicable)</p>
       <hr class="divider bg-madison" />
       <div class="container">
         <div class="row">
@@ -550,7 +550,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset('storage/ranking/'.$ranking->img) }}" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="text-center" style="color:#002833">Ranking By: {{ $ranking->rank_name }}</h5>
+                <h5 class="text-center" style="color:#999999">Ranking By: {{ $ranking->rank_name }}</h5>
                 <h5 class="text-center" style="color:#5F9EA0">Our Position: {{ $ranking->rank_position }}</h5>
                 <h6 class="text-center" style="color:#5F9EA0">Ranking Year: {{ $ranking->rank_year }}</h6>
                 <p class="card-text">{{ $ranking->rank_description}}</p>
@@ -564,7 +564,7 @@
             <div class="card" style="width: 25rem;">
               <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#002833">Ranking</h4>
+            <h4 class="text-center" style="color:#999999">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -573,7 +573,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#002833">Ranking</h4>
+            <h4 class="text-center" style="color:#999999">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -582,7 +582,7 @@
         <div class="card" style="width: 25rem;">
           <img src="{{ asset ('ui/frontend/images/ranking/images.png') }}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="text-center" style="color:#002833">Ranking</h4>
+            <h4 class="text-center" style="color:#999999">Ranking</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
@@ -594,8 +594,9 @@
 
 
   {{--What Visitors say about us section--}}
-  <section class="quote" style="padding-top: 80px; background-color:#660033;">
-    <h1 class="main text-center" style="color:white; padding-bottom:40px;"><b>Visitors Say About Us </b></h1>
+  {{-- <section class="quote" style="padding-top: 80px;">
+    <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
+    <p class="text-dark mb-5 text-center text-white mb-5">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carbutton carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -609,180 +610,82 @@
               <div class="outerrr" style="padding-top: 20px;">
                 <div class="outerrr-one">
                   <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center" style="color:#002833">Ismat Farjana</p>
-                </div>
-                <p class="text-center" style="color:white">CFO</p>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="quote-text ">
-                <div>
-                  <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
-                    Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
-                </div>
-              </div>
-            </div>
+  <p class="text-center" style="color:#999999">Ismat Farjana</p>
+  </div>
+  <p class="text-center" style="color:white">CFO</p>
+  </div>
+  </div>
+  <div class="col-md-8">
+    <div class="quote-text ">
+      <div>
+        <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
+          Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="outerrr" style="padding-top: 20px;">
+          <div class="outerrr-one">
+            <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
+            <p class="text-center " style="color:#999999">Ismat Farjana</p>
           </div>
+          <p class="text-center" style="color:white">CFO</p>
         </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="outerrr" style="padding-top: 20px;">
-                <div class="outerrr-one">
-                  <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center style="color:#002833"">Ismat Farjana</p>
-                </div>
-                <p class="text-center" style="color:white">CFO</p>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="quote-text ">
-                <div>
-                  <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
-                    Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="outerrr" style="padding-top: 20px;">
-                <div class="outerrr-one">
-                  <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
-                  <p class="text-center" style="color:#002833">Ismat Farjana</p>
-                </div>
-                <p class="text-center" style="color:white">CFO</p>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="quote-text ">
-                <div>
-                  <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
-                    Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="col-md-8">
+        <div class="quote-text ">
+          <div>
+            <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
+              Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-  </section>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="outerrr" style="padding-top: 20px;">
+          <div class="outerrr-one">
+            <img src="{{ asset('ui/frontend/images/avatar.png') }}" alt="" class=" quote-img" style="margin-top: 10px;">
+            <p class="text-center" style="color:#999999">Ismat Farjana</p>
+          </div>
+          <p class="text-center" style="color:white">CFO</p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="quote-text ">
+          <div>
+            <p class="text-center quote-p"> <i class="fa fa-quote-left me-2" style="font-size:36px"></i> The align-items property specifies the default alignment for items inside the flexible container.
+              Tip: Use the align-self property of each item to override the align-items property bla bla bla bla.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+  </section> --}}
+
+  <x-frontend.layouts.partials.quot>
+  </x-frontend.layouts.partials.quot>
 
 
 
   {{--Footer Section--}}
-  <footer class="section page-footer">
-    <div class="novi-background bg-cover bg-default">
-      <div class="shell-wide">
-        <div class="hr bg-gray-light"></div>
-      </div>
-      <div class="section-60">
-        <div class="shell">
-          <div class="range range-50 range-lg-justify range-xs-center">
-            <div class="cell-md-3 cell-lg-3">
-              <a class="reveal-inline-block" href="index.html"><img src="images/logo-default-2-144x122-1.png" alt="" srcset="images/logo-default-2-144x122-1.png" /></a>
-              <div class="offset-top-30 text-center">
-                <ul class="list-inline list-inline-xs list-inline-madison">
-                  <li>
-                    <a class="icon novi-icon icon-xxs fa-facebook icon-circle icon-gray-light-filled" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon novi-icon icon-xxs fa-twitter icon-circle icon-gray-light-filled" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon novi-icon icon-xxs fa-google icon-circle icon-gray-light-filled" href="#"></a>
-                  </li>
-                  <li>
-                    <a class="icon novi-icon icon-xxs fa-instagram icon-circle icon-gray-light-filled" href="#"></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="cell-xs-10 cell-md-5 cell-lg-4 text-lg-left">
-              <h6 class="text-bold">Contact us</h6>
-              <div class="text-subline mb-4"></div>
-              <div class="offset-top-30">
-                <ul class="list-unstyled contact-info list">
-                  <li>
-                    <div class="unit unit-horizontal unit-middle unit-spacing-xs">
-                      <div class="unit-left">
-                        <span class="icon novi-icon mdi mdi-phone text-middle icon-xs text-madison"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a class="text-dark" href="tel:#">1-800-1234-567,</a><a class="reveal-block reveal-md-inline-block text-dark" href="tel:#">1-800-6547-321</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-horizontal unit-middle unit-spacing-xs">
-                      <div class="unit-left">
-                        <span class="icon novi-icon mdi mdi-map-marker text-middle icon-xs text-madison"></span>
-                      </div>
-                      <div class="unit-body text-left">
-                        <a class="text-dark" href="#">2130 Fulton Street San Diego, CA 94117-1080
-                          USA</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-horizontal unit-middle unit-spacing-xs">
-                      <div class="unit-left">
-                        <span class="icon novi-icon mdi mdi-email-open text-middle icon-xs text-madison"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a href="mailto:#" style="color:#5F9EA0;">info@demolink.org</a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="cell-xs-10 cell-md-8 cell-lg-4 text-lg-left">
-              <h6 class="text-bold">Newsletter</h6>
-              <div class="text-subline mb-3"></div>
-              <div class="offset-top-30 text-left">
-                <p class="mb-3">
-                  Enter your email address to get the latest University
-                  news, special events and student activities delivered
-                  right to your inbox.
-                </p>
-              </div>
-              <div class="offset-top-10">
-                <form class="rd-mailform form-subscribe" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
-                  <div class="form-group">
-                    <div class="input-group input-group-sm">
-                      <label class="form-label" for="form-email">Your e-mail</label><input class="form-control" id="form-email" type="email" name="email" data-constraints="@Required @Email" /><span class="input-group-btn"><button class="btn btn-default btn-sm" style="background-color:#002833" type="submit">
-                          Subscribe
-                        </button></span>
-                    </div>
-                  </div>
-                  <div class="form-output"></div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section-5 context-dark" style="background-color:#002833;">
-        <div class="shell text-md-left">
-          <p class="">
-            © <span class="copyright-year">2022</span> All Rights Reserved
-            Terms of Use and <a href="privacy.html">Privacy Policy.</a><span> Developed&nbsp;by Break-IT</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <x-frontend.layouts.partials.footer/>
 
 
 

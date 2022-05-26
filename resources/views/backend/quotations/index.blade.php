@@ -76,7 +76,7 @@
 
                 </tbody>
             </table>
-            {{ $quotations->links() }}
+            {{--{{ $quotations->links() }}--}}
         </div>
     </div>
 
