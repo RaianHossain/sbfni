@@ -1,7 +1,7 @@
 
-<section   style="padding-top: 80px; background-color:#a4d3f7;"  >
+<section   style="padding-top: 80px; background-color:#a4d3f7; padding-bottom: 80px"  >
 <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 80px; padding-bottom:30px; padding-left:250px;">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 80px; padding-bottom:30px; padding-left:200px;">
 
   <ol class="carousel-indicators">
    @foreach( $quotations as $quotation )
@@ -18,7 +18,7 @@
               <div class="carousel-caption d-none d-md-block col-md-9 col-sm-12" >
                 <h4 class="text-white"> {{ $quotation->author_name }}</h4>
                  <h5 class="text-white"> {{ $quotation->title }}</h5>
-                 <p class="mb-0 "><cite><h6 class="text-white"> <q>{{ $quotation->quotation }} </q> </h6> </cite></p>
+                 <p><cite><h6 class="text-white"> <q> {{ $quotation->quotation }}</q> </h6> </cite></p>
               </div>
        </div>
     @endforeach
