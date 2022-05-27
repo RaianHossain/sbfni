@@ -1,4 +1,13 @@
 <x-backend.layouts.master>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>
+    
+
     <x-slot name="pageTitle">
         Current Courses
     </x-slot>
@@ -41,18 +50,21 @@
             </div>
             <div class="col-md-4">
             <div class="input-group mb-3">
-            
+{{--             
             <select class="form-select" id="year">
                 <option selected>Choose..</option>
                 <option value="2022">2022</option>
                 <option value="2021">2021</option>
                 <option value="2020">2020</option>    
                 <option value="2019">2019</option>             
-            </select>
-           
-            <label class="input-group-text" for="inputGroupSelect02">Current Year</label>
-            </div>   
+            </select> --}}
+            <div class="d-flex justify-content-between">
+            <x-backend.form.input name="year" id="year"/>
 
+            <label class="input-group-text" for="inputGroupSelect02">Current Year</label>
+            </div>  
+            </div> 
+            {{-- <div class="d-flex justify-content-between"> --}}
             <div class="input-group mb-3">
             <select class="form-select" id ="course_year">
                 <option selected>Choose...</option>
@@ -61,8 +73,9 @@
                 <option value="3rd">3rd year</option>
                 <option value="4th">4th year</option>
             </select>
-            <label class="input-group-text" for="inputGroupSelect02">Course Year</label>
+            <label class="input-group-text" for="inputGroupSelect01">Course Year</label>
             </div>
+                {{-- </div> --}}
             <ul class="list-group">
                 
                 @foreach($currentcourseslist as $currentcourse)
@@ -113,6 +126,16 @@
                     });
                 }
             </script>
+       <script>
+        $(document).ready(function(){
+          $("#year").datepicker({
+             format: "yyyy",
+             viewMode: "years", 
+             minViewMode: "years",
+             autoclose:true
+          });   
+        })
         
-
+        
+        </script>
 </x-backend.layouts.master>

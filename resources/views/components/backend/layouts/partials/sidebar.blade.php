@@ -48,7 +48,15 @@
                     Alumni
                 </a>
 
+                <a class="nav-link" href="{{ route('current_courses.create') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Current Courses
+                </a>
 
+                <a class="nav-link" href="{{ route('year.students') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Upload Result
+                </a>
 
                 {{-- <a class="nav-link" href="{{ route('course.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>

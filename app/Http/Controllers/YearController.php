@@ -17,7 +17,7 @@ class YearController extends Controller
     {
 
         $course = Course::all();
-        $markdestribution = MarkDestribution::all();
+        // $markdestribution = MarkDestribution::all();
         $yearCollection = Year::latest();
 
         if (request('search')) {
@@ -38,15 +38,15 @@ class YearController extends Controller
         $students = User::where('role_id', '=', '3')->get();
         // dd($students);
         $course = Course::all();
-        $markdestribution = MarkDestribution::all();
+        // $markdestribution = MarkDestribution::all();
 
-        return view('backend.year.create', ['course' => $course, 'markdestribution' => $markdestribution, 'students' => $students]);
+        return view('backend.year.create', ['course' => $course, 'students' => $students]);
     }
 
     public function store(Request $request)
     {
         $course = Course::all();
-        $markdestribution = MarkDestribution::all();
+        // $markdestribution = MarkDestribution::all();
         //  @dd($request);
         try {
             Year::create([
@@ -70,10 +70,10 @@ class YearController extends Controller
     public function edit(Year $year)
     {
         $course = Course::all();
-        $markdestribution = MarkDestribution::all();
+        // $markdestribution = MarkDestribution::all();
 
         return view('backend.year.edit', [
-            'single_year' => $year, 'course' => $course, 'markdestribution' => $markdestribution
+            'single_year' => $year, 'course' => $course
         ]);
     }
 
@@ -88,14 +88,16 @@ class YearController extends Controller
     {
         $year = Year::find($id);
         $course = Course::all();
-        $markdestribution = MarkDestribution::all();
+        // $markdestribution = MarkDestribution::all();
 
         $year->update([
 
             'year_name' => $request->year_name,
             'course_name' => $request->course_name,
             // 'mark_distribution_id' => $request->mark_distribution_id,
-            'mark_distribution_id' => implode(',', (array) $request['mark_distribution_id']),
+            // 'mark_distribution_id' => implode(',', (array) $request['mark_distribution_id']),
+            'year' => $request->year,
+                'section' => $request->section,
 
         ]);
 
