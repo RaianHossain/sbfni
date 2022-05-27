@@ -48,6 +48,11 @@
                     Alumni
                 </a>
 
+                <a class="nav-link" href="{{ route('year.index') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                   Year
+                </a>
+
 
 
                 {{-- <a class="nav-link" href="{{ route('course.index') }}">
@@ -65,10 +70,7 @@
                     Mark Destribution
                 </a>
 
-                <a class="nav-link" href="{{ route('year.index') }}">
-                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                   Year
-                </a>
+                
                 <a class="nav-link" href="{{ route('markinput.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Mark Input
