@@ -20,7 +20,7 @@
             <a class="btn btn-sm btn-danger" href="#">Trashed List</a>
 
             {{-- @can('create-category') --}}
-            <a class="btn btn-sm btn-info" href="#">Add New</a>
+            <a class="btn btn-sm btn-info" href="{{ route('current_courses.create') }}">Add New</a>
             {{-- @endcan --}}
 
         </div>
@@ -51,8 +51,8 @@
                         <td>{{ ++$sl }}</td>
                         <td>{{$currentcourse->year }}</td>
                         <td>{{$currentcourse->course_year }}</td>
-                        <td>{{$currentcourse->course_name }}</td>
-                        <td>{{$currentcourse->course_teacher }}</td>
+                        <td>{{$currentcourse->course->course_name }}</td>
+                        <td>{{$currentcourse->teacher->name }}</td>
                         
                         <td>
                             <a class="btn btn-info btn-sm" href="#">Show</a>

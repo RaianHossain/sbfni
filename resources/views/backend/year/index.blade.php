@@ -13,7 +13,8 @@
         </x-backend.layouts.elements.breadcrumb>
     </x-slot>
 
-    <div class="card mb-4" style="width:fit-content">
+    
+    <div class="card mb-4" style="width: 100%">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>
             Year Input
@@ -37,9 +38,12 @@
                     <tr>
                         <th>Sl#</th>
                         <th>Student Name</th>
+                        <th>Reg Number</th>
+                        <th>Roll Number</th>
                         <th>Year</th>
                         <th>Course Year</th>
                         <th>Section</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -49,6 +53,8 @@
                         <td>{{ ++$sl }}</td>
                        
                         <td>{{ $year->user->name }}</td> 
+                        <td>{{ $year->user->reg_num }}</td>
+                        <td>{{ $year->user->roll_num }}</td>
                         <td>{{ $year->year }}</td>  
                         <td>{{ $year->course_year }}</td>
                         <td>{{ $year->section }}</td>
