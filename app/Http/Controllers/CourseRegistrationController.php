@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\CourseRegistration;
 use App\Models\CurrentCourse;
+use App\Models\Teacher;
 use Illuminate\Http\Request;
 
 class CourseRegistrationController extends Controller
@@ -47,9 +49,29 @@ class CourseRegistrationController extends Controller
         for($i = 0; $i<count($course_id); $i++){
             array_push($current_courses, CurrentCourse::find($course_id[$i]));
         }
+
+        $course_id_from_current_courses = [];
+        foreach($current_courses as $current_course){
+            array_push($course_id_from_current_courses, $current_course->course_id);
+        }
+
+        $teacher_id_from_current_courses = [];
+        foreach($current_courses as $current_course){
+            array_push($teacher_id_from_current_courses, $current_course->teacher_id);
+        }
+
+        $taken_courses = [];
+        for($i = 0; $i<count($course_id_from_current_courses); $i++){
+            $taken_courses[$i] = Course::find($course_id_from_current_courses[$i]);
+        }
+
+        $taken_teachers = [];
+        for($i = 0; $i<count($teacher_id_from_current_courses); $i++){
+            $taken_teachers[$i] = Teacher::find($teacher_id_from_current_courses[$i]);
+        }
         // $check = [$courses, $current_courses];
         // return response()->json($check);
         //return response()->json($current_courses);
-        return [$courses, $current_courses];
+        return [$courses, $taken_courses, $taken_teachers, $current_courses];
     }
 }

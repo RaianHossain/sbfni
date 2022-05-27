@@ -13,7 +13,7 @@
         </x-backend.layouts.elements.breadcrumb>
     </x-slot>
 
-    <div class="card mb-4" style="width:fit-content">
+    <div class="card mb-4" style="width:100%">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>
             Course
