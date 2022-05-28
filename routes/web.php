@@ -271,6 +271,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
     Route::post('admin/result/create', [ResultController::class, 'store'])->name('result.store');
+
+    Route::get('/admin/result/{student_id}', [ResultController::class, 'showResults'])->name('result.show');
 });
 
 Route::resource('/admin/message', MessageController::class);

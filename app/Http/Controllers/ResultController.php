@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\CourseRegistration;
 use App\Models\CurrentCourse;
 use App\Models\Result;
@@ -17,7 +18,15 @@ class ResultController extends Controller
             
             array_push($currentList, $courseId->mycurrentcourse);
         }
-        return [$currentList, $student_id,$course_year, $year];
+        $course_ids = [];
+        foreach($currentList as $cl){
+            array_push($course_ids, $cl->course_id);
+        }
+        $courses = [];
+        foreach($course_ids as $course_id){
+            array_push($courses, Course::find($course_id));
+        }
+        return [$currentList, $student_id,$course_year, $year, $courses];
     }
     
     public function store(Request $request)

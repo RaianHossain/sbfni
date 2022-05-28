@@ -80,7 +80,7 @@
             fetch(`http://127.0.0.1/api/admin/get-courses/${course_year}/${year}/${student_id}`)
             .then(response => response.json())
             .then((data)=> {
-                console.log(data[0][0]);
+                console.log(data[0][0].id);
                 const parent = document.getElementById('modal_body');
                 
                 let inside = `<input type="hidden" name="back"/>`;
@@ -88,9 +88,9 @@
                 if(data[0].length > 1)
                 {
                     const routeInfo = getExtInfo
-                    for(i=0; i<data[0].length; i++)
+                    for(let i=0; i<data[0].length; i++)
                     {
-                        inside += `<label class="form-label" for="viva">${data[0][i].course_name}</label><br><input class="form-control" name="written[]" type="number" id="written" placeholder="Enter Written Mark"/><input class="form-control" name="oral[]" type="number" id="oral" placeholder="Enter Oral Mark"/>
+                        inside += `<label class="form-label" for="viva">${data[4][i].course_name}</label><br><input class="form-control" name="written[]" type="number" id="written" placeholder="Enter Written Mark"/><input class="form-control" name="oral[]" type="number" id="oral" placeholder="Enter Oral Mark"/>
                         <input class="form-control" name="formative[]" type="number" id="formative" placeholder="Enter formative Mark"/> 
                         <input class="form-control" name="practical[]" type="number" id="practical" placeholder="Enter practical Mark"/>   
                         <input class="form-control" name="written_pass[]" type="number" id="written_pass" placeholder="Enter Written Pass Mark"/>
