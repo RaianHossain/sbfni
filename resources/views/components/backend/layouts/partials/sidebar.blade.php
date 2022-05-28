@@ -48,13 +48,28 @@
                     Alumni
                 </a>
 
+                <a class="nav-link" href="{{ route('year.index') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                   Year
+                </a>
 
+                <a class="nav-link" href="{{ route('current_courses.index') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Current Courses
+                </a>
+
+                <a class="nav-link" href="{{ route('year.students') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Upload Result
+                </a>
 
                 <a class="nav-link" href="{{ route('course.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Course
                 </a>
 
+
+                {{-- 
                 <a class="nav-link" href="{{ route('section.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Section
@@ -65,10 +80,7 @@
                     Mark Destribution
                 </a>
 
-                <a class="nav-link" href="{{ route('year.index') }}">
-                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                   Year
-                </a>
+                
                 <a class="nav-link" href="{{ route('markinput.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Mark Input
@@ -87,7 +99,7 @@
                 <a class="nav-link" href="{{ route('grade.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Grade Input
-                </a>
+                </a> --}}
 
 
                 {{--@can('user-management')--}}
@@ -126,9 +138,13 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Student Registration
                 </a>
+                <a class="nav-link" href="{{ route('course_registration.create') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                   Course Registration
+                </a>
                 <a class="nav-link" href="#">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                    Result
+                    Show Result
                 </a>
 
             </div>

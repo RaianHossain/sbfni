@@ -26,12 +26,15 @@
             <form action="{{ route('year.store') }}" enctype="multipart/form-data" method="post">
                 @csrf
                 <label for="student_id">Select student</label>
-                <select name="student_id" class="form-control" id="student_id">
+                <select name="student_id" class="form-control" id="student_id" style="height: 80px !important">
+                   
                     <option value="">Select Year</option>
                     @foreach($students as $student)
-                    <option value="{{ $student->id }}">{{ $student->name }}</option>
+                    <option value="{{ $student->id }}">{{ $student->name }} ({{ $student->reg_num ? $student->reg_num : $student->roll_num }})</option>
                     @endforeach
                 </select>
+
+                
 
                 <br>
                 <label for="course_year">Select Course Year</label>
@@ -73,5 +76,16 @@
         </div>
     </div>
 
+    
+<script>
+    $(document).ready(function(){
+ 
+    // Initialize select2
+    $("#student_id").select2();
+
+    // Read selected option
+    
+    });
+</script>
 
 </x-backend.layouts.master>

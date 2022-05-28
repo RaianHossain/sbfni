@@ -28,19 +28,38 @@
 
                 <x-backend.form.input name="student_reg_no" type="number"/>
 
-                <x-backend.form.input name="scholarship_name" type="text"/>
+                <x-backend.form.input name="image" type="file"/>
+
+                <x-backend.form.input name="student_name" type="text"/>
 
                 <x-backend.form.input name="scholarship_amount" type="number"/> 
                 
                 <x-backend.form.input name="scholarship_duration" type="text"/>
 
+                <x-backend.form.input name="scholarship_commitment" type="text"/>
+
+                <x-backend.form.input name="doner_name" type="text"/>
+
                 <x-backend.form.input name="scholarship_description" type="textarea"/>
+                <br/>
+                <select name="year" class="form-control">
+                    <option value="">Select Year</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+                <br/>
 
                 <select name="scholarship_status" id="scholarship_status">
                     <option value="">Select Status</option>
                     <option value="1">Active</option>
                     <option value="0">Inactive</option>
                 </select>
+
+                <br/>
+                <br/>
+
 
                
 
