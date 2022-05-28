@@ -70,14 +70,14 @@ class ProfileController extends Controller
     public function show(profile $profile)
     {
         return view('backend.profiles.show', [
-            'profile' => $profile
+            'show_profile' => $profile
         ]);
     }
 
     public function edit(Profile $profile)
     {
         return view('backend.profiles.edit', [
-            'profile' => $profile
+            'edit_profile' => $profile
         ]);
     }
 
@@ -107,17 +107,20 @@ class ProfileController extends Controller
                 'student_id' => $request -> student_id,
             ];
 
-            if ($request->hasFile('img')) {
-                $img = $request->file('img');
-                $name = time() . '.' . $img->getClientOriginalExtension();
-                $destinationPath = storage_path('/app/public/profiles/');
-                $img->move($destinationPath, $name);
-                $profile->img = $name;
+            // if ($request->hasFile('img')) {
+            //     $img = $request->file('img');
+            //     $name = time() . '.' . $img->getClientOriginalExtension();
+            //     $destinationPath = storage_path('/app/public/profiles/');
+            //     $img->move($destinationPath, $name);
+            //     $profile->img = $name;
+            // }
+            if($request->hasFile('image')){
+                $profile->image = $this->uploadimg(request()->file('image'));
             }
 
             $profile->update($requestData);
 
-            return redirect()->route('profiles.index')->withMessage('Successfully Updated!');
+            return redirect()->route('admin.home')->withMessage('Successfully Updated!');
         } catch (QueryException $e) {
             return redirect()->back()->withInput()->withErrors($e->getMessage());
         }

@@ -20,27 +20,27 @@
         </div>
         <div class="card-body">                
                 
-                <p>full_name : <p>{{$profile->full_name }}</p></p>
-                <p>phone : <p>{{$profile->phone }}</p></p>
-                <p>address : <p>{{$profile->address }}</p></p>
-                <p>session : <p>{{$profile->session }}</p></p>
-                <p>course_name : <p>{{$profile->course_name }}</p></p>
-                <p>current_status : <p>{{$profile->current_status }}</p></p>
-                <p>result : <p>{{$profile->result }}</p></p>
-                <p>nid : <p>{{$profile->nid }}</p></p>
-                <p>dob : <p>{{$profile->dob }}</p></p>
-                <p>gender : <p>{{$profile->gender }}</p></p>
-                <p>blood_group : <p>{{$profile->blood_group }}</p></p>
-                <p>marital_status : <p>{{$profile->marital_status }}</p></p>
-                <p>father_name : <p>{{$profile->father_name }}</p></p>
-                <p>mother_name : <p>{{$profile->mother_name }}</p></p>
-                <p>father_phone : <p>{{$profile->father_phone }}</p></p>
-                <p>parent_address : <p>{{$profile->parent_address }}</p></p>
-                <p>current_year : <p>{{$profile->current_year }}</p></p>
-                <p>current_semester : <p>{{$profile->current_semester }}</p></p>
-                <p>student_id : <p>{{$profile->student_id }}</p></p>
+                <p>full_name : <p>{{$show_profile->full_name }}</p></p>
+                <p>phone : <p>{{$show_profile->phone }}</p></p>
+                <p>address : <p>{{$show_profile->address }}</p></p>
+                <p>session : <p>{{$show_profile->session }}</p></p>
+                <p>course_name : <p>{{$show_profile->course_name }}</p></p>
+                <p>current_status : <p>{{$show_profile->current_status }}</p></p>
+                <p>result : <p>{{$show_profile->result }}</p></p>
+                <p>nid : <p>{{$show_profile->nid }}</p></p>
+                <p>dob : <p>{{$show_profile->dob }}</p></p>
+                <p>gender : <p>{{$show_profile->gender }}</p></p>
+                <p>blood_group : <p>{{$show_profile->blood_group }}</p></p>
+                <p>marital_status : <p>{{$show_profile->marital_status }}</p></p>
+                <p>father_name : <p>{{$show_profile->father_name }}</p></p>
+                <p>mother_name : <p>{{$show_profile->mother_name }}</p></p>
+                <p>father_phone : <p>{{$show_profile->father_phone }}</p></p>
+                <p>parent_address : <p>{{$show_profile->parent_address }}</p></p>
+                <p>current_year : <p>{{$show_profile->current_year }}</p></p>
+                <p>current_semester : <p>{{$show_profile->current_semester }}</p></p>
+                <p>student_id : <p>{{$show_profile->student_id }}</p></p>
                 <p>Image : <h3>
-                    <img src="{{ asset('storage/profiles/'.$profile->img) }}" alt="{{$profile->name }}" width="100px" height="100px">
+                    <img src="{{ asset('storage/profiles/'.$show_profile->img) }}" alt="{{$show_profile->name }}" width="100px" height="100px">
                 </h3></p>      
         </div>
     </div>

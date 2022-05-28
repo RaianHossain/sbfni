@@ -30,19 +30,19 @@
             </div>
             @endif
 
-            <form action="{{ route('profiles.update', ['profile' => $profile->id]) }}" method="post" enctype="multipart/form-data">
+            <form action="{{ route('profiles.update', ['profile' => $edit_profile->id]) }}" method="post" enctype="multipart/form-data">
                 @csrf
-                @method('patch')
+                @method('put')
                 <input type="hidden" name="user_id" value={{ auth()->user()->id }}>
-               <x-backend.form.input name="full_name" :value="$profile->full_name"/>
-                <x-backend.form.input name="phone" :value="$profile->phone"/>
-                <x-backend.form.input name="address" :value="$profile->address"/>
-                <x-backend.form.input name="session" :value="$profile->session"/>
-                <x-backend.form.input name="course_name" :value="$profile->course_name"/>
-                <x-backend.form.input name="current_status" :value="$profile->current_status"/>
-                <x-backend.form.input name="result" :value="$profile->result"/>
-                <x-backend.form.input name="nid" :value="$profile->nid"/>
-                <x-backend.form.input name="dob" type="date" :value="$profile->dob"/>
+               <x-backend.form.input name="full_name" :value="$edit_profile->full_name"/>
+                <x-backend.form.input name="phone" :value="$edit_profile->phone"/>
+                <x-backend.form.input name="address" :value="$edit_profile->address"/>
+                <x-backend.form.input name="session" :value="$edit_profile->session"/>
+                <x-backend.form.input name="course_name" :value="$edit_profile->course_name"/>
+                <x-backend.form.input name="current_status" :value="$edit_profile->current_status"/>
+                <x-backend.form.input name="result" :value="$edit_profile->result"/>
+                <x-backend.form.input name="nid" :value="$edit_profile->nid"/>
+                <x-backend.form.input name="dob" type="date" :value="$edit_profile->dob"/>
                 <select class="form-select mb-2" name="gender" id="" aria-label="Gender">
                     <option value="">Select One</option>
                     <option value="male">Male</option>
@@ -67,13 +67,13 @@
                     <option value="Divorced">Divorced</option>
                     <option value="Widowed">Widowed</option>
                 </select>
-                <x-backend.form.input name="father_name" :value="$profile->father_name"/>
-                <x-backend.form.input name="mother_name" :value="$profile->mother_name"/>
-                <x-backend.form.input name="father_phone" :value="$profile->father_phone"/>
-                <x-backend.form.input name="parent_address" :value="$profile->parent_address"/>
-                <x-backend.form.input name="current_year" :value="$profile->current_year"/>
-                <x-backend.form.input name="current_semester" :value="$profile->current_semester"/>
-                <x-backend.form.input name="student_id" :value="$profile->student_id"/>
+                <x-backend.form.input name="father_name" :value="$edit_profile->father_name"/>
+                <x-backend.form.input name="mother_name" :value="$edit_profile->mother_name"/>
+                <x-backend.form.input name="father_phone" :value="$edit_profile->father_phone"/>
+                <x-backend.form.input name="parent_address" :value="$edit_profile->parent_address"/>
+                <x-backend.form.input name="current_year" :value="$edit_profile->current_year"/>
+                <x-backend.form.input name="current_semester" :value="$edit_profile->current_semester"/>
+                <x-backend.form.input name="student_id" :value="$edit_profile->student_id"/>
                 <x-backend.form.input name="image" type="file"/>
 
                 <x-backend.form.button>Update</x-backend.form.button>

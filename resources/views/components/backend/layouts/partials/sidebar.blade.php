@@ -130,7 +130,7 @@
             @can('student') 
             <div class="nav">
                 <div class="sb-sidenav-menu-heading">List</div>
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('admin.home') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Profile
                 </a>

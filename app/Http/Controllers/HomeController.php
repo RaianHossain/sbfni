@@ -162,6 +162,6 @@ class HomeController extends Controller
     {
         return view('frontend.curriculam');
     }
-
+    
 
 }

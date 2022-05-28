@@ -130,14 +130,14 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/profiles/trashed-profiles/{profile}/restore', [ProfileController::class, 'restore'])->name('profiles.restore');
     Route::delete('/admin/profiles/trashed-profiles/{profile}/delete', [ProfileController::class, 'delete'])->name('profiles.delete');
 
-    // Route::resource('/admin/profiles', ProfileController::class);
-    Route::get('/admin/profiles', [ProfileController::class, 'index'])->name('profiles.index');
-    Route::get('/admin/profiles/create', [ProfileController::class, 'create'])->name('profiles.create');
-    Route::post('/admin/profiles', [ProfileController::class, 'store'])->name('profiles.store');
-    Route::get('/admin/profiles/{profile}', [ProfileController::class, 'show'])->name('profiles.show');
-    Route::get('/admin/profiles/{profile}/edit', [ProfileController::class, 'edit'])->name('profiles.edit');
-    Route::put('/admin/profiles/{profile}', [ProfileController::class, 'update'])->name('profiles.update');
-    Route::delete('/admin/profiles/{profile}', [ProfileController::class, 'destroy'])->name('profiles.destroy');
+    Route::resource('/admin/profiles', ProfileController::class);
+    // Route::get('/admin/profiles', [ProfileController::class, 'index'])->name('profiles.index');
+    // Route::get('/admin/profiles/create', [ProfileController::class, 'create'])->name('profiles.create');
+    // Route::post('/admin/profiles', [ProfileController::class, 'store'])->name('profiles.store');
+    // Route::get('/admin/profiles/{profile}', [ProfileController::class, 'show'])->name('profiles.show');
+    // Route::get('/admin/profiles/{profile}/edit', [ProfileController::class, 'edit'])->name('profiles.edit');
+    // Route::put('/admin/profiles/{profile}', [ProfileController::class, 'update'])->name('profiles.update');
+    // Route::delete('/admin/profiles/{profile}', [ProfileController::class, 'destroy'])->name('profiles.destroy');
 
 
     // Notice
@@ -280,5 +280,6 @@ Route::get('/notification/{message}/{notification}', [NotificationController::cl
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');
+
 
 require __DIR__ . '/auth.php';

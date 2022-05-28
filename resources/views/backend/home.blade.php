@@ -151,12 +151,12 @@
         Student Portal
     </x-slot>
 
-    <x-slot name='breadCrumb'>
+    {{-- <x-slot name='breadCrumb'>
         <x-backend.layouts.elements.breadcrumb>
-            <x-slot name="pageHeader"> {{ auth()->user()->name }} </x-slot>
+            <x-slot name="pageHeader"> Welcome, {{ auth()->user()->name }} </x-slot>
             
         </x-backend.layouts.elements.breadcrumb>
-    </x-slot>
+    </x-slot> --}}
 
     <div class="container">
     <div class="main-body">
@@ -165,12 +165,21 @@
       <div class="card">
         <div class="card-body">
           <div class="d-flex flex-column align-items-center text-center">
-            <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+            @php
+             $profile=\App\Models\Profile::where('user_id',auth()->user()->id)->first();
+            //  @dd($profile);
+            @endphp
+            @if ($profile->image)
+              <img src="{{ asset('storage/profiles/'.$profile->image ) }}" alt="{{$profile->name }}"class="rounded-circle" width="150">
+            @else
+              "No Image"
+            @endif
+            
             <div class="mt-3">
               <h4>{{ auth()->user()->name }}</h4>
               <p class="text-secondary mb-1">{{ auth()->user()->role_id }}</p>
               <p class="text-muted font-size-sm">{{ auth()->user()->email }}</p>
-              <button class="btn btn-outline-primary">Message</button>
+              {{-- <button class="btn btn-outline-primary">Message</button> --}}
               {{-- <a href="{{ route('profile.edit', auth()->user()->id) }}" class="btn btn-outline-primary">Edit</a> --}}
               
 
@@ -178,7 +187,7 @@
           </div>
         </div>
       </div>
-      <div class="card mt-3">
+      {{-- <div class="card mt-3">
         <ul class="list-group list-group-flush">
           <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
             <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe mr-2 icon-inline"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>Website</h6>
@@ -190,7 +199,7 @@
             <span class="text-secondary">bootdey</span>
           </li>
         </ul>
-      </div>
+      </div> --}}
     </div>
     <div class="col-md-8">
       <div class="card mb-3">
@@ -200,7 +209,7 @@
               <h6 class="mb-0">Full Name</h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              {{ auth()->user()->name }}
+              {{ $profile->full_name ?? 'Edit Profile' }}
             </div>
           </div>
           <hr>
@@ -218,37 +227,75 @@
               <h6 class="mb-0">Phone</h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              (239) 816-9029
+              {{ $profile->phone ?? 'Edit Profile'}}
             </div>
           </div>
           <hr>
           <div class="row">
             <div class="col-sm-3">
-              <h6 class="mb-0">Mobile</h6>
+              <h6 class="mb-0">Father Name</h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              (320) 380-4539
+              {{ $profile->father_name ?? 'Edit Profile'}}
             </div>
           </div>
           <hr>
+
           <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Mother Name</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->mother_name ?? 'Edit Profile'}}
+            </div>
+          </div>
+      {{--    <hr>
+
+           <div class="row">
             <div class="col-sm-3">
               <h6 class="mb-0">Address</h6>
             </div>
             <div class="col-sm-9 text-secondary">
-              Bay Area, San Francisco, CA
+              {{ $profile->address }}
             </div>
           </div>
           <hr>
           <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">NID</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->nid }}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0"> Date of Birth</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->dob }}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0"> Gender</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->gender }}
+            </div>
+          </div>
+          <hr> --}}
+          <div class="row">
             <div class="col-sm-12">
-              <a class="btn btn-info " target="__blank" href="https://www.bootdey.com/snippets/view/profile-edit-data-and-skills">Edit</a>
+              <a class="btn btn-info " target="__blank" href="{{ route('profiles.edit', ['profile' =>$profile->id]) }}">Edit</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row gutters-sm">
+      {{-- <div class="row gutters-sm">
         <div class="col-sm-6 mb-3">
           <div class="card h-100">
             <div class="card-body">
@@ -272,7 +319,124 @@
             </div>
           </div>
         </div>
+      </div> --}}
+
+
+
+    </div>
+    <div class="col-md-12">
+      <div class="card mb-3">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Address</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->address ?? 'Edit Profile' }}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">NID</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->nid ?? 'Edit Profile' }}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0"> Date of Birth</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->dob ?? 'Edit Profile'}}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0"> Gender</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->gender ?? 'Edit Profile' }}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+           <div class="col-sm-3">
+              <h6 class="mb-0">Blood Group</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->blood_group ?? 'Edit Profile'}}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Marital Status</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->marital_status ?? 'Edit Profile'}}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Father Phone</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->father_phone ?? 'Edit Profile'}}
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Parent Address</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->parent_address ?? 'Edit Profile'}}
+            </div>
+          </div>
+          <hr>
+
+          <div class="row">
+            <div class="col-sm-3">
+              <h6 class="mb-0">Current Year</h6>
+            </div>
+            <div class="col-sm-9 text-secondary">
+              {{ $profile->current_year ?? 'Edit Profile'}}
+            </div>
+          </div>
+          {{-- <hr> --}}
+        </div>
       </div>
+
+      {{-- <div class="row gutters-sm">
+        <div class="col-sm-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Sales Status</h6>
+              <small>Sales</small>
+              <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Order Status</h6>
+              <small>Total Order</small>
+              <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> --}}
 
 
 
