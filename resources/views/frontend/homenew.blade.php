@@ -252,35 +252,35 @@
   </section>
 
   {{--Our Skills Section--}}
-  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#87CEFA;">
+  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#000033;">
     <div class="shell">
       <h1 class="main text-center text-white" style="color:#73C2FB;"><b>Our Skills</b> </h1>
       <hr class="divider bg-white">
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white  pt-3">Lab</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3 ">Teachers</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Campus</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Library</h6>
           </div>
