@@ -100,8 +100,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Nursing</h3>
-            <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
-              More than 500 international students are enrolled in various programs.</p>
+            <p class="text-white">Nursing is a profession within the health care sector focused on the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life. They also take on vital roles of education, assessing situations, as support.</p>
           </div>
         </div>
       </div>
@@ -114,8 +113,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Admission</h3>
-            <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
-              More than 500 international students are enrolled in various programs.</p>
+            <p class="text-white">The admissions nurse role is a unique opportunity for nurses to familiarize themselves with the hospital and to work with staff outside their normal unit. </p>
           </div>
         </div>
       </div>
@@ -128,8 +126,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Tution Fee</h3>
-            <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
-              More than 500 international students are enrolled in various programs.</p>
+            <p class="text-white">Tution Fees are payable every year.While a number of courses involving computers or media have been growing every year, nursing is also using technology. The Tution fee.Tution fee is included with all the laboratory & Computer lab fees. </p>
           </div>
         </div>
       </div>
@@ -142,8 +139,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Scholarship</h3>
-            <p class="text-white">We have students coming from different backgrounds, cultures, and nationalities as well.
-              More than 500 international students are enrolled in various programs.</p>
+            <p class="text-white">Scholarship in nursing can be defined as those activities that systematically advance the teaching, research, and practice of nursing through rigorous inquiry . </p>
           </div>
         </div>
       </div>
@@ -252,35 +248,35 @@
   </section>
 
   {{--Our Skills Section--}}
-  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#87CEFA;">
+  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#000033;">
     <div class="shell">
       <h1 class="main text-center text-white" style="color:#73C2FB;"><b>Our Skills</b> </h1>
       <hr class="divider bg-white">
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white  pt-3">Lab</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3 ">Teachers</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Campus</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#696969" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Library</h6>
           </div>
@@ -291,7 +287,7 @@
 
 
   {{--Event Section--}}
-  <section class="mb-5" style="padding-top:80px;">
+  <section class="mb-5 section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Recent Events</b></h1>
       <p class="text-grey mb-5 text-center">Through a lot of meaningful and impactful events students get the opportunity to develop their skills and portfolio beyond the curriculam.</p>
@@ -347,9 +343,9 @@
 
 
   {{--Recent News Section--}}
-  <section class=" pb-5 bg-catskill" style="padding-top:80px;">
+  <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;">
     <div class="shell isotope-wrap justify-content-center">
-      <h1 class="main text-center" style="color:#002833"><b>Latest News</b></h1>
+      <h1 class="main text-center " style="color:#002833;"><b>Latest News</b></h1>
       <p class="text-grey mb-5 text-center">Get all the latest news here & stay up-to-date </p>
       <hr class="divider bg-madison" />
       <div class="range range-50 offset-top-50 range-xs-center">
