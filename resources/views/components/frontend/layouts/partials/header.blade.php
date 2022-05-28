@@ -82,7 +82,7 @@
                   <ul class="mega-links">
 
                     <li><a href="{{ route('admission_procedure') }}">Admission Procedure</a></li>
-                    <li><a href="{{ route('admission_procedure') }}">Admission Form</a></li>
+                    <li><a href="{{ route('admission_from') }}">Admission Form</a></li>
                     <li><a href="#">Financial Aid & Scholarship</a></li>
                     <li><a href="{{ route('admission_information') }}">Information</a></li>
                   </ul>

@@ -57,4 +57,13 @@ class ResultController extends Controller
         }
         return redirect()->back();
     }
+
+    public function showResults($student_id)
+    {
+        $firstYearResults = Result::where('student_id', $student_id)->where('course_year', '1')->get();
+        $secondYearResults = Result::where('student_id', $student_id)->where('course_year', '2')->get();
+        $thirdYearResults = Result::where('student_id', $student_id)->where('course_year', '3')->get();
+        // dd(count($secondYearResults));
+        return view('backend.result.show', compact('firstYearResults', 'secondYearResults', 'thirdYearResults'));
+    }
 }

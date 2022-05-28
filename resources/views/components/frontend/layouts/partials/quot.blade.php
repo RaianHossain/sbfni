@@ -1,5 +1,5 @@
 
-<section   style="padding-top: 80px; background-color:#a4d3f7; padding-bottom: 80px"  >
+<section   style="padding-top: 80px; background-color:#666633; padding-bottom: 80px"  >
 <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="padding-top: 80px; padding-bottom:30px; padding-left:200px;">
 
