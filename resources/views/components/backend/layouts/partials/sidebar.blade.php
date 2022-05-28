@@ -142,9 +142,14 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Course Registration
                 </a>
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('result.showresults', ['student_id' => auth()->user()->id]) }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Show Result
+                </a>
+
+                <a class="nav-link" href="{{ route('teacher.evaluation.show', ['student_id' => auth()->user()->id, 'year'=>date('Y')]) }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Teacher Evaluation
                 </a>
 
             </div>

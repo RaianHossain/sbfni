@@ -4,6 +4,7 @@ use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\CourseRegistrationController;
 use App\Http\Controllers\CurrentCourseController;
+use App\Http\Controllers\EvaluationController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\ExamController;
 use App\Http\Controllers\GradeCategoryController;
@@ -272,7 +273,13 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/first-year/a-section/{course_year}/{year}', [YearController::class, 'showFirstYearASection'])->name("first-year.a-section");
     Route::post('admin/result/create', [ResultController::class, 'store'])->name('result.store');
 
-    Route::get('/admin/result/{student_id}', [ResultController::class, 'showResults'])->name('result.show');
+    Route::get('/admin/result/{student_id}', [ResultController::class, 'showResults'])->name('result.showresults');
+
+    Route::get('/admin/teacher-evaluation/show/{student_id}/{year}', [EvaluationController::class, 'show'])->name('teacher.evaluation.show');
+
+    Route::get('/admin/teacher-evaluation/create/{student_id}/{year}/{currentcourse_id}', [EvaluationController::class, 'create'])->name('teacher.evaluation.create');
+
+    Route::post('/admin/teacher-evaluation/store', [EvaluationController::class, 'store'])->name('teacher.evaluation.store');
 });
 
 Route::resource('/admin/message', MessageController::class);
