@@ -14,25 +14,25 @@
     </div>
 </section>
 <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
-    <div class="shell">
+    <div class="shell" >
         <div class="range range-50 range-xs-center">
             <div class="cell-sm-8 cell-md-8 text-md-left">
                 <h3 class="text-bold"> {{ $newnews->title }} </h3>
                 <hr class="divider bg-madison hr-md-left-0">
                 <div class="offset-md-top-20 offset-top-10">
-                    <ul class="post-news-meta list list-inline list-inline-xl">
+                    <ul class="post-news-meta list list-inline list-inline-xl" style="padding:0px 5px;">
                         <li><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">{{ $newnews->created_at->diffForHumans() }}</span></li>
                         <li><span class="icon novi-icon icon-xs mdi mdi-account text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-primary">{{ $newnews->author }}</span></li>
                     </ul>
                 </div>
-                <div class="offset-top-30"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img1) }}" width="770" height="500" alt="">
-                    <div class="offset-top-30">
+                <div class="offset-top-30" style="padding:10px 10px;"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img1) }}" width="770" height="500" alt="">
+                    <div class="offset-top-30" style="padding:10px 10px;">
                         <p>{{ $newnews->script1 }}</p>
                     </div>
                     
                 </div>
-                <div class="offset-top-30"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img2) }}" width="770" height="500" alt="">
-                    <div class="offset-top-30">
+                <div class="offset-top-30" style="padding:10px 10px;"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img2) }}" width="770" height="500" alt="">
+                    <div class="offset-top-30" style="padding:10px 10px;">
                         <p>{{ $newnews->script2 }}</p>
                     </div>
                    
@@ -54,7 +54,7 @@
                     <h6 class="text-bold">Author</h6>
                     <div class="text-subline"></div>
                     <div class="offset-top-30">
-                        <div class="unit unit-sm unit-sm-horizontal unit-spacing-lg">
+                        <div class="unit unit-sm unit-sm-horizontal unit-spacing-lg" style="padding:10px 10px;">
                             <div class="unit-left"><img class="img-responsive img-rounded reveal-inline-block" src="{{ asset('storage/news/'.$newnews->author_img) }}" width="170" height="170" alt=""></div>
                             <div class="unit-body text-sm-left">
                                 <h6 class="text-bold text-primary">{{ $newnews->author }}</h6>
@@ -134,7 +134,7 @@
                     <div class="aside-item">
                         <h6 class="text-bold">Relavent Links</h6>
                         <div class="text-subline"></div>
-                        <div class="offset-top-20">
+                        <div class="offset-top-20" style="padding:5px 5px;">
                             <ul class="list list-marked list-marked-primary">
                                 <li><a href="http://www.bnmc.gov.bd/" target="_blank">Nursing Council</a></li>
                                 <li><a href="http://bnmc.teletalk.com.bd/" target="_blank">Admission Form Link</a></li>
