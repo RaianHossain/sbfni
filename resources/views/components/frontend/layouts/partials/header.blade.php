@@ -1,4 +1,6 @@
 <header>
+  
+
     <div class="row" id="fiji-id">
       <div class="fiji col-md-4">
         <div class="d-flex mt-5">
@@ -24,6 +26,8 @@
         </div>
       </div>
     </div>
+  
+    
     {{--nav start--}}
     <nav class="fiji-class">
       <div class="wrapper">

@@ -6,8 +6,8 @@
         <div class="section-60">
             <div class="shell">
                 <div class="range range-50 range-lg-justify range-xs-center">
-                    <div class="cell-md-3 cell-lg-3 text-center"><a class="reveal-inline-block"  href="http://www.sbfus.org" target="_blank" ><img src="{{ asset('ui/frontend/images/logo/sbf.png') }}" alt="" width="191" height="80" srcset="{{ asset('ui/frontend/images/logo/sbf.png') }}"><br /><h5>Sonar Bangla Foundation (SBF)</h5></a>
-                        <div class="offset-top-30 text-center">
+                    <div class="cell-md-3 cell-lg-3 text-center"><a class="reveal-inline-block"  href="http://www.sbfus.org" target="_blank" ><img src="{{ asset('ui/frontend/images/logo/sbf.png') }}" alt="" width="191" height="80" srcset="{{ asset('ui/frontend/images/logo/sbf.png') }}"><br /><h5></h5></a>
+                        <div class="offset-top-30 text-center" style="padding: 20px;">
                             <ul class="list-inline list-inline-xs list-inline-madison">
                                 <li><a class="icon novi-icon icon-xxs fa-facebook icon-circle icon-gray-light-filled" href="https://www.facebook.com/SBF-Nursing-Institute-lalmonirhat-495775934160351" target="blank"></a></li>
                                 <li><a class="icon novi-icon icon-xxs fa-twitter icon-circle icon-gray-light-filled" href="#"></a></li>
@@ -20,7 +20,7 @@
                         <h6 class="text-bold">Contact us</h6>
                         <div class="text-subline"></div>
                         <div class="offset-top-30">
-                            <ul class="list-unstyled contact-info list">
+                            <ul class="list-unstyled contact-info list" style="padding: 20px 10px;">
                                 <li>
                                     <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                         <div class="unit-left"><span class="icon novi-icon mdi mdi-phone text-middle icon-xs text-madison"></span></div>
@@ -42,10 +42,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="cell-xs-10 cell-md-8 cell-lg-4 text-lg-left" style="padding: 10px 10px">
+                    <div class="cell-xs-10 cell-md-8 cell-lg-4 text-lg-left" >
 
-                        <h6 class="text-bold" > Adopt a student in SBFNI</h6>
-                        <div class="text-subline" style="color:black ">SBF is running a Nursing Institute at Lalmonirhat to help rural students engaged in noble nursing profession. It provides quality education and practical training to make the financially needy students stand on their own feet. The students are either orphans or come of an extreme needy family. You may adopt such a student by sponsoring his/her tuition, logging, food etc.
+                        <h6 class="text-bold"> Adopt a student in SBFNI</h6>
+                        <div class="text-subline" style="color:black; "><div class="sbf-sub" style=" padding: 20px 10px;"> SBF is running a Nursing Institute at Lalmonirhat to help rural students engaged in noble nursing profession. It provides quality education and practical training to make the financially needy students stand on their own feet. The students are either orphans or come of an extreme needy family. You may adopt such a student by sponsoring his/her tuition, logging, food etc.</div>
 
                         </div>
 
