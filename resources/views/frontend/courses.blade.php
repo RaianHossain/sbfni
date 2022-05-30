@@ -24,18 +24,18 @@
                                 <h3 class="text-bold veil reveal-lg-block">Course Description</h3>
                                 <div class="hr divider bg-madison hr-sm-left-0 veil reveal-lg-block"></div>
                                 <div class="offset-lg-top-30">
-                                    <h3>Nursing</h3>
+                                    <h3 style="padding: 10px 10px">Nursing</h3>
                                     <p>Nursing assists clients (individuals, families and communities which aggregates of people within communities) to attain physical, mental, social and spiritual well-being. Nursing involves a dynamic interaction between client and nurse aimed to promote, maintain, and restore optimal health in collaboration with other health team members. It also encourages involvement of clients and significant others in the care for self-reliance and in modifying their health behaviors. Nurses use nursing process in determining clients’ needs or problems in responses to actual or potential health problems, planning for nursing interventions, intervening, and evaluating responses. Nurses deliver community-oriented nursing care, taking into account clients’ community context. Critical thinking is the basis for nurses to apply nursing knowledge and to follow ethical and legal framework in their practice. </p>
                                 </div>
-                                <div class="offset-top-30"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF3.JPG') }}" width="770" height="480" alt=""></div>
-                                <div class="offset-top-30">
-                                    <h3>Midwifery</h3>
+                                <div class="offset-top-30" style="padding: 10px 10px"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF3.JPG') }}" width="770" height="480" alt=""></div>
+                                <div class="offset-top-30" style="padding: 10px 10px">
+                                    <h3 style="padding: 10px 10px">Midwifery</h3>
                                     <p>Midwifery is care of the girl-child, the adolescent and the adult woman prior to, during, and following pregnancy. It aims to promote, maintain, and restore optimal health and views pregnancy as a normal life event. Midwife gives necessary supervision, care and advice for women during pregnancy, labor and the postpartum period. The midwife conducts deliveries on her own responsibility and cares for the newborn infant. She detects abnormal conditions in the mother and baby, procures medical assistance as necessary; and the execution of emergency measures in the absence of medical help. The midwife works in collaboration with other health care team members and/or community-based health workers in promoting the health of women and childbearing families.</p>
 
-                                    <h3>Nursing Education</h3>
+                                    <h3 style="padding: 10px 10px">Nursing Education</h3>
                                     <p>Nursing education is a dynamic, continuous learning process of acquiring nursing and midwifery knowledge and skills that bring about changes of student behaviors. Nursing education acquires active and life-long learning and new learning builds on previous knowledge and experience. Learning in nursing education is best achieved when student is motivated and ready to learn, where student’s dignity is respected; teaching strategies and learning experiences are carefully selected to facilitate critical thinking; and professional or clinical role modeling is offered.  </p>
 
-                                    <h3>Goal</h3>
+                                    <h3 style="padding: 10px 10px">Goal</h3>
                                     <p>The institutional goal of this program is to produce competent nurses that will enable them for  demonstrate the competency of using knowledge-based practice for provision of quality holistic client centered nursing care to meet the needs/expectations and to promote, maintain, and restore heath of  individuals, families, and communities nationally and internationally.</p>
                                     
                                 </div>
@@ -47,7 +47,7 @@
                                 <div class="hr divider bg-madison hr-sm-left-0 veil reveal-lg-block"></div>
                                 <div class="offset-lg-top-30">
                                     <ol>
-                                        <li>Demonstrate to have knowledge in:  
+                                        <li style="padding: 10px 10px">Demonstrate to have knowledge in:  
                                             <ol>
                                                 <li>Basic sciences, applied sciences, and human sciences.</li>
                                                 <li>Nursing science focusing on interpersonal communication, nursing process, holistic  nursing, community-oriented nursing, and knowledge requiring for making clinical nursing  judgment in common and simple health problems/situations of nursing clients across  health-illness continuum and throughout the life course.</li>
@@ -57,7 +57,7 @@
                                                 <li>Computer and Informational Technology.</li>
                                             </ol>
                                         </li>
-                                        <li>Demonstrate to have skills in:
+                                        <li style="padding: 10px 10px">Demonstrate to have skills in:
                                             <ol>
                                                 <li>Using nursing process with knowledge-based clinical skills and critical thinking skills in  caring for clients with common and simple health problems/situations across health illness continuum and throughout the life course in order to promote, maintain, and  restore health</li>
                                                 <li>Providing client-centered and holistic care with caring behaviors.</li>
@@ -85,8 +85,8 @@
                                 <div class="offset-lg-top-30">
                                     <p>The curriculum is dynamic with provision for incorporating emerging health problems and changing health policies as well as latest advancement in health sciences. The Diploma in Nursing Science and  Midwifery curriculum is designed for BNMC recognized institutions and incorporate(1) General  courses to prepare students to understand the world, understand human behaviors and well-behave in  the society (2) Foundation courses to furnish students with essential knowledge relevant to nursing and  midwifery and (3) Professional courses for nursing and midwifery specific courses. The courses are sequenced from year one to year three, from simple to complex, with an attempt to increase students’ competencies overtime.</p>
                                 </div>
-                                <div class="offset-top-30"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF4.JPG') }}" width="770" height="480" alt=""></div>
-                                <div class="offset-top-30">
+                                <div class="offset-top-30" style="padding: 20px 10px"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF4.JPG') }}" width="770" height="480" alt=""></div>
+                                <div class="offset-top-30" style="padding: 10px 10px">
                                     <h3>Title of courses:</h3>
                                     <ol>
                                         <li>General Course:
@@ -136,7 +136,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center"  >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">First year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">First year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -147,27 +147,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D111</td>
-                                                <td>Behavioral Science</td>
+                                                <td class="td text text-left">Behavioral Science</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D112</td>
-                                                <td>Basic Science</td>
+                                                <td class="td text text-left">Basic Science</td>
                                                 <td>128</td>
                                             </tr>
                                             <tr>
                                                 <td>D123</td>
-                                                <td>Anatomy and Physiology</td>
+                                                <td class="td text text-left">Anatomy and Physiology</td>
                                                 <td>256</td>
                                             </tr>
                                             <tr>
                                                 <td>D124</td>
-                                                <td>Microbiology and Parasitology</td>
+                                                <td class="td text text-left">Microbiology and Parasitology</td>
                                                 <td>64</td>
                                             </tr>
                                             <tr>
                                                 <td>D135</td>
-                                                <td>Fundamentals of Nursing</td>
+                                                <td class="td text text-left">Fundamentals of Nursing</td>
                                                 <td>824</td>
                                             </tr>
                                             <tr>
@@ -175,12 +175,12 @@
                                             </tr>
                                             <tr>
                                                 <td>D116</td>
-                                                <td>Communicative English</td>
+                                                <td class="td text text-left">Communicative English</td>
                                                 <td>80</td>
                                             </tr>
                                             <tr>
                                                 <td>D117</td>
-                                                <td>Computer and Information Technology</td>
+                                                <td class="td text text-left">Computer and Information Technology</td>
                                                 <td>64</td>
                                             </tr>
                                             <tr >
@@ -195,7 +195,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center" >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">Second year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">Second year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -206,27 +206,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D231</td>
-                                                <td>Medical & Surgical Nursing</td>
+                                                <td class="td text text-left">Medical & Surgical Nursing</td>
                                                 <td>832</td>
                                             </tr>
                                             <tr>
                                                 <td>D222</td>
-                                                <td>Pharmacology</td>
+                                                <td class="td text text-left">Pharmacology</td>
                                                 <td>80</td>
                                             </tr>
                                             <tr>
                                                 <td>D223</td>
-                                                <td>Nutrition and Dietetics</td>
+                                                <td class="td text text-left">Nutrition and Dietetics</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D234</td>
-                                                <td>Community Health Nursing</td>
+                                                <td class="td text text-left">Community Health Nursing</td>
                                                 <td>292</td>
                                             </tr>
                                             <tr>
                                                 <td>D235</td>
-                                                <td>Pediatric Nursing</td>
+                                                <td class="td text text-left">Pediatric Nursing</td>
                                                 <td>260</td>
                                             </tr>
                                             
@@ -243,7 +243,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center" >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">Third year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">Third year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -254,27 +254,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D331</td>
-                                                <td>Midwifery</td>
+                                                <td class="td text text-left">Midwifery</td>
                                                 <td>1192</td>
                                             </tr>
                                             <tr>
                                                 <td>D332</td>
-                                                <td>Psychiatric Nursing</td>
+                                                <td class="td text text-left">Psychiatric Nursing</td>
                                                 <td>144</td>
                                             </tr>
                                             <tr>
                                                 <td>D333</td>
-                                                <td>Orthopedic Nursing</td>
+                                                <td class="td text text-left">Orthopedic Nursing</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D334</td>
-                                                <td>Leadership and Management</td>
+                                                <td class="td text text-left">Leadership and Management</td>
                                                 <td>96</td>
                                             </tr>
                                             <tr>
                                                 <td>D335</td>
-                                                <td>Research Methodology</td>
+                                                <td class="td text text-left">Research Methodology</td>
                                                 <td>80</td>
                                             </tr>
                                             
@@ -298,14 +298,14 @@
                             <div class="inset-lg-right-60">
                                 <h3 class="text-bold veil reveal-lg-block">Course Duration</h3>
                                 <div class="hr divider bg-madison hr-sm-left-0 veil reveal-lg-block"></div>
-                                <div class="offset-lg-top-30"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF5.JPG') }}" width="770" height="480" alt=""></div>
+                                <div class="offset-lg-top-30" style="padding: 10px 10px"><img class="img-responsive reveal-inline-block" src="{{ asset('ui/frontend/images/course/SBF5.JPG') }}" width="770" height="480" alt=""></div>
                                 <div class="offset-top-30">
                                     <p>There should be a minimum period of three years of education programmer. Total hours are 5112 in the three years course. The academic year will start from January in each year. After completion of the program every student has to perform 06(six) months internship in an appropriate clinical areas/hospitals according to logbook. On the successful completion of the course, the student is required to take the BNMC comprehensive examination for licensing as a registered nurse. BNMC will issue professional License and academic certificate.</p>
-                                    <h3>Student registration</h3>
+                                    <h3 style="padding: 10px 10px">Student registration</h3>
                                     <p>After admission every student’s must do student registration according to BNMC Act (Act No. 48 of 2016) Clause-5 (TA). The validity of the student registration will be of 06 years.</p>
-                                    <h3>Medium of Instruction</h3>
+                                    <h3 style="padding: 10px 10px">Medium of Instruction</h3>
                                     <p>English language is used as a medium of instruction with supplemental Bangla language, as necessary.</p>
-                                    <h3>Method of Recruitment:</h3>
+                                    <h3 style="padding: 10px 10px">Method of Recruitment:</h3>
                                     <p>The Applicants who meet the following criteria will be eligible to enter into the Diploma in Nursing Science and Midwifery:  
                                 a. Entry qualification: The applicants must have passed both SSC & HSC examinations from any discipline from any educational Board of Intermediate and Secondary Education in Bangladesh. Students will be selected on merit basis. Merit score will be determined from cumulative result of GPA SSC, HSC& admission test which will be decided by admission committee. 
                                 b. Marks conversion from General Certificate of Education (GCE) - ‘O’ level and ‘A’ level will be decided by the central admission committee.  
@@ -317,7 +317,7 @@
                                 Admission test will be conducted as per Act. Of BNMC-2016 according to admission policy.
                                 </p>
                                 </div>
-                                <div class="offset-top-30"><a class="btn btn-primary" href="{{ route('admission_information') }}">Choose a Program</a></div>
+                                <div class="offset-top-30" style="padding: 10px 10px"><a class="btn btn-primary" href="{{ route('admission_information') }}">Choose a Program</a></div>
                             </div>
                         </div>
                         <div>
@@ -375,7 +375,7 @@
                                 </ul>
                                 </div>
                                 {{-- <div class="offset-top-30"><img class="img-responsive reveal-inline-block" src="images/academics-07-770x480.jpg" width="770" height="480" alt=""></div> --}}
-                                <div class="offset-top-30">
+                                <div class="offset-top-30" style="padding: 10px 10px">
                                     <p>For More <a href="http://www.bnmc.gov.bd/" target="_blank">Details </a></p>
                                 </div>
                             </div>
