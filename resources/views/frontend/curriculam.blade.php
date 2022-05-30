@@ -27,7 +27,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center"  >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">First year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">First year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -38,27 +38,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D111</td>
-                                                <td>Behavioral Science</td>
+                                                <td class="td text text-left">Behavioral Science</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D112</td>
-                                                <td>Basic Science</td>
+                                                <td class="td text text-left">Basic Science</td>
                                                 <td>128</td>
                                             </tr>
                                             <tr>
                                                 <td>D123</td>
-                                                <td>Anatomy and Physiology</td>
+                                                <td class="td text text-left">Anatomy and Physiology</td>
                                                 <td>256</td>
                                             </tr>
                                             <tr>
                                                 <td>D124</td>
-                                                <td>Microbiology and Parasitology</td>
+                                                <td class="td text text-left">Microbiology and Parasitology</td>
                                                 <td>64</td>
                                             </tr>
                                             <tr>
                                                 <td>D135</td>
-                                                <td>Fundamentals of Nursing</td>
+                                                <td class="td text text-left">Fundamentals of Nursing</td>
                                                 <td>824</td>
                                             </tr>
                                             <tr>
@@ -66,12 +66,12 @@
                                             </tr>
                                             <tr>
                                                 <td>D116</td>
-                                                <td>Communicative English</td>
+                                                <td class="td text text-left">Communicative English</td>
                                                 <td>80</td>
                                             </tr>
                                             <tr>
                                                 <td>D117</td>
-                                                <td>Computer and Information Technology</td>
+                                                <td class="td text text-left">Computer and Information Technology</td>
                                                 <td>64</td>
                                             </tr>
                                             <tr >
@@ -86,7 +86,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center" >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">Second year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">Second year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -97,27 +97,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D231</td>
-                                                <td>Medical & Surgical Nursing</td>
+                                                <td class="td text text-left">Medical & Surgical Nursing</td>
                                                 <td>832</td>
                                             </tr>
                                             <tr>
                                                 <td>D222</td>
-                                                <td>Pharmacology</td>
+                                                <td class="td text text-left">Pharmacology</td>
                                                 <td>80</td>
                                             </tr>
                                             <tr>
                                                 <td>D223</td>
-                                                <td>Nutrition and Dietetics</td>
+                                                <td class="td text text-left">Nutrition and Dietetics</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D234</td>
-                                                <td>Community Health Nursing</td>
+                                                <td class="td text text-left">Community Health Nursing</td>
                                                 <td>292</td>
                                             </tr>
                                             <tr>
                                                 <td>D235</td>
-                                                <td>Pediatric Nursing</td>
+                                                <td class="td text text-left">Pediatric Nursing</td>
                                                 <td>260</td>
                                             </tr>
                                             
@@ -134,7 +134,7 @@
                                     <table class="table table-responsive table-bordered border-primary text text-center" >
                                         <thead>
                                             <tr>
-                                                <th colspan="3" class="th text text-center fs-2 " style="font-size: 20px">Third year</th>
+                                                <th colspan="3" class="th text text-left fs-2 " style="font-size: 20px">Third year</th>
                                             </tr>
                                             <tr>
                                                 <th class="th text text-center">Subject Code</th>
@@ -145,27 +145,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>D331</td>
-                                                <td>Midwifery</td>
+                                                <td class="td text text-left">Midwifery</td>
                                                 <td>1192</td>
                                             </tr>
                                             <tr>
                                                 <td>D332</td>
-                                                <td>Psychiatric Nursing</td>
+                                                <td class="td text text-left">Psychiatric Nursing</td>
                                                 <td>144</td>
                                             </tr>
                                             <tr>
                                                 <td>D333</td>
-                                                <td>Orthopedic Nursing</td>
+                                                <td class="td text text-left">Orthopedic Nursing</td>
                                                 <td>240</td>
                                             </tr>
                                             <tr>
                                                 <td>D334</td>
-                                                <td>Leadership and Management</td>
+                                                <td class="td text text-left">Leadership and Management</td>
                                                 <td>96</td>
                                             </tr>
                                             <tr>
                                                 <td>D335</td>
-                                                <td>Research Methodology</td>
+                                                <td class="td text text-left">Research Methodology</td>
                                                 <td>80</td>
                                             </tr>
                                             
