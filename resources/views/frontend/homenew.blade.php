@@ -336,9 +336,88 @@
    
     </div>
     </div>
-    <div class="range-xs-center" style="width:100%;">
+    {{-- <div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>See More Events</span></a>
-    </div>
+    </div> --}}
+    <br/>
+    <br/>
+
+      <div class="eventCreate">
+
+      </div>
+
+<style>
+.santo {
+  border: 1px solid;
+  border-radius: 25px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  /* color: #fff; */
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+  /* background-color: #222; */
+  background-color: #FFC059;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.santo span {
+  position: relative; 
+  z-index: 1;
+  font-size: 18px;
+}
+
+.santo:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  /* background: #78c7d2; */
+  /* background:  #B38947; */
+  background: #fabbfa;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.santo:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #000;
+  font-size: 25px; 
+}
+
+
+
+      </style>
+
+      
+
+      <button class="santo"><span>See More Events</span></button>
+    <a href="{{ route('events') }}" target="_blank"></a>
+</div>
+
+
+    
+    
   </section>
 
 
