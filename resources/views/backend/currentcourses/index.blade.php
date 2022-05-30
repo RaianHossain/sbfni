@@ -45,6 +45,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {{-- @dd($currentcourses) --}}
                     @php $sl=0 @endphp
                     @foreach ($currentcourses as $currentcourse)
                     <tr>

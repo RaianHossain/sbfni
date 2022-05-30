@@ -18,23 +18,27 @@
                 <div class="cell-sm-6 text-left">
                     <div class="inset-sm-right-30"><img class="img-responsive reveal-inline-block" src="{{ asset('storage/events/'.$newevent->img1) }}" width="540" height="540" alt="">
                         <div class="offset-top-30 offset-sm-top-60">
-                            <h6 class="text-bold">A Few Words About Lecturer</h6>
+                            <h6 class="text-bold " style="padding:20px 10px;">A Few Words About Lecturer</h6>
                             <div class="text-subline"></div>
                         </div>
-                        <div class="offset-top-20 text-center text-xs-left">
+                        <div class="offset-top-20 text-left text-xs-left"  style="padding:20px 10px;">
                             <div class="unit unit-xs unit-xs-horizontal unit-spacing-lg">
                                 <div class="unit-left"><img class="img-responsive reveal-inline-block img-rounded" src="{{ asset('storage/events/'.$newevent->lecturer_img  ) }}" width="110" height="110" alt=""></div>
-                                <div class="unit-body">
+                                <div class="unit-body" >
                                     
                                     <h6 class="text-bold text-primary">{{ $newevent->lecturer_name }}</a></h6>
                                     
                                     <div class="offset-sm-top-30">
                                         <ul class="list list-unstyled">
-                                            <li><span class="icon novi-icon icon-xs mdi mdi-phone text-middle"></span><a class="reveal-inline-block text-black inset-left-10" href="tel:#">{{ $newevent->lecturer_phone }}</a></li>
-                                            <li><span class="icon novi-icon icon-xs mdi mdi-email-outline text-middle"></span><a class="reveal-inline-block inset-left-10" href="mailto:info@demolink.org">{{ $newevent->lecturer_email }}</a></li>
+                                            <li><span class="icon novi-icon icon-xs mdi mdi-phone text-middle"></span><a class="reveal-inline-block text-black inset-left-10" href="tel:{{ $newevent->lecturer_phone }}">{{ $newevent->lecturer_phone }}</a></li>
+                                            <li><span class="icon novi-icon icon-xs mdi mdi-email-outline text-middle"></span><a class="reveal-inline-block inset-left-10" href="mailto:{{ $newevent->lecturer_email }}">{{ $newevent->lecturer_email }}</a></li>
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="offset-top-30 offset-sm-top-60" style="padding:20px 10px;">
+                                {{-- <h6 class="text-bold">A few word about the Lecturer</h6> --}}
+                                <div class="text-subline"></div>
                             </div>
                             <div class="offset-top-20">
                                 <p>{{ $newevent->lecturer_description }}</p>
@@ -42,13 +46,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="cell-sm-6 text-left">
+                <div class="cell-sm-6 text-left" style="padding:20px 10px;">
                     <h3 class="text-bold"><a href="#">{{ $newevent->title }}</a></h3>
                     <div class="hr divider bg-madison hr-left-0"></div>
                     <div class="offset-top-30 offset-sm-top-60">
                         <p>{{ $newevent->description }}</p>
                     </div>
-                    <div class="offset-top-30 offset-sm-top-60">
+                    <div class="offset-top-30 offset-sm-top-60" style="padding:20px 10px;">
                         <h6 class="text-bold">When is the next workshop and how do I apply?</h6>
                         <div class="text-subline"></div>
                     </div>
@@ -67,7 +71,7 @@
                         <div class="offset-top-20">
                             <p>{{ $newevent->bring}}</p>
                         </div>
-                        <div class="offset-top-30"><a class="btn btn-primary" href="#">Apply Now</a></div>
+                        {{-- <div class="offset-top-30"><a class="btn btn-primary" href="#">Apply Now</a></div> --}}
                     </div>
                 </div>
             </div>
@@ -77,7 +81,7 @@
 
     {{--Other events--}}
     <section class="section novi-background bg-cover section-70 section-md-114 bg-catskill">
-            <div class="shell-wide">
+            <div class="shell-wide" style="padding:20px 10px;">
                 <h2 class="text-bold">Other&nbsp;Events</h2>
                 <hr class="divider bg-madison">
                 <div class="range range-50 offset-top-35 range-xs-center">
@@ -85,8 +89,8 @@
                     <div class="cell-sm-6 cell-md-5 cell-xl-3">
                         <article class="post-event">
                             <div class="post-event-img-overlay"><img class="img-responsive" src="{{ asset('storage/events/'.$otherEvent->img1) }}" alt="" width="420" height="420">
-                                <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="#">Book Now</a>
-                                    <div class="offset-top-20"><a class="btn btn-default" href="event-page.html">Learn More</a></div>
+                                {{-- <div class="post-event-overlay context-dark"><a class="btn btn-primary" href="#">Book Now</a> --}}
+                                    <div class="offset-top-20"><a class="btn btn-default" href="{{ route('events') }}">Learn More</a></div>
                                 </div>
                                 <div class="post-event-meta text-center">
                                     <div class="h3 text-bold reveal-inline-block reveal-lg-block">{{ date('d', strtotime($otherEvent->date)) }}</div>

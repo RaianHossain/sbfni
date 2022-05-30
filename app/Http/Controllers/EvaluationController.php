@@ -18,7 +18,6 @@ class EvaluationController extends Controller
 
     public function create($student_id, $year)
     {
-        return view('backend.evaluation.')
+        return view('backend.evaluation.create', compact('student_id', 'year'));
     }
-
 }
