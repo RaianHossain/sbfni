@@ -16,7 +16,8 @@
 </section>
 
 
-<section class="section novi-background bg-cover section-70 section-md-114 bg-default" ><div class="shell" >
+<section class="section novi-background bg-cover section-70 section-md-114 bg-default" >
+  <div class="shell" >
   <div class="range range-50 range-xs-center">
   <div class="col-sm-12 col-md-12 col-xl-12   text-sm-left" >
    <div class="offset-top-30 offset-sm-top-60">
@@ -24,12 +25,11 @@
           <div class="text-subline" style="font-size: 2rem; color:black ">Bangladesh Nursing and Midwifery Council BNMC will published "Diploma in Nursing and Midwifery" admission circular of all Government Nursing Institutes and Nursing College for the current academic session from March to April in that year . Applicants can submit application till mid April.<br/>
             BNMC has announced that the admission test will be taken on mid May of that year.
              </div>
-      
+        </div>
    </div>
-  
   </div>
-  </div>
-</div></section>
+</div>
+</section>
   
 <div class="col-sm-12 col-md-12 col-xl-12 " style="padding: 10px 10px;"></div> 
   
