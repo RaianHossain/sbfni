@@ -49,9 +49,9 @@ class HomeController extends Controller
         return view('frontend.alumni');
     }
 
-    public function course_details()
+    public function career_page()
     {
-        return view('frontend.course_details');
+        return view('frontend.career_page');
     }
 
     public function home_teacher_details($id)

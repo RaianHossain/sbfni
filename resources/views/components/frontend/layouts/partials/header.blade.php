@@ -118,6 +118,7 @@
           <li class="me-3 pt-1"><a href="{{ route('events') }}">Events</a></li>
           <li class="me-3 pt-1"><a href="{{ route('internship') }}">Internship</a></li>
           <li class="me-3 pt-1"><a href="{{ route('scholarship') }}">Scholarship</a></li>
+          <li class="me-3 pt-1"><a href="{{ route('career_page') }}">Career</a></li>
           <li class="me-3 pt-1"><a href="{{ route('home_alumni') }}">Alumni</a></li>
           <li class="me-3 pt-1"><a href="{{ route('about') }}">About</a></li>
           <li class="me-3 pt-1"><a href="{{ route('contact') }}">Contacts</a></li>
