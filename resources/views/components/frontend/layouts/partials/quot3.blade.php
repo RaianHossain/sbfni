@@ -60,7 +60,7 @@
     min-height: 375px;
     position: relative;
     /* background: url({{ asset('ui/frontend/images/slider/sbfban.png') }}); */
-    background-color: #87abed;
+    background-color: #336699;
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: center;

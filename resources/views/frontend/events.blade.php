@@ -22,12 +22,12 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{ 'storage/events/' . $event->img1 }}" alt="" style="height:420px; width:420px;" />
               <div class="post-event-overlay context-dark">
-                <a class="btn btn-default" style="background-color:#9ACD32;" href="{{ route('event_details', ['id'=>$event->id]) }}">Book Now</a>
+                
                 <div class="offset-top-20">
                   <a class="btn btn-default" href="{{ route('event_details', ['id'=>$event->id]) }}">More Details</a>
                 </div>
               </div>
-              <div class="post-event-meta text-center" style="background-color:#5F9EA0;">
+              <div class="post-event-meta text-center" style="background-color:#336699;">
                 <div class="h3 text-bold reveal-inline-block reveal-lg-block">
                   {{ date("d", strtotime($event->date)) }}
                 </div>

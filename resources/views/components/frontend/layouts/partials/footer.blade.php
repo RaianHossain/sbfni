@@ -72,10 +72,11 @@
                 </div>
             </div>
         </div>
-        <div class="section-5 bg-madison context-dark novi-background" style="background-color:#002833;">
-            <div class="shell text-md-left">
-                <p class="">© <span class="copyright-year">{{ now()->year }}</span> All Rights Reserved Terms of Use and Privacy Policy.<span> Develop&nbsp;by <a href="https://shorturl.at/hkENZ" target="blank">Break-IT</a></span></p>
-            </div>
+        <div style="height: 50px; background-color: #336699;" class="d-flex justify-content-center align-items-center">
+            
+                <p class="" style="color: white">© <span class="copyright-year">{{ now()->year }}</span> All Rights Reserved Terms of Use and Privacy Policy.<span> Develop&nbsp;by <a style="text-decoration: underline; color: white;" id="footerName" href="https://shorturl.at/hkENZ" target="blank">Break-IT</a></span></p>
+            
         </div>
     </div>
+    
 </footer>

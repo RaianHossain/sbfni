@@ -134,10 +134,10 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Profile
                 </a>
-                <a class="nav-link" href="{{ route('student.index') }}">
+                {{--<a class="nav-link" href="{{ route('student.index') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Student Registration
-                </a>
+                </a>--}}
                 <a class="nav-link" href="{{ route('course_registration.create') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Course Registration
