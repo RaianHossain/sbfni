@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\News;
+use Carbon\Carbon;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
@@ -35,6 +37,20 @@ class AppServiceProvider extends ServiceProvider
 
         view()->composer('*', function ($news) {
             $news->with('news', \App\Models\News::all());
+            $news->with('archive', \App\Models\News::orderBy('created_at', 'desc')
+                ->whereNotNull('created_at')
+                ->get()
+                ->groupBy(function (News $post) {
+                    return $post->created_at->format('Y');
+                })
+                ->map(function ($item) {
+                    return $item
+                        ->sortByDesc('created_at')
+                        ->groupBy(function (News $item) {
+                            return $item->created_at->format('F');
+                        });
+                })
+            );
         });
 
         view()->composer('*', function ($teachers) {
