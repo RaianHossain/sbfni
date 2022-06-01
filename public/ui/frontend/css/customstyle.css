@@ -174,7 +174,7 @@ nav{
   position: relative;
   z-index: 99;
   width: 100%;
-  background:#e2b75a;
+  background:#336699;
   height:55px;;
 }
 nav .wrapper{
@@ -223,7 +223,7 @@ position: fixed;
   
 }
 .nav-links li a:hover{
-  background:#be7d32;
+  background:#b96b9f;
 }
 .nav-links .mobile-item{
   display: none;
@@ -262,12 +262,13 @@ position: fixed;
   visibility: hidden;
 }
 .mega-box .content{
-  background:rgba(179, 97, 3, 0.849);
+  background:black;
   padding: 25px 20px;
   display: flex;
   width: 100%;
   justify-content: space-between;
   box-shadow: 0 6px 10px rgba(226, 219, 219, 0.15);
+  opacity: .7;
 }
 .mega-box .content .row{
   width: calc(25% - 30px);

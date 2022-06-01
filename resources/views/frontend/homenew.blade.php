@@ -44,57 +44,14 @@
 
 
   {{--Principal,CEO &  Chairman Section--}}
-  <section class="#" style=" margin-top:100px; margin-bottom:150px; ">
-    <div class="row">
-      <div class="col-md-4 sec2col">
-        <div class="media block-6 d-block text-center">
-          <a href="#">
-            <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
-            </div>
-          </a>
-          <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">President</h3>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 sec2col">
-        <div class="media block-6 d-block text-center">
-          <a href="#">
-            <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
-            </div>
-          </a>
-          <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">COO, SBFNI</h3>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 sec2col">
-        <div class="media block-6 d-block text-center">
-          <a href="#">
-            <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
-            </div>
-          </a>
-          <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; "> Vice Principal</h3>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
+  
 
 
 
   {{--Different sections--}}
   <section>
     <div class="row">
-      <div class="col-md-3 sec2col" style="background-color:#ec8f6a;">
+      <div class="col-md-3 sec2col" style="background-color:#b96b9f;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -107,7 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color: #FFCC66;">
+      <div class="col-md-3 sec2col" style="background-color: #336699;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -133,7 +90,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color:#5F9EA0 ;">
+      <div class="col-md-3 sec2col" style="background-color:#336699 ;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -258,28 +215,28 @@
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#b96b9f" data-thickness="10" data-empty-fill="#336699" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white  pt-3">Lab</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#b96b9f" data-thickness="10" data-empty-fill="#336699" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3 ">Teachers</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#b96b9f" data-thickness="10" data-empty-fill="#336699" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Campus</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#b96b9f" data-thickness="10" data-empty-fill="#336699" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Library</h6>
           </div>
