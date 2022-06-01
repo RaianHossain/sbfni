@@ -99,7 +99,38 @@
                         <h6 class="text-bold">Archive</h6>
                         <div class="text-subline"></div>
                         <div class="row offset-top-20">
-                            <div class="col-xs-6">
+
+                            @foreach($archive as $year => $months)
+    <div>
+        <div id="heading_{{ $loop->index }}">
+            <h4 class="mb-0">
+                <button class="btn btn-link py-0 my-0" data-toggle="collapse"
+                        data-target="#collapse_{{ $loop->index }}"
+                        aria-expanded="true"
+                        aria-controls="collapse_{{ $loop->index }}"><h4>{{ $year }}</h4>
+                    
+                </button>
+                
+            </h4>
+        </div>
+
+        <div id="collapse_{{ $loop->index }}" class="collapse" aria-labelledby="heading_{{ $loop->index }}"
+             data-parent="#accordion">
+            <div>
+                <ul style="list-style-type: none;">
+                    @foreach($months as $month => $posts)
+                        <li class="">
+                                {{ $month }} ( {{ count($posts) }} )
+                        </li>
+
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </div>
+@endforeach
+                            
+                            {{-- <div class="col-xs-6">
                                 <ul class="list list-marked list-marked-primary">
                                     <li><a href="#">Jun 2021</a></li>
                                     <li><a href="#">Aug 2021</a></li>
@@ -116,7 +147,7 @@
                                     <li><a href="#">Jan 2022</a></li>
                                     <li><a href="#">Mar 2022</a></li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     <div class="aside-item">

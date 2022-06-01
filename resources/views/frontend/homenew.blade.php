@@ -33,13 +33,13 @@
   <div id="carouselExampleControls" class="carousel slide mt-3 mb-3" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ asset('ui/frontend/images/slider/slide1.jpg') }}" class="d-block w-100" alt="..." style="height: 500px; opacity: .8;">
+        <img src="{{ asset('ui/frontend/images/slider/slide4.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('ui/frontend/images/slider/slide2.JPG') }}" class="d-block w-100" alt="..." style="height: 500px;">
+        <img src="{{ asset('ui/frontend/images/slider/slide5.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('ui/frontend/images/slider/slide3.JPG') }}" class="d-block w-100" alt="..." style="height: 500px;">
+        <img src="{{ asset('ui/frontend/images/slider/slide6.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -367,9 +367,9 @@
     <br />
     <br />
 
-    <div class="eventCreate">
+    {{-- <div class="eventCreate">
 
-    </div>
+    </div> --}}
 
     <style>
       .santo {
@@ -433,9 +433,9 @@
 
 
 
-    <button class="santo"><span>See More Events</span></button>
-    <a href="{{ route('events') }}" target="_blank"></a>
-    </div>
+    <button class="santo"><a href="{{ route('events') }}" ><span>See More Events</span></a></button>
+    
+    {{-- </div> --}}
   </section>
   
     {{--Quatation display section--}}

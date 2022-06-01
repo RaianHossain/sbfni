@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use Carbon\Carbon;
 use Exception;
 use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
@@ -22,10 +23,25 @@ class NewsController extends Controller
                 ->orWhere('script2', 'like', '%' . request('search') . '%');
         }
 
+        $archive = News::orderBy('created_at', 'desc')
+        ->whereNotNull('created_at')
+        ->get()
+        ->groupBy(function(News $post) {
+            return $post->created_at->format('Y');
+        })
+        ->map(function ($item) {
+            return $item
+                ->sortByDesc('created_at')
+                ->groupBy( function ( $item ) {
+                    return $item->created_at->format('F');
+                });
+        });
+
         $news = $newsCollection->paginate(10);
 
         return view('backend.news.index', [
-            'news' => $news
+            'news' => $news,
+            'archive' => $archive,
         ]);
     }
 

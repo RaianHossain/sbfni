@@ -44,7 +44,7 @@ Route::get('/history', [HomeController::class, 'history'])->name('history');
 Route::get('/courses', [HomeController::class, 'courses'])->name('courses');
 Route::get('/home/teachers', [HomeController::class, 'home_teachers'])->name('home_teachers');
 Route::get('/home/alumni', [HomeController::class, 'home_alumni'])->name('home_alumni');
-Route::get('/course_details', [HomeController::class, 'course_details'])->name('course_details');
+Route::get('/career_page', [HomeController::class, 'career_page'])->name('career_page');
 Route::get('/home/teacher_details/{teacher}', [HomeController::class, 'home_teacher_details'])->name('home_teacher_details');
 Route::get('/home/alumni_details/{alumni}', [HomeController::class, 'home_alumni_details'])->name('home_alumni_details');
 Route::get('/admission_information', [HomeController::class, 'admission_information'])->name('admission_information');
