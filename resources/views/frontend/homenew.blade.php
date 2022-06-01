@@ -345,9 +345,9 @@
     <br />
     <br />
 
-    <div class="eventCreate">
+    {{-- <div class="eventCreate">
 
-    </div>
+    </div> --}}
 
     <style>
       .santo {
@@ -411,9 +411,9 @@
 
 
 
-    <button class="santo"><span>See More Events</span></button>
-    <a href="{{ route('events') }}" target="_blank"></a>
-    </div>
+    <button class="santo"><a href="{{ route('events') }}" ><span>See More Events</span></a></button>
+    
+    {{-- </div> --}}
   </section>
   
     {{--Quatation display section--}}
