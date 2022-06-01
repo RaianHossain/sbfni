@@ -419,8 +419,12 @@
     
     
   </section>
-
-
+  
+    {{--Quatation display section--}}
+  {{-- <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;"> --}}
+  <x-frontend.layouts.partials.quot3>
+  </x-frontend.layouts.partials.quot3>
+{{-- </section> --}}
   {{--Recent News Section--}}
   <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;">
     <div class="shell isotope-wrap justify-content-center">
@@ -659,10 +663,10 @@
   </div>
   </section> --}}
 
-  <x-frontend.layouts.partials.quot>
-  </x-frontend.layouts.partials.quot>
-
-
+  
+  {{-- <x-frontend.layouts.partials.quotation>
+  </x-frontend.layouts.partials.quotation> --}}
+  
 
   {{--Footer Section--}}
   <x-frontend.layouts.partials.footer/>

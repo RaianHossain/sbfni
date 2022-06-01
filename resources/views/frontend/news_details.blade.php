@@ -88,9 +88,9 @@
                         <h6 class="text-bold">Search</h6>
                         <div class="text-subline"></div>
                         <div class="offset-top-30">
-                            <form class="form-search rd-search form-search-widget" action="search-results.html" method="GET">
+                            <form class="form-search rd-search form-search-widget" action="{{ route('news') }}" method="GET">
                                 <div class="form-group">
-                                    <div class="input-group"><input class="form-search-input  form-control" type="text" name="s" autocomplete="off"><span class="input-group-btn"><button class="btn btn-primary" type="submit"><span class="icon fa-search"></span></button></span></div>
+                                    <div class="input-group"><input class="form-search-input  form-control" type="text" name="search" autocomplete="off"><span class="input-group-btn"><button class="btn btn-primary" type="submit"><span class="icon fa-search"></span></button></span></div>
                                 </div>
                             </form>
                         </div>
