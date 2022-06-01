@@ -8,6 +8,9 @@
   <title>Homepage</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/customstyle.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/novi.css') }}">
@@ -41,18 +44,18 @@
 
 
   {{--Principal,CEO &  Chairman Section--}}
-  <section class="#" style=" margin-top:100px; margin-bottom:100px; ">
+  <section class="#" style=" margin-top:100px; margin-bottom:150px; ">
     <div class="row">
       <div class="col-md-4 sec2col">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
+              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">CEO</h3>
-            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
+            <h3 class="heading  mt-3" style="margin:0 auto; ">President</h3>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
           </div>
         </div>
       </div>
@@ -60,12 +63,12 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
+              <img src="{{ asset('ui/frontend/images/avatar.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">Chairman</h3>
-            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
+            <h3 class="heading  mt-3" style="margin:0 auto; ">COO, SBFNI</h3>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
           </div>
         </div>
       </div>
@@ -73,12 +76,12 @@
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #999999">
+              <img src="{{ asset('ui/frontend/images/SBF_AKB.png') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
             </div>
           </a>
           <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">Principal</h3>
-            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
+            <h3 class="heading  mt-3" style="margin:0 auto; "> Vice Principal</h3>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
           </div>
         </div>
       </div>
@@ -91,7 +94,7 @@
   {{--Different sections--}}
   <section>
     <div class="row">
-      <div class="col-md-3 sec2col" style="background-color:#999999;">
+      <div class="col-md-3 sec2col" style="background-color:#ec8f6a;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -99,12 +102,12 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-5">Nursing</h3>
-            <p class="text-white">Nursing is a profession within the health care sector focused on the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life. They also take on vital roles of education, assessing situations, as support.</p>
+            <h3 class="heading text-white mt-5" >Nursing</h3>
+            <p class="text-white" style="font-family: 'Tiro Devanagari Sanskrit', serif;">Nursing is a profession within the health care sector focused on the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life. </p>
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color: #5F9EA0;">
+      <div class="col-md-3 sec2col" style="background-color: #FFCC66;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -113,11 +116,11 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Admission</h3>
-            <p class="text-white">The admissions nurse role is a unique opportunity for nurses to familiarize themselves with the hospital and to work with staff outside their normal unit. </p>
+            <p class="text-white" style="font-family: 'Tiro Devanagari Sanskrit', serif;">The admissions nurse role is a unique opportunity for nurses to familiarize themselves with the hospital and to work with staff outside their normal unit. </p>
           </div>
         </div>
       </div>
-      <div class="col-md-3 sec2col" style="background-color:#999999;">
+      <div class="col-md-3 sec2col" style="background-color:#b96b9f;">
         <div class="media block-6 d-block text-center">
           <a href="#">
             <div class="icon d-flex justify-content-center align-items-center">
@@ -126,7 +129,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Tution Fee</h3>
-            <p class="text-white">Tution Fees are payable every year.While a number of courses involving computers or media have been growing every year, nursing is also using technology. The Tution fee.Tution fee is included with all the laboratory & Computer lab fees. </p>
+            <p class="text-white" style="font-family: 'Tiro Devanagari Sanskrit', serif;">Tution Fees are payable every year.While a number of courses involving computers or media have been growing every year, nursing is also using technology.Tution fee is included with all the laboratory & Computer lab fees. </p>
           </div>
         </div>
       </div>
@@ -139,7 +142,7 @@
           </a>
           <div class="media-body p-2 mt-3">
             <h3 class="heading text-white mt-5">Scholarship</h3>
-            <p class="text-white">Scholarship in nursing can be defined as those activities that systematically advance the teaching, research, and practice of nursing through rigorous inquiry . </p>
+            <p class="text-white" style="font-family: 'Tiro Devanagari Sanskrit', serif;">Scholarship in nursing can be defined as those activities that systematically advance the teaching, research, and practice of nursing through rigorous inquiry . </p>
           </div>
         </div>
       </div>
@@ -147,37 +150,37 @@
   </section>
 
   {{--what we offer section--}}
-  <section class="mb-2 ">
+  <section class="mb-2" style="padding-top:50px; padding-bottom:50px;">
     <div class="row">
       <div class="col-md-7 mb-5">
-        <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px">
-          <h1 class="main" style="color:#002833;"><b>What We Offer</b></h1>
-          <p class="text-grey mb-5">Achieve a Comprehensive View of Patient Care From Our Institute</p>
+        <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px;">
+          <h1 class="main text-center" style="color:navy;"><b>What We Offer</b></h1>
+          <p class="text-black text-center mb-5" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">Achieve a Comprehensive View of Patient Care From Our Institute</p>
           <div>
             <div class="row">
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#b96b9f;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"><b>Scholarship</b></h1>
-                    <p>We are providing scholarship for poor & meritorious students. </p>
+                    <h1 class="second-main" style="color:#191970;  font-family: 'Tiro Devanagari Sanskrit', serif;"><b>Scholarship</b></h1>
+                    <p class="text-dark"style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">We are providing scholarship for poor & meritorious students. </p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#b96b9f;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"><b>Multimedia Classrooms</b></h1>
-                    <p class="pb-4">Using multimedia in the classroom makes the students more engaging.</p>
+                    <h1 class="second-main" style="color:#191970;  font-family: 'Tiro Devanagari Sanskrit', serif;"><b>Multimedia Classrooms</b></h1>
+                    <p class="pb-4 text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">Using multimedia in the classroom makes the students more engaging.</p>
                   </div>
                 </div>
               </div>
@@ -191,8 +194,8 @@
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"><b>laboratories</b></h1>
-                    <p class="pb-4">6 laboratories rich in modern educational materials and a library rich in adequate text books and magazines.</p>
+                    <h1 class="second-main" style="color:#191970; font-family: 'Tiro Devanagari Sanskrit', serif; "><b>laboratories</b></h1>
+                    <p class="pb-4 text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">6 laboratories rich in modern educational materials and a library rich in adequate text books and magazines.</p>
                   </div>
                 </div>
               </div>
@@ -204,8 +207,8 @@
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"><b>Accomodation</b></h1>
-                    <p class="pb-4">We are providing residential hostels with adequate security.</p>
+                    <h1 class="second-main" style="color:#191970 ;font-family: 'Tiro Devanagari Sanskrit', serif;"><b>Accomodation</b></h1>
+                    <p class="pb-4 text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">We are providing residential hostels with adequate security.</p>
                   </div>
                 </div>
               </div>
@@ -214,26 +217,26 @@
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999; ">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#b96b9f; ">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"> <b>100-bed Hospital</b></h1>
-                    <p class="pb-4">Arrangements for clinical practice in a 100-bed hospital.</p>
+                    <h1 class="second-main" style="color:#191970 ; font-family: 'Tiro Devanagari Sanskrit', serif;"> <b>100-bed Hospital</b></h1>
+                    <p class="pb-4 text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">Arrangements for clinical practice in a 100-bed hospital.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="d-flex">
                   <div class="logo">
-                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#999999;">
+                    <div class="icon d-flex justify-content-center align-items-center" style="font-size: 30px; color:#b96b9f;">
                       <i class="fa-solid fa-user-nurse"></i>
                     </div>
                   </div>
                   <div style="padding-left: 20px;">
-                    <h1 class="second-main" style="color:#191970 ;"><b>Noise-free campus.</b></h1>
-                    <p class="pb-4">Our Campus is located at a noise free place where students get good environment for learning </p>
+                    <h1 class="second-main" style="color:#191970 ; font-family: 'Tiro Devanagari Sanskrit', serif;"><b>Noise-free campus.</b></h1>
+                    <p class="pb-4 text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">Our Campus is located at a noise free place where students get good environment for learning </p>
                   </div>
                 </div>
               </div>
@@ -242,41 +245,41 @@
         </div>
       </div>
       <div class="new col-md-5">
-        <img src="{{ asset('ui/frontend/images/history/building.jpg') }}" alt="" style="width: 90%; height: 100%; border:1px solid white; padding-top:20px; padding-bottom:20px;">
+        <img src="{{ asset('ui/frontend/images/history/bla1.webp') }}" alt="" style="width:90%; height: 100%; padding-top:20px; padding-bottom:20px;">
       </div>
     </div>
   </section>
 
   {{--Our Skills Section--}}
-  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#000033;">
+  <section class="section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;  padding-bottom:80px; background-color:#336699; height:400px">
     <div class="shell">
-      <h1 class="main text-center text-white" style="color:#73C2FB;"><b>Our Skills</b> </h1>
+      <h1 class="main text-center text-white" style="color:#73C2FB; "><b>Our Skills</b> </h1>
       <hr class="divider bg-white">
       <div class="range range-50 range-xs-center offset-top-50 text-center">
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.98" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white  pt-3">Lab</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.9" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3 ">Teachers</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#990033" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.88" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Campus</h6>
           </div>
         </div>
         <div class="cell-sm-6 cell-md-3">
           <!-- Circle Progress bar-circle-->
-          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#FFFF66" data-size="130"><span></span></div>
+          <div class="progress-bar-circle progress-bar-modern" data-value="0.95" data-gradient="#E0FFFF" data-thickness="10" data-empty-fill="#333333" data-size="130"><span></span></div>
           <div class="offset-top-20">
             <h6 class="text-bold text-white pt-3">Library</h6>
           </div>
@@ -333,91 +336,84 @@
         @empty
         <p> No Events </p>
         @endforelse
-   
-    </div>
+
+      </div>
     </div>
     {{-- <div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>See More Events</span></a>
     </div> --}}
-    <br/>
-    <br/>
+    <br />
+    <br />
 
-      <div class="eventCreate">
+    <div class="eventCreate">
 
-      </div>
+    </div>
 
-<style>
-.santo {
-  border: 1px solid;
-  border-radius: 25px;
-  display: block;
-  text-align: center;
-  cursor: pointer;
-  /* text-transform: uppercase; */
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  /* color: #fff; */
-  color: #000;
-  font-weight: 700;
-  font-size: 15px;
-  /* background-color: #222; */
-  background-color: #FFC059;
-  padding: 17px 60px;
-  margin: 0 auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-}
+    <style>
+      .santo {
+        border: 1px solid;
+        border-radius: 25px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        /* text-transform: uppercase; */
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        /* color: #fff; */
+        color: #000;
+        font-weight: 700;
+        font-size: 15px;
+        /* background-color: #222; */
+        background-color: #FFC059;
+        padding: 17px 60px;
+        margin: 0 auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+      }
 
-.santo span {
-  position: relative; 
-  z-index: 1;
-  font-size: 18px;
-}
+      .santo span {
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+      }
 
-.santo:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 490%;
-  width: 140%;
-  /* background: #78c7d2; */
-  /* background:  #B38947; */
-  background: #fabbfa;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  transform: translateX(-98%) translateY(-25%) rotate(45deg);
-}
+      .santo:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 490%;
+        width: 140%;
+        /* background: #78c7d2; */
+        /* background:  #B38947; */
+        background: #fabbfa;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+        transform: translateX(-98%) translateY(-25%) rotate(45deg);
+      }
 
-.santo:hover:after {
-  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  transform: translateX(-9%) translateY(-25%) rotate(45deg);
-}
+      .santo:hover:after {
+        -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        transform: translateX(-9%) translateY(-25%) rotate(45deg);
+      }
 
-.link {
-  font-size: 20px;
-  margin-top: 30px;
-}
+      .link {
+        font-size: 20px;
+        margin-top: 30px;
+      }
 
-.link a {
-  color: #000;
-  font-size: 25px; 
-}
+      .link a {
+        color: #000;
+        font-size: 25px;
+      }
+    </style>
 
 
 
-      </style>
-
-      
-
-      <button class="santo"><span>See More Events</span></button>
+    <button class="santo"><span>See More Events</span></button>
     <a href="{{ route('events') }}" target="_blank"></a>
-</div>
-
-
-    
-    
+    </div>
   </section>
   
     {{--Quatation display section--}}
@@ -434,68 +430,68 @@
       <div class="range range-50 offset-top-50 range-xs-center">
         @forelse ( $news as $news )
         {{-- <div class="col-xs-12 col-sm-6 col-md-4 isotope-item"> --}}
-          {{-- <article class="post-news">
+        {{-- <article class="post-news">
             <a href="news-post-page.html"><img class="img-responsive" src="{{ asset('ui/frontend/images/blog/news-04-370x240.jpg') }}" alt="" width="370" height="240" /></a>
-          <div class="post-news-body">
-            <h6>
-              <a href="news-post-page.html" style="color:#999999;">
-                Ways Parents and Counselors</a>
-            </h6>
-            <div class="offset-top-20">
-              <p>
-                Securing scholarships can be stressful, but parents and
-                counselors can serve as a resource.
-              </p>
-            </div>
-            <div class="post-news-meta offset-top-20">
-              <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic " style="color:#5F9EA0;">3 days ago</span>
-            </div>
-          </div>
-          </article>
-        </div>--}}
-        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item"> 
-          <article class="post-news">
-            <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
-            <div class="post-news-body" style="height: 20rem">
-              <h6>
-                <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#999999;">
-                  {{ $news->title}}" </a>
-              </h6>
-              <div class="offset-top-20">
-                <p>
-                  {{ $news->author}}
-                </p>
-              </div>
-              <div class="post-news-meta offset-top-20">
-                <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic" style="color:#5F9EA0;">{{ $news->created_at->diffForHumans() }}</span>
-              </div>
-            </div>
-          </article>
-        </div>
-        @break($loop->iteration == 4)
-        @empty
-        <p> No News </p>
-        @endforelse
-
-        {{-- <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
-          <article class="post-news">
-            <a href="news-post-page.html"><img class="img-responsive" src="{{ asset ('ui/frontend/images/blog/news-06-370x240.jpg') }}" alt="" width="370" height="240" /></a>
         <div class="post-news-body">
           <h6>
-            <a href="news-post-page.html" style="color:#999999;">Studying in the United States</a>
+            <a href="news-post-page.html" style="color:#999999;">
+              Ways Parents and Counselors</a>
           </h6>
           <div class="offset-top-20">
             <p>
-              International students increasingly want to come to the
-              United States for college or graduate school.
+              Securing scholarships can be stressful, but parents and
+              counselors can serve as a resource.
             </p>
           </div>
           <div class="post-news-meta offset-top-20">
-            <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic" style="color:#5F9EA0;">2 days ago</span>
+            <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic " style="color:#5F9EA0;">3 days ago</span>
           </div>
         </div>
         </article>
+      </div>--}}
+      <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
+        <article class="post-news">
+          <a href="{{ route('news_details', ['id' => $news->id]) }}"><img class="img-responsive" src="{{ 'storage/news/' . $news->img1 }}" alt="" width="370" height="240" /></a>
+          <div class="post-news-body" style="height: 20rem">
+            <h6>
+              <a href="{{ route('news_details', ['id' => $news->id]) }}" style="color:#999999;">
+                {{ $news->title}}" </a>
+            </h6>
+            <div class="offset-top-20">
+              <p>
+                {{ $news->author}}
+              </p>
+            </div>
+            <div class="post-news-meta offset-top-20">
+              <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic" style="color:#5F9EA0;">{{ $news->created_at->diffForHumans() }}</span>
+            </div>
+          </div>
+        </article>
       </div>
+      @break($loop->iteration == 4)
+      @empty
+      <p> No News </p>
+      @endforelse
+
+      {{-- <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
+          <article class="post-news">
+            <a href="news-post-page.html"><img class="img-responsive" src="{{ asset ('ui/frontend/images/blog/news-06-370x240.jpg') }}" alt="" width="370" height="240" /></a>
+      <div class="post-news-body">
+        <h6>
+          <a href="news-post-page.html" style="color:#999999;">Studying in the United States</a>
+        </h6>
+        <div class="offset-top-20">
+          <p>
+            International students increasingly want to come to the
+            United States for college or graduate school.
+          </p>
+        </div>
+        <div class="post-news-meta offset-top-20">
+          <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic" style="color:#5F9EA0;">2 days ago</span>
+        </div>
+      </div>
+      </article>
+    </div>
     </div> --}}
     {{-- <div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More </span></a>
@@ -669,7 +665,7 @@
   
 
   {{--Footer Section--}}
-  <x-frontend.layouts.partials.footer/>
+  <x-frontend.layouts.partials.footer />
 
 
 

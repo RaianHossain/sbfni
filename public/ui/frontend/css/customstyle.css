@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+
+
 .body-text {
     font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -59,26 +61,31 @@
 }
 
 .title h3{
-    font-size:30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:#002833;
+    font-size:34px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color:rgb(130, 20, 220);
 }
 
 .title p{
-    margin-left:40px;
-    margin-right:40px;
-    text-align: center;   
+    margin-left:30px;
+    margin-right:30px;
+    text-align: center; 
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size:15px; 
+    color:black;
+    
 }
 
 .main{
     font-size:30px;
-    font-family:sans-serif;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
     color:black;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833;
+   
     }
 .second-main{
     font-size:20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833;
+    color:black;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
    
 }
 
@@ -167,7 +174,7 @@ nav{
   position: relative;
   z-index: 99;
   width: 100%;
-  background: #5f9ea0c9;
+  background:#e2b75a;
   height:55px;;
 }
 nav .wrapper{
@@ -216,7 +223,7 @@ position: fixed;
   
 }
 .nav-links li a:hover{
-  background:#0028334f;
+  background:#be7d32;
 }
 .nav-links .mobile-item{
   display: none;
@@ -255,7 +262,7 @@ position: fixed;
   visibility: hidden;
 }
 .mega-box .content{
-  background:#002833e0;
+  background:rgba(179, 97, 3, 0.849);
   padding: 25px 20px;
   display: flex;
   width: 100%;
@@ -272,13 +279,13 @@ position: fixed;
   object-fit: cover;
 }
 .content .row header{
-  color:#97cc2ec9;
-  font-size: 20px;
+  color:white;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .content .row header:hover{
-  color:#5F9EA0;
+  color:#002833;
 }
 
 .content .row .mega-links{
@@ -296,7 +303,7 @@ position: fixed;
   display: block;
 }
 .row .mega-links li a:hover{
-  color:#5F9EA0;
+  color:rgba(255, 0, 0, 0.788);
 }
 .wrapper .btn{
   color: #fff;
@@ -326,7 +333,7 @@ position: fixed;
     padding: 50px 10px;
     line-height: 50px;
     overflow-y: auto;
-    box-shadow: 0px 15px 15px rgba(228, 221, 221, 0.18);
+    box-shadow: 0px 15px 15px rgba(170, 53, 53, 0.842);
     transition: all 0.3s ease;
   }
   custom scroll bar
