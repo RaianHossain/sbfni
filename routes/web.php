@@ -280,6 +280,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/teacher-evaluation/create/{student_id}/{year}/{currentcourse_id}', [EvaluationController::class, 'create'])->name('teacher.evaluation.create');
 
     Route::post('/admin/teacher-evaluation/store', [EvaluationController::class, 'store'])->name('teacher.evaluation.store');
+
+    Route::get('/admin/teacher-evaluation', [EvaluationController::class, 'index'])->name('teacher.evaluation.index');
+
+    Route::get('/admin/teacher-evaluation/{teacher_id}/{year}/{currentcourse_id}', [EvaluationController::class, 'showTeacherEvaluation'])->name('teacher.evaluation.showteacherevaluation');
 });
 
 Route::resource('/admin/message', MessageController::class);

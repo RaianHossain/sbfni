@@ -9,4 +9,11 @@ class Evaluation extends Model
 {
     use HasFactory;
     protected $guarded = [];
+
+    public function teacher(){
+        return $this->belongsTo(Teacher::class);
+    }
+    public function currentcourse(){
+        return $this->belongsTo(CurrentCourse::class, 'currentcourse_id');
+    }
 }

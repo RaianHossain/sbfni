@@ -67,6 +67,10 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Course
                 </a>
+                <a class="nav-link" href="{{ route('teacher.evaluation.index') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                   Teacher Evaluation
+                </a>
 
 
                 {{-- 
@@ -100,6 +104,8 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                    Grade Input
                 </a> --}}
+
+                
 
 
                 {{--@can('user-management')--}}

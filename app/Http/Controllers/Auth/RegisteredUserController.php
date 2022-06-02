@@ -50,6 +50,7 @@ class RegisteredUserController extends Controller
 
         $profile =Profile::create([
             'user_id' => $user->id,
+            'current_semester' => '1st'
         ]);
 
         event(new Registered($user));
