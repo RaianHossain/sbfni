@@ -1,7 +1,7 @@
 <x-frontend.layouts.master>
     
 
-<section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="parallax-03.jpg">
+<section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
         <div class="parallax-content section-30 section-sm-70">
             <div class="shell">
                 <h2 class="veil reveal-sm-block">Campus & Others</h2>

@@ -1,6 +1,5 @@
 <x-frontend.layouts.master>
-  <section class="section breadcrumb-modern context-dark parallax-container text-center mb-5" data-parallax-img="images/parallax-03.jpg">
-    <div class="parallax-content section-30 section-sm-70">
+<section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
       <div class="shell">
         <h2 class="veil reveal-sm-block">Management Committee</h2>
         <div class="offset-sm-top-35">

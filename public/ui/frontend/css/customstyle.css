@@ -57,7 +57,7 @@
 }
 
 .title h3 {
-    font-size: 34px;
+    font-size: 31px;
     font-family: "Tiro Devanagari Sanskrit", serif;
     color: rgb(0, 0, 0);
 }
@@ -247,7 +247,7 @@ nav .wrapper {
     visibility: hidden;
 }
 .mega-box .content {
-    background: black;
+    background: rgb(27, 26, 26);
     padding: 25px 20px;
     display: flex;
     width: 100%;
@@ -271,7 +271,7 @@ nav .wrapper {
 }
 
 .content .row header:hover {
-    color: #002833;
+    color:red;
 }
 
 .content .row .mega-links {
