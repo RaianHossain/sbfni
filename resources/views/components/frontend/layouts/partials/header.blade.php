@@ -1,4 +1,4 @@
-<header>
+<header style="background-color:#FFF8EF;">
   
 
     <div class="row" id="fiji-id">
@@ -22,7 +22,7 @@
       
         </div>
         <div class="fiji-p2">
-          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833">SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</p>
+          <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:#002833; font-size:15px">SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</p>
         </div>
       </div>
     </div>

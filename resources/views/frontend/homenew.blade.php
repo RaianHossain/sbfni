@@ -53,7 +53,7 @@
   </div>
 
   {{--Principal,CEO &  Chairman Section--}}
-  <section class="#" style=" margin-top:20px; margin-bottom:20px; background-color: #F5F1F8; ">
+  <section class="#" style=" padding-top:20px; padding-bottom:20px; background-color: #FFF8EF; ">
     <div class="row">
       <div class="col-md-4 sec2col">
         <div class="d-flex justify-content-between">
@@ -172,7 +172,7 @@
   
 
   {{--what we offer section--}}
-  <section class="mb-2" style="padding-top:50px; padding-bottom:50px;">
+  <section class="mb-2" style="padding-top:50px; padding-bottom:50px; background-color:#FFF8EF; ">
     <div class="row">
       <div class="col-md-7 mb-5" >
         <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px;">
@@ -312,7 +312,7 @@
 
 
   {{--Event Section--}}
-  <section class="mb-5 section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px;">
+  <section class=" section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px; background-color:#FFF8EF;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Recent Events</b></h1>
       
@@ -443,7 +443,9 @@
   <x-frontend.layouts.partials.quot3>
   </x-frontend.layouts.partials.quot3>
 {{-- </section> --}}
-  {{--Recent News Section--}}
+  
+
+{{--Recent News Section--}}
   <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;">
     <div class="shell isotope-wrap justify-content-center">
       <h1 class="main text-center " style="color:#002833;"><b>Latest News</b></h1>
@@ -528,7 +530,7 @@
   </section>
 
   {{--Alumni Section--}}
-  <section class="mb-5" style="padding-top:80px;">
+  <section  style="padding-top:80px; padding-bottom:20px; background-color:#FFF8EF;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Our Alumni</b></h1>
       
@@ -538,7 +540,7 @@
     </div>
     {{--<div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('home_alumni') }}"><span class="icon fa-arrow-right"></span><span>See More Alumni</span></a>--}}
-      <button class="santo mt-4"><span>See More Alumni</span></button>
+      <button class="santo mt-4 "><span>See More Alumni</span></button>
       <a href="{{ route('home_alumni') }}" target="_blank"></a>
     </div>
   </section>
