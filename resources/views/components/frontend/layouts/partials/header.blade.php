@@ -88,7 +88,7 @@
                     <li><a href="{{ route('admission_procedure') }}">Admission Procedure</a></li>
                     <li><a href="{{ route('admission_from') }}">Admission Form</a></li>
                     <li><a href="#">Financial Aid & Scholarship</a></li>
-                    <li><a href="{{ route('admission_information') }}">Information</a></li>
+                   
                   </ul>
                 </div>
                 <div class="row">
@@ -97,7 +97,7 @@
                     <li><a href="{{ route('admission_information') }}">Admission Eligibility</a></li>
                     <li><a href="{{ route('guidelines') }}">Admission Guidelines</a></li>
                     <li><a href="{{ route('admission_procedure') }}">Admission Process</a></li>
-                    <li><a href="{{ route('admission_information') }}">Information</a></li>
+                 
                   </ul>
                 </div>
 
@@ -105,7 +105,7 @@
                   <header>Tution Fee & Scholarship</header>
                   <ul class="mega-links">
                     <li><a href="{{ route('tution_fee') }}">Tution Fee</a></li>
-                    <li><a href="{{ route('guidelines') }}">Payment Guidelines</a></li>
+                    <li><a href="{{ route('payment_guidelines') }}">Payment Guidelines</a></li>
                     <li><a href="{{ route('scholarship') }}">Local Students</a></li>
                     <li><a href="{{ route('scholarship') }}">International Students</a></li>
                   </ul>

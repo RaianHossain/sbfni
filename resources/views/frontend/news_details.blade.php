@@ -2,12 +2,12 @@
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
     <div class="parallax-content section-30 section-sm-70">
         <div class="shell">
-            <h2 class="veil reveal-sm-block">News Details</h2>
+            <h2 class="veil reveal-sm-block" style="color:yellow;">News Details</h2>
             <div class="offset-sm-top-35">
                 <ul class="list-inline list-inline-lg list-inline-dashed p">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="{{ route('news') }}">News</a></li>
-                    <li>News details</li>
+                    <li style="color:yellow;">News details</li>
                 </ul>
             </div>
         </div>
@@ -17,7 +17,7 @@
     <div class="shell" >
         <div class="range range-50 range-xs-center">
             <div class="cell-sm-8 cell-md-8 text-md-left">
-                <h3 class="text-bold"> {{ $newnews->title }} </h3>
+                <h3 class="page-para"> {{ $newnews->title }} </h3>
                 <hr class="divider bg-madison hr-md-left-0">
                 <div class="offset-md-top-20 offset-top-10">
                     <ul class="post-news-meta list list-inline list-inline-xl" style="padding:0px 5px;">
@@ -27,13 +27,13 @@
                 </div>
                 <div class="offset-top-30" style="padding:10px 10px;"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img1) }}" width="770" height="500" alt="">
                     <div class="offset-top-30" style="padding:10px 10px;">
-                        <p>{{ $newnews->script1 }}</p>
+                        <p class="page-para">{{ $newnews->script1 }}</p>
                     </div>
                     
                 </div>
                 <div class="offset-top-30" style="padding:10px 10px;"><img class="img-responsive" src="{{ asset('storage/news/'.$newnews->img2) }}" width="770" height="500" alt="">
                     <div class="offset-top-30" style="padding:10px 10px;">
-                        <p>{{ $newnews->script2 }}</p>
+                        <p class="page-para">{{ $newnews->script2 }}</p>
                     </div>
                    
                 </div>

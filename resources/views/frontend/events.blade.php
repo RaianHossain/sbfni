@@ -2,11 +2,11 @@
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
     <div class="parallax-content section-30 section-sm-70">
         <div class="shell">
-            <h2 class="veil reveal-sm-block">Event Page</h2>
+            <h2 class="veil reveal-sm-block" style="color:yellow;">Event Page</h2>
             <div class="offset-sm-top-35">
                 <ul class="list-inline list-inline-lg list-inline-dashed p">
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li>Events</li>
+                    <li style="color:yellow;">Events</li>
                 </ul>
             </div>
         </div>

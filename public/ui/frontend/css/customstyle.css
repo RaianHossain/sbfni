@@ -465,6 +465,19 @@ nav input {
     color: #a7b9cc;
 }
 
+.page-headings{
+    font-family: Tiro Devanagari Sanskrit, serif;
+    font-size:36px;
+    color:#336699;
+}
+
+.page-para{
+    font-family: Tiro Devanagari Sanskrit, serif;
+    font-size:20px;
+    color:#003328;
+}
+
 .nothing {
     color: rgba(1, 1, 68, 0.589);
 }
+

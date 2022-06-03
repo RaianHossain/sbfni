@@ -6,7 +6,7 @@
                 <div class="offset-sm-top-35">
                     <ul class="list-inline list-inline-lg list-inline-dashed p">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Teachers&nbsp;</li>
+                        <li class="text-white">Teachers&nbsp;</li>
                     </ul>
                 </div>
             </div>
@@ -14,7 +14,7 @@
     </section>
     {{--<section class="section novi-background bg-cover section-70 section-md-114 bg-default">
             <div class="shell">
-                <h1 class=" maintext-bold">Our Respected Teachers</h1>
+                <h1 style="font-family: Tiro Devanagari Sanskrit, serif; font-size:36px; ">Our Respected Teachers</h1>
                 <hr class="divider bg-madison">
                 @forelse ($teachers as $teacher)
 

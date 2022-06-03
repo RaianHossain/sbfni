@@ -1,11 +1,11 @@
 <x-frontend.layouts.master>
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
           <div class="shell">
-              <h2 class=" veil reveal-sm-block">Admission Infomation</h2>
+              <h2 class=" veil reveal-sm-block" style="color:yellow;">Admission Infomation</h2>
               <div class="offset-sm-top-35">
                   <ul class="list-inline list-inline-lg list-inline-dashed p">
                       <li><a href="{{ route('home') }}">Home</a></li>
-                      <li>Admission Infomation</li>
+                      <li style="color:yellow;">Admission Infomation</li>
                   </ul>
               </div>
           </div>
@@ -16,11 +16,11 @@
 
   <section class="section novi-background bg-cover section-70 section-md-114 bg-catskill">
             <div class="shell isotope-wrap">
-                <h1 class="main text-bold">Admission Eligibility Criteria</h1>
+                <h1 class="page-headings">Admission Eligibility Criteria</h1>
                 <hr class="divider bg-madison">
                 <div class="row range-30 isotope offset-top-60 text-left">
                     <div class="col-xs-12 col-sm-6 col-md-12 isotope-item">
-                    <div class="text  text-start">
+                    <div class="page-para text-start">
                           <p><strong><u>Name of the Course: </u></strong></p>
                           <p><strong>Diploma in nursing Science and Midwifery</strong></p>
                           <p><strong>Course Duration: 3 Years</strong></p>

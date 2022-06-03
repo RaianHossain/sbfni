@@ -2,11 +2,11 @@
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
         <div class="parallax-content section-30 section-sm-70">
             <div class="shell">
-                <h2 class="veil reveal-sm-block">Tution Fee</h2>
+                <h2 class="veil reveal-sm-block" style="color:yellow;">Tution Fee</h2>
                 <div class="offset-sm-top-35">
                     <ul class="list-inline list-inline-lg list-inline-dashed p">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Tution Fee&nbsp;</li>
+                        <li style="color:yellow;">Tution Fee&nbsp;</li>
                     </ul>
                 </div>
             </div>
@@ -14,9 +14,9 @@
     </section>
 
     <section style="margin:150px;">
-        <h3 class="main text-center pb-5" style="color:#002833; font-size:45px;">Tution Fee</h3>
+        <h3 class="page-headings text-center pb-5" >Tution Fee</h3>
         <hr>
-        <table class="table table-striped table-hover" ">
+        <table class="page-para table table-striped table-hover" ">
             <tbody>
                 <tr>
 

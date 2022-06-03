@@ -2,11 +2,11 @@
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
         <div class="parallax-content section-30 section-sm-70">
             <div class="shell">
-                <h2 class="veil reveal-sm-block">Event Details</h2>
+                <h2 class="veil reveal-sm-block" style="color:yellow;">Event Details</h2>
                 <div class="offset-sm-top-35">
                     <ul class="list-inline list-inline-lg list-inline-dashed p">
                         <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Event page</li>
+                        <li style="color:yellow;">Event page</li>
                     </ul>
                 </div>
             </div>
@@ -18,7 +18,7 @@
                 <div class="cell-sm-6 text-left">
                     <div class="inset-sm-right-30"><img class="img-responsive reveal-inline-block" src="{{ asset('storage/events/'.$newevent->img1) }}" width="540" height="540" alt="">
                         <div class="offset-top-30 offset-sm-top-60">
-                            <h6 class="text-bold " style="padding:20px 10px;">A Few Words About Lecturer</h6>
+                            <h6 class="page-para " style="padding:20px 10px;">A Few Words About Lecturer</h6>
                             <div class="text-subline"></div>
                         </div>
                         <div class="offset-top-20 text-left text-xs-left"  style="padding:20px 10px;">
@@ -26,7 +26,7 @@
                                 <div class="unit-left"><img class="img-responsive reveal-inline-block img-rounded" src="{{ asset('storage/events/'.$newevent->lecturer_img  ) }}" width="110" height="110" alt=""></div>
                                 <div class="unit-body" >
                                     
-                                    <h6 class="text-bold text-primary">{{ $newevent->lecturer_name }}</a></h6>
+                                    <h6 class="page-para text-primary">{{ $newevent->lecturer_name }}</a></h6>
                                     
                                     <div class="offset-sm-top-30">
                                         <ul class="list list-unstyled">
@@ -53,7 +53,7 @@
                         <p>{{ $newevent->description }}</p>
                     </div>
                     <div class="offset-top-30 offset-sm-top-60" style="padding:20px 10px;">
-                        <h6 class="text-bold">When is the next workshop and how do I apply?</h6>
+                        <h6 class="page-para text-primary">When is the next workshop and how do I apply?</h6>
                         <div class="text-subline"></div>
                     </div>
                     <div class="offset-top-17">

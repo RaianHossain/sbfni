@@ -2,11 +2,11 @@
 <section class="section breadcrumb-modern context-dark parallax-container text-center" data-parallax-img="{{ asset('ui/frontend/images/slider/bannar.png') }}">
             <div class="parallax-content section-30 section-sm-70">
                 <div class="shell">
-                    <h2 class="veil reveal-sm-block">History</h2>
+                    <h2 class="veil reveal-sm-block" style="color:yellow;">History</h2>
                     <div class="offset-sm-top-35">
                         <ul class="list-inline list-inline-lg list-inline-dashed p">
-                            <li><a href="index.html">Home</a></li>
-                            <li>History</li>
+                            <li style="color:blue;"><a href="index.html">Home</a></li>
+                            <li style="color:yellow;">History</li>
                         </ul>
                     </div>
                 </div>
@@ -18,22 +18,22 @@
                     <div class="cell-sm-4 cell-sm-push-2 text-sm-left">
                         <div class="inset-sm-left-30"><img class="img-responsive reveal-inline-block img-rounded" src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" width="340" height="300" alt="">
                             <div class="offset-top-20">
-                                <h6 class="text-primary text-bold">Abu Hena M. Kamal, Ph.D</h6>
+                                <h6 class="text-danger text-bold">Abu Hena M. Kamal, Ph.D</h6>
                             </div>
                             <p>President of the Sonar Bangla Foundation.</p>
                         </div>
                     </div>
                     <div class="cell-sm-8 cell-sm-push-1 text-sm-left">
-                        <h2 class="text-bold">A Meeting of Minds</h2>
+                        <h2 class="page-headings text-bold">A Meeting of Minds</h2>
                         <hr class="divider bg-madison hr-sm-left-0">
                         <div class="offset-top-30 offset-sm-top-30">
-                            <p>SBF Nursing Institute, Lalmonirhat is calling upon you to make a valuable contribution to the society by educating your son / daughter in nursing education and establishing it in life.
+                            <p class="page-para" >SBF Nursing Institute, Lalmonirhat is calling upon you to make a valuable contribution to the society by educating your son / daughter in nursing education and establishing it in life.
                                 Sonar Bangla Foundation-USA was born out of gratitude and love for the country of some dedicated people living in America with the conviction of building a poverty-free Bangladesh, quality health care, education and a prosperous country. Its country office in Bangladesh is registered with the Sonar Bangla Foundation-Bangladesh NGO Affairs Bureau and is working towards the goal of the foundation.
                                 Function
                                 The Sonar Bangla Foundation is working tirelessly to bring quality education services to the doorsteps of people in remote areas of the country, including low cost kidney dialysis services, kidney disease prevention and awareness programs. In the meantime, SBF Research and Development Center is being set up at 20 Kidney Dialysis Centers in different districts of Bangladesh, Bangabandhu Hitech Park, Kalyakair A Kidney Dialysis Machine for addition, repair and maintenance and SBF Nursing Ins in Lalmonirhat District.
                                 </p>
                         </div>
-                        <p><strong> Why is SBF Nursing Institute, Lalmonirhat calling you / your children for nursing education? </strong><br>
+                        <p class="page-para mb-5"><strong> Why is SBF Nursing Institute, Lalmonirhat calling you / your children for nursing education? </strong><br>
                             Diploma in Nursing Science and Midwifery is a 3-year diploma course. If you pass HSC and equivalent course from any group and pass the admission test conducted by Bangladesh Nursing and Midwifery Council, you can be admitted here. Life here is built on very low cost and quality nursing education.</p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
         </section>
         <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
             <div class="shell">
-                <h2 class="text-bold">Statistics</h2>
+                <h2 class="page-headings text-bold">Statistics</h2>
                 <hr class="divider bg-madison">
                 <div class="range range-65 range-xs-center range-md-left offset-top-55 counters">
                     <div class="cell-sm-6 cell-md-3">

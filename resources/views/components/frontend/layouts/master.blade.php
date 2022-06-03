@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('ui/frontend/css/customstyle.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="{{ asset('ui/frontend/css/customstyle.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/novi.css') }}">
 </head>

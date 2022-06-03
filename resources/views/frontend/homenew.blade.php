@@ -9,20 +9,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/customstyle.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('ui/frontend/css/novi.css') }}">
   <style>
     .vertical {
-            border-left: .5px solid #393635;
-            height: 360px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            opacity: .5;
-        }
-        
+      border-left: .5px solid #393635;
+      height: 360px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      opacity: .5;
+    }
   </style>
 </head>
 
@@ -57,23 +56,20 @@
     <div class="row">
       <div class="col-md-4 sec2col">
         <div class="d-flex justify-content-between">
-        <div class="media block-6 d-block text-center">
-          <a href="#">
-            <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
-              <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
+          <div class="media block-6 d-block text-center">
+            <a href="#">
+              <div class="box  d-flex justify-content-center align-items-center mt-5 mb-3">
+                <img src="{{ asset('ui/frontend/images/SBF_p.jpeg') }}" class="d-block  mx-auto mt-2 " alt="..." style=" width:150px; height:150px;  border-radius:50%; border:2px solid #e2b75a">
+              </div>
+            </a>
+            <div class="title media-body p-2 mt-3">
+              <h3 class="heading  mt-3" style="margin:0 auto; ">President</h3>
+              <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
             </div>
-          </a>
-          <div class="title media-body p-2 mt-3">
-            <h3 class="heading  mt-3" style="margin:0 auto; ">President</h3>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
           </div>
-        </div>
-        <div class= "vertical"></div>
+          <div class="vertical"></div>
         </div>
       </div>
-
-      
-      
       <div class="col-md-4 sec2col">
         <div class="d-flex justify-content-between">
           <div class="media block-6 d-block text-center">
@@ -87,12 +83,9 @@
               <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae necessitatibus et unde molestiae exercitationem officia suscipit soluta reiciendis minus. Impedit sint quod, quos molestias alias soluta sequi nihil veniam aspernatur.</p>
             </div>
           </div>
-          <div class= "vertical"></div>
+          <div class="vertical"></div>
         </div>
       </div>
-
-      
-
       <div class="col-md-4 sec2col">
         <div class="media block-6 d-block text-center">
           <a href="#">
@@ -110,7 +103,7 @@
     </div>
   </section>
 
-  
+
   {{--Different sections--}}
   <section>
     <div class="row">
@@ -122,7 +115,7 @@
             </div>
           </a>
           <div class="media-body p-2 mt-3">
-            <h3 class="heading text-white mt-5" >Nursing</h3>
+            <h3 class="heading text-white mt-5">Nursing</h3>
             <p class="text-white" style="font-family: 'Tiro Devanagari Sanskrit', serif;">Nursing is a profession within the health care sector focused on the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life. </p>
           </div>
         </div>
@@ -168,13 +161,13 @@
       </div>
     </div>
   </section>
-  
-  
+
+
 
   {{--what we offer section--}}
   <section class="mb-2" style="padding-top:50px; padding-bottom:50px; background-color:#FFF8EF; ">
     <div class="row">
-      <div class="col-md-7 mb-5" >
+      <div class="col-md-7 mb-5">
         <div style="padding-left: 70px; padding-right: 30px; padding-top: 70px;">
           <h1 class="main text-center" style="color:navy;"><b>What We Offer</b></h1>
           <p class="text-black text-center mb-5" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">Achieve a Comprehensive View of Patient Care From Our Institute</p>
@@ -189,7 +182,7 @@
                   </div>
                   <div style="padding-left: 20px;">
                     <h1 class="second-main" style="color:#191970;  font-family: 'Tiro Devanagari Sanskrit', serif;"><b>Scholarship</b></h1>
-                    <p class="text-dark"style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">We are providing scholarship for poor & meritorious students. </p>
+                    <p class="text-dark" style="font-family: 'Tiro Devanagari Sanskrit', serif; font-size:16px;">We are providing scholarship for poor & meritorious students. </p>
                   </div>
                 </div>
               </div>
@@ -315,7 +308,6 @@
   <section class=" section  bg-cover section-70 section-md-114 bg-default" style="padding-top:80px; background-color:#FFF8EF;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Recent Events</b></h1>
-      
       <hr class="divider bg-madison" />
       <div class="range range-50 offset-top-50 range-xs-center">
         @forelse ( $event as $event )
@@ -324,7 +316,6 @@
             <div class="post-event-img-overlay">
               <img class="img-responsive" src="{{ 'storage/events/' . $event->img1 }}" alt="" style="height:420px; width:420px;" />
               <div class="post-event-overlay context-dark">
-                
                 <div class="offset-top-20">
                   <a class="btn btn-default" href="{{ route('event_details', ['id'=>$event->id]) }}">More Details</a>
                 </div>
@@ -358,19 +349,16 @@
         @empty
         <p> No Events </p>
         @endforelse
-
       </div>
     </div>
+
     {{-- <div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('events') }}"><span class="icon fa-arrow-right"></span><span>See More Events</span></a>
     </div> --}}
     <br />
     <br />
 
-    {{-- <div class="eventCreate">
-
-    </div> --}}
-
+    {{--for button--}}
     <style>
       .santo {
         border: 1px solid;
@@ -431,25 +419,20 @@
       }
     </style>
 
-
-
-    <button class="santo"><a href="{{ route('events') }}" ><span>See More Events</span></a></button>
-    
-    {{-- </div> --}}
+    <button class="santo"><a href="{{ route('events') }}"><span>See More Events</span></a></button>
   </section>
-  
-    {{--Quatation display section--}}
-  {{-- <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;"> --}}
+
+
+
+  {{--Quotation display section--}}
   <x-frontend.layouts.partials.quot3>
   </x-frontend.layouts.partials.quot3>
-{{-- </section> --}}
-  
 
-{{--Recent News Section--}}
+
+  {{--Recent News Section--}}
   <section class=" pb-5 bg-catskill section-70 section-md-114" style="padding-top:80px;">
     <div class="shell isotope-wrap justify-content-center">
       <h1 class="main text-center " style="color:#002833;"><b>Latest News</b></h1>
-      
       <hr class="divider bg-madison" />
       <div class="range range-50 offset-top-50 range-xs-center">
         @forelse ( $news as $news )
@@ -524,26 +507,28 @@
 
     {{--<div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('news') }}"><span class="icon fa-arrow-right"></span><span>See More News</span></a>--}}
-      <button class="santo mt-4"><span>See More News</span></button>
-      <a href="{{ route('news') }}" target="_blank"></a>
+    <button class="santo mt-4"><span>See More News</span></button>
+    <a href="{{ route('news') }}" target="_blank"></a>
     </div>
   </section>
 
+
+
   {{--Alumni Section--}}
-  <section  style="padding-top:80px; padding-bottom:20px; background-color:#FFF8EF;">
+  <section style="padding-top:80px; padding-bottom:20px; background-color:#FFF8EF;">
     <div class="shell-wide">
       <h1 class="main text-center" style="color:#002833;"><b>Our Alumni</b></h1>
-      
       <hr class="divider bg-madison" />
       <x-frontend.layouts.partials.alumni>
       </x-frontend.layouts.partials.alumni>
     </div>
     {{--<div class="range-xs-center" style="width:100%;">
       <a class="btn btn-default btn-icon btn-icon-right justify-content-center" style="background-color:#999999; margin-left:42%;" href="{{ route('home_alumni') }}"><span class="icon fa-arrow-right"></span><span>See More Alumni</span></a>--}}
-      <button class="santo mt-4 "><span>See More Alumni</span></button>
-      <a href="{{ route('home_alumni') }}" target="_blank"></a>
+    <button class="santo mt-4 "><span>See More Alumni</span></button>
+    <a href="{{ route('home_alumni') }}" target="_blank"></a>
     </div>
   </section>
+
 
   {{--Ranking Section--}}
   <section class=" pb-5 bg-catskill" style="padding-top:80px;">
@@ -601,10 +586,9 @@
   </section>
 
 
-  {{--What Visitors say about us section--}}
+  {{--What Visitors say about us section(Previous One)--}}
   {{-- <section class="quote" style="padding-top: 80px;">
     <h1 class="main text-center text-white"><b>Visitors Say About Us </b></h1>
-    
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carbutton carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -687,10 +671,10 @@
   </div>
   </section> --}}
 
-  
+
   {{-- <x-frontend.layouts.partials.quotation>
   </x-frontend.layouts.partials.quotation> --}}
-  
+
 
   {{--Footer Section--}}
   <x-frontend.layouts.partials.footer />

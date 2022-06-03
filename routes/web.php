@@ -57,6 +57,7 @@ Route::get('/download', function () {
 Route::get('/home/notices', [HomeController::class, 'home_notices'])->name('home_notices');
 Route::get('/home/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/home/internship', [HomeController::class, 'internship'])->name('internship');
+Route::get('/home/payment', [HomeController::class, 'payment_guidelines'])->name('payment_guidelines');
 
 //news
 Route::get('/news', [HomeController::class, 'news'])->name('news');

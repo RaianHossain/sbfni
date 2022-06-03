@@ -162,6 +162,10 @@ class HomeController extends Controller
     {
         return view('frontend.curriculam');
     }
+    public function payment_guidelines()
+    {
+        return view('frontend.payment-guidelines');
+    }
     
     
     
