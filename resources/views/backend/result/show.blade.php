@@ -10,7 +10,7 @@
     </x-slot>
 
     <h3>First Year</h3>
-    <table class="table">
+    <table class="table table-dark table-striped">
     <thead>
         <tr>
         <th scope="col">SL</th>
@@ -46,7 +46,7 @@
 
     @if(count($secondYearResults) != 0)
     <h3>Second Year</h3>
-    <table class="table">
+    <table class="table table-dark table-striped">
     <thead>
         <tr>
         <th scope="col">SL</th>
@@ -84,7 +84,7 @@
     <br>
 
     <h3>Third Year</h3>
-    <table class="table">
+    <table class="table table-dark table-striped">
     <thead>
         <tr>
         <th scope="col">SL</th>

@@ -33,7 +33,7 @@
                 <x-backend.form.input style="width: 200px;" name='search' />
 
             </form>
-            <table class="table">
+            <table class="table table-dark table-striped">
                 <thead>
                     <tr>
                         <th>Sl#</th>

@@ -19,7 +19,7 @@
 
     <div class="row ps-2 pe-2">
             <div class="col-md-8">
-            <table class="table">
+            <table class="table table-dark table-striped">
                 <thead>
                     <tr>
                     <th scope="col">#</th>
