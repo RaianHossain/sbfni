@@ -19,26 +19,26 @@
                           </div>
                       </div>
                       <div class="cell-xs-10 cell-md-5 cell-lg-4 text-lg-left">
-                          <h6 class="text-bold">Contact us</h6>
+                          <h6 class="text-bold page-para" style="color:#336699;">Contact us</h6>
                           <div class="text-subline"></div>
-                          <div class="offset-top-30">
+                          <div class="offset-top-30" >
                               <ul class="list-unstyled contact-info list" style="padding: 20px 10px;">
                                   <li>
                                       <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                           <div class="unit-left"><span class="icon novi-icon mdi mdi-phone text-middle icon-xs text-madison"></span></div>
-                                          <div class="unit-body"><a class="text-dark" href="tel:+8801318045241">+8801318045241,</a><a class="reveal-block reveal-md-inline-block text-dark" href="tel:+8801747613298">+8801747613298</a></div>
+                                          <div class="unit-body" style="font-size: 18px;"><a class="text-dark" href="tel:+8801318045241">+8801318045241,</a><a class="reveal-block reveal-md-inline-block text-dark" href="tel:+8801747613298">+8801747613298</a></div>
                                       </div>
                                   </li>
                                   <li>
                                       <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                           <div class="unit-left"><span class="icon novi-icon mdi mdi-map-marker text-middle icon-xs text-madison"></span></div>
-                                          <div class="unit-body text-left"><a class="text-dark" href="#">SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</a></div>
+                                          <div class="unit-body text-left" style="font-size: 16px;"><a class="text-dark" href="#">SBF Nursing Institute,<br>Sonali Park, Jail Road,<br>Lalmonirhat-5500, Bangladesh.</a></div>
                                       </div>
                                   </li>
                                   <li>
                                       <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                           <div class="unit-left"><span class="icon novi-icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
-                                          <div class="unit-body"><a href="mailto:sbfnil@gmail.com">sbfnil@gmail.com</a></div>
+                                          <div class="unit-body" style="font-size: 18px;"><a href="mailto:sbfnil@gmail.com">sbfnil@gmail.com</a></div>
                                       </div>
                                   </li>
                               </ul>
@@ -46,9 +46,9 @@
                       </div>
                       <div class="cell-xs-10 cell-md-8 cell-lg-4 text-lg-left">
 
-                          <h6 class="text-bold"> Adopt a student in SBFNI</h6>
+                          <h6 class="text-bold page-para" style="color:#336699;"> Adopt a student in SBFNI</h6>
                           <div class="text-subline" style="color:black; ">
-                              <div class="sbf-sub" style=" padding: 20px 10px; margin-top:10px;"> SBF is running a Nursing Institute at Lalmonirhat to help rural students engaged in noble nursing profession. It provides quality education and practical training to make the financially needy students stand on their own feet. The students are either orphans or come of an extreme needy family. You may adopt such a student by sponsoring his/her tuition, logging, food etc.</div>
+                              <div class="sbf-sub" style=" padding: 20px 10px; margin-top:10px; font-size:14px"> SBF is running a Nursing Institute at Lalmonirhat to help rural students engaged in noble nursing profession. It provides quality education and practical training to make the financially needy students stand on their own feet. The students are either orphans or come of an extreme needy family. You may adopt such a student by sponsoring his/her tuition, logging, food etc.</div>
 
                           </div>
 
@@ -77,7 +77,7 @@
           </div>
           <div style="height: 50px; background-color: #336699;" class="d-flex justify-content-center align-items-center">
 
-              <p class="" style="color: white">© <span class="copyright-year">{{ now()->year }}</span> All Rights Reserved Terms of Use and Privacy Policy.<span> Develop&nbsp;by <a style="text-decoration: underline; color: white;" id="footerName" href="https://shorturl.at/hkENZ" target="blank">Break-IT</a></span></p>
+              <p class="#" style="color: white; font-size: 18px;">© <span class="copyright-year">{{ now()->year }}</span> All Rights Reserved Terms of Use and Privacy Policy.<span> Develop&nbsp;by <a style="text-decoration: underline; color: white;" id="footerName" href="https://shorturl.at/hkENZ" target="blank">Break-IT</a></span></p>
 
           </div>
       </div>
