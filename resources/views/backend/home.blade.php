@@ -127,15 +127,16 @@
         </div>
     <div class="row">
       <div class="col-md-12 alert alert-info">
-        <h3>Notifications</h3>
+        <h3><i class="fas fa-chart-pie mr-1"></i>
+          Notifications</h3>
         @php
           $notifi=$notifications->where('status',0)->sortByDesc('created_at')->take(3);
         @endphp
         @foreach ($notifi as $notification)
-          <a href="{{ $notification->link }}" >
-            <div style="border:1px solid black;  background-color: {{ $notification->color }}">
-            <p style="color:'black'">{{ $notification->name }}</p>
-            <p style="color:'black'">{{ $notification->created_at->diffForHumans() }}</p>
+          <a href="{{ $notification->link }}" style="text-decoration: none; ">
+            <div class="border rounded-pill;" style="  background-color: {{ $notification->color }}; padding-left:5px; color:black;">
+              <p style="color:'black'; font-size:15px; font-weight:bold;">{{ $notification->name }}</p>
+              <p style="color:'black'">{{ $notification->created_at->diffForHumans() }}</p>
             @break($loop->iteration == 3)
           </div>
         </a>
