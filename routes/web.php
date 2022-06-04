@@ -285,6 +285,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/teacher-evaluation', [EvaluationController::class, 'index'])->name('teacher.evaluation.index');
 
     Route::get('/admin/teacher-evaluation/{teacher_id}/{year}/{currentcourse_id}', [EvaluationController::class, 'showTeacherEvaluation'])->name('teacher.evaluation.showteacherevaluation');
+
+    Route::get('/admin/course_registration/store/{course_id}/{student_id}', [CourseRegistrationController::class, 'store'])->name('course-registration-store');
 });
 
 Route::resource('/admin/message', MessageController::class);

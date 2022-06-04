@@ -39,7 +39,7 @@ class TeacherController extends Controller
     public function store(Request $request)
     {
         try {
-            Teacher::create([
+            $techer = Teacher::create([
                 'name' => $request->name,
                 'designation' => $request->designation,
                 'qualification' => $request->qualification,
@@ -50,8 +50,12 @@ class TeacherController extends Controller
                 'experience' => $request->experience,
                 'communication' => $request->communication,
                 'leadership' => $request->leadership,
-                'img' => $this->uploadimg(request()->file('img')),
+               
             ]);
+            if(request()->file('img')){
+                $techer->img = $this->uploadimg(request()->file('img'));
+                $techer->save();
+            }
 
             return redirect()->route('teachers.index')->withMessage('Successfully Created!');
         } catch (QueryException $e) {
