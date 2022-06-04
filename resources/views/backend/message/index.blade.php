@@ -19,7 +19,7 @@
             Message 
 
             {{-- @can('create-category') --}}
-            <a class="btn btn-sm btn-info" href="{{ route('message.create') }}">Add New</a>
+            {{-- <a class="btn btn-sm btn-info" href="{{ route('message.create') }}">Add New</a> --}}
             {{-- @endcan --}}
 
         </div>
