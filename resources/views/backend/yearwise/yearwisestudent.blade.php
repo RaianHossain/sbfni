@@ -33,7 +33,9 @@
 
 
                 <td>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="clicked('<?php echo $yearwisestudent->course_year ?>', '<?php echo $yearwisestudent->year ?>', '<?php echo $yearwisestudent->user->id ?>')">Upload Result</button>
+                    {{-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="clicked('<?/*php echo $yearwisestudent->course_year */?>', '<?/*php echo $yearwisestudent->year */?>', '<?/*php echo $yearwisestudent->user->id */?>')">Upload Result</button> --}}
+                    <a href="{{ route('result_getcourses', ['course_year'=> $yearwisestudent->course_year, 'year'=>$yearwisestudent->year,'student_id'=>$yearwisestudent->user->id ]) }}" class="btn btn-primary">Upload Result</a>
+
                 </td>
             </tr>
             @endforeach

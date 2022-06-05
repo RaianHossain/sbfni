@@ -126,7 +126,7 @@
             </table> --}}
         </div>
     <div class="row">
-      <div class="col-md-12 alert alert-info">
+      <div class="col-md-12 ">
         <h3><i class="fas fa-chart-pie mr-1"></i>
           Notifications</h3>
         @php

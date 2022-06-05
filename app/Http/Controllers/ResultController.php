@@ -26,12 +26,13 @@ class ResultController extends Controller
         foreach($course_ids as $course_id){
             array_push($courses, Course::find($course_id));
         }
-        return [$currentList, $student_id,$course_year, $year, $courses];
+        // return [$currentList, $student_id,$course_year, $year, $courses];
+        return view('backend.result.courses', compact('currentList', 'student_id','course_year', 'year', 'courses'));
     }
     
     public function store(Request $request)
     {
-        // dd(($request->all()));
+        dd(($request->all()));
         $courses_id = [];
         for($i = 0; $i<count($request->total); $i++){
             array_push($courses_id, "course_id_".$i);

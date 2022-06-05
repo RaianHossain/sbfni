@@ -25,4 +25,4 @@ Route::get('/check', function () {
 });
 Route::get('/admin/course_registration/store/{course_id}/{student_id}/{year}/{course_year}', [CourseRegistrationController::class, 'store']);
 Route::get('/admin/course_registration/courses/{student_id}/{year}/{course_year}', [CourseRegistrationController::class, 'showCourses']);
-Route::get('/admin/get-courses/{course_year}/{year}/{student_id}', [ResultController::class, 'getCourses']);
+
