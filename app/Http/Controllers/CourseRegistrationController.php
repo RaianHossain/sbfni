@@ -6,6 +6,7 @@ use App\Models\Course;
 use App\Models\CourseRegistration;
 use App\Models\CurrentCourse;
 use App\Models\Teacher;
+use App\Models\Year;
 use Illuminate\Http\Request;
 
 class CourseRegistrationController extends Controller
@@ -25,17 +26,17 @@ class CourseRegistrationController extends Controller
         return view('backend.courseregistrations.index');
     }
 
-    public function store($course_id, $student_id, $year, $course_year)
+    public function store($course_id, $student_id)
     {
-        // return response()->json([$course_id, $student_id, $year, $course_year]);
+        $course_year = Year::where('year', '2022')->where('student_id', $student_id)->first()->course_year;
         CourseRegistration::create([
             'student_id' => $student_id,
             'currentcourse_id' => $course_id,
-            'year' => $year,
+            'year' => '2022',
             'course_year' => $course_year,
         ]);
 
-        return "Done";
+        return redirect()->back();
     }
 
     public function showCourses($student_id, $year, $course_year)
