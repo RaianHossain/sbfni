@@ -45,12 +45,13 @@ class RegisteredUserController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
             'role_id' => 3,
-            
+
         ]);
 
-        $profile =Profile::create([
+        $profile = Profile::create([
             'user_id' => $user->id,
-            'current_semester' => '1st'
+            'current_semester' => '1st',
+            'student_id' => $user->id,
         ]);
 
         event(new Registered($user));
